@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, LayoutProps as NextLayoutProps } from "next";
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -7,19 +7,11 @@ export const metadata: Metadata = {
   description: "Find agencies and teams to build your MVP or SaaS projects using Ai technology and human genius",
 };
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-  params: {
-    locale?: string;
-  };
-}
-
 export default function RootLayout({
   children,
-  params = { locale: 'en' },
-}: RootLayoutProps) {
+}: NextLayoutProps) {
   return (
-    <html lang={params.locale}>
+    <html lang="en">
       <head>
         <link
           rel="icon"
