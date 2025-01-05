@@ -10,13 +10,14 @@ export const metadata: Metadata = {
 
 interface RootLayoutProps {
   children: ReactNode;
-  params: Promise<any>;
+  params: {
+    locale?: string;
+  };
 }
 
-export default async function RootLayout({ children, params }: RootLayoutProps) {
-  const resolvedParams = await params;
+export default function RootLayout({ children, params }: RootLayoutProps) {
   return (
-    <html lang={resolvedParams?.locale || 'en'}>
+    <html lang={params.locale || 'en'}>
       <head>
         <link
           rel="icon"
