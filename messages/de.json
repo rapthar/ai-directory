@@ -1,0 +1,261 @@
+{
+  "common": {
+    "tryAgain": "Erneut Versuchen",
+    "newsletter": {
+      "title": "Bleiben Sie der KI-Innovation voraus",
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "email": "E-Mail-Adresse *",
+      "sign_up": "ANMELDEN",
+      "disclaimer": "Abonnieren Sie wöchentliche Einblicke in KI-Agenturen, Branchentrends und Expertentipps. Sie können sich jederzeit abmelden.",
+      "success": "Erfolgreich zum Newsletter angemeldet!",
+      "error": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es später erneut."
+    },
+    "services": {
+      "title": "Dienstleistungen",
+      "ai_development": "KI-Entwicklung",
+      "mvp_building": "MVP-Entwicklung",
+      "saas_development": "SaaS-Entwicklung",
+      "ai_integration": "KI-Integration",
+      "custom_solutions": "Maßgeschneiderte Lösungen",
+      "ai_consulting": "KI-Beratung",
+      "project_management": "Projektmanagement"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über Uns",
+      "how_it_works": "Wie es Funktioniert",
+      "list_agency": "Agentur Eintragen",
+      "success_stories": "Erfolgsgeschichten",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "ai_guide": "KI-Agentur Leitfaden",
+      "project_planning": "Projektplanung",
+      "cost_calculator": "Kostenrechner",
+      "agency_reviews": "Agenturbewertungen",
+      "documentation": "Dokumentation",
+      "api_access": "API-Zugang"
+    },
+    "support": {
+      "title": "Support",
+      "help_center": "Hilfezentrum",
+      "faqs": "FAQ",
+      "agency_support": "Agentur-Support",
+      "client_support": "Kunden-Support",
+      "description": "Schließen Sie sich Hunderten erfolgreichen Unternehmen an, die ihren perfekten Technologiepartner über TopAI.Agency gefunden haben."
+    },
+    "images": {
+      "badge_alt": "Ferroque Abzeichen",
+      "chart_alt": "Ferroque Diagramm"
+    },
+    "copyright": " {year} Top AI Agency .Inc | Alle Rechte vorbehalten.",
+    "terms": "AGB",
+    "privacy": "Datenschutz",
+    "listAgency": "Agentur Eintragen",
+    "loadMore": "Mehr Laden",
+    "auth": {
+      "signIn": "Anmelden",
+      "signOut": "Abmelden"
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Haben Sie eine Frage oder möchten Sie zusammenarbeiten? Wir freuen uns von Ihnen zu hören.",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefonnummer",
+        "message": "Nachricht",
+        "services": "Dienstleistungen",
+        "submit": "Nachricht senden",
+        "sending": "Wird gesendet...",
+        "success": "Nachricht erfolgreich gesendet!",
+        "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+      },
+      "chat": {
+        "title": "Chatten Sie mit uns",
+        "subtitle": "Erhalten Sie sofortige Antworten auf Ihre Fragen über unsere verschiedenen Kommunikationskanäle.",
+        "startChat": "Live-Chat starten",
+        "sendEmail": "E-Mail senden",
+        "messageX": "Nachricht auf X (Twitter)"
+      },
+      "call": {
+        "title": "Rufen Sie uns an",
+        "subtitle": "Sie sprechen lieber? Rufen Sie uns während der Geschäftszeiten an.",
+        "phone": "+1 (555) 000-0000"
+      },
+      "visit": {
+        "title": "Besuchen Sie unser Büro",
+        "subtitle": "Kommen Sie persönlich in unserer Zentrale vorbei.",
+        "address": "123 AI Straße, Silicon Valley, CA 94025"
+      },
+      "faq": {
+        "title": "Häufige Fragen",
+        "description": "Finden Sie schnelle Antworten auf häufige Fragen zu TopAI.Agency. Können Sie nicht finden, wonach Sie suchen?",
+        "questions": [
+          {
+            "question": "Was ist TopAI.Agency?",
+            "answer": "TopAI.Agency ist eine kuratierte Plattform, die Freelancer und Entwicklungsteams zeigt, die sich auf den Bau von MVPs (Minimal Viable Products) spezialisiert haben. Wir präsentieren verifizierte Fachleute, die verschiedene digitale Produkte erstellen können, einschließlich Webanwendungen, mobiler Apps, Browsererweiterungen und KI-gestützter Lösungen."
+          },
+          {
+            "question": "Welche Rolle spielt TopAI.Agency in den Beziehungen zwischen Kunden und Agenturen/Teams?",
+            "answer": "Wir bieten eine Plattform, auf der Kunden und Agenturen/Teams zusammenarbeiten können. Wir sind nicht an den Projekten beteiligt und bieten keine Garantien oder Gewährleistungen."
+          },
+          {
+            "question": "Kostenlos?",
+            "answer": "Ja, das Durchsuchen von TopAI.Agency ist völlig kostenlos. Jeder aufgeführte Fachmann oder jede Agentur legt ihre eigenen Servicepreise fest, die Sie in ihren individuellen Profilen finden können."
+          }
+        ]
+      }
+    },
+    "agencyForm": {
+      "cardTitle": "Agentur Eintragen",
+      "cardSubtitle": "Werden Sie Teil unseres kuratierten Verzeichnisses von KI-Agenturen und präsentieren Sie Ihre Expertise potenziellen Kunden.",
+      "form": {
+        "logo": {
+          "label": "Logo Hochladen",
+          "maxSize": "Maximale Dateigröße: 2MB"
+        },
+        "name": {
+          "label": "Agentur/Team Name",
+          "placeholder": "z.B. MVPhero"
+        },
+        "email": {
+          "label": "E-Mail-Adresse",
+          "placeholder": "hallo@beispiel.de"
+        },
+        "website": {
+          "label": "Webseite",
+          "placeholder": "https://beispiel.de"
+        },
+        "shortDescription": {
+          "label": "Kurzbeschreibung",
+          "placeholder": "Kurzer Überblick über Ihre Agentur (maximal 150 Zeichen)"
+        },
+        "fullDescription": {
+          "label": "Vollständige Beschreibung",
+          "placeholder": "Detaillierte Beschreibung Ihrer Agentur, Dienstleistungen und Expertise"
+        },
+        "location": {
+          "label": "Standort",
+          "placeholder": "Land auswählen"
+        },
+        "phone": {
+          "label": "Telefonnummer"
+        },
+        "categories": {
+          "label": "Kategorien",
+          "placeholder": "Kategorien auswählen"
+        },
+        "skills": {
+          "label": "Fähigkeiten & Expertise",
+          "placeholder": "Fähigkeiten auswählen"
+        },
+        "team": {
+          "label": "Team-Mitglieder",
+          "addMember": "Mitglied Hinzufügen",
+          "name": {
+            "label": "Vollständiger Name",
+            "placeholder": "Max Mustermann"
+          },
+          "role": {
+            "label": "Position",
+            "placeholder": "Position auswählen"
+          },
+          "twitter": {
+            "label": "Twitter Benutzername",
+            "placeholder": "@benutzer"
+          }
+        },
+        "portfolio": {
+          "label": "Portfolio-Projekte",
+          "addProject": "Projekt Hinzufügen",
+          "title": {
+            "label": "Projekttitel",
+            "placeholder": "Projektname"
+          },
+          "url": {
+            "label": "Projekt-URL",
+            "placeholder": "https://projekt.de"
+          }
+        },
+        "social": {
+          "linkedin": {
+            "label": "LinkedIn",
+            "placeholder": "Firmen-LinkedIn-URL"
+          },
+          "twitter": {
+            "label": "Twitter",
+            "placeholder": "@benutzer"
+          }
+        },
+        "videoUrl": {
+          "label": "Pitch-Video-URL",
+          "placeholder": "YouTube oder Vimeo URL",
+          "help": "Fügen Sie ein Video hinzu, das Ihre Agentur präsentiert (optional)"
+        },
+        "submit": "Agentur Einreichen",
+        "submitting": "Wird eingereicht..."
+      }
+    }
+  },
+  "listings": {
+    "agencies": "KI-Agenturen",
+    "neural-networks": "Neuronale Netze",
+    "location-placeholder": "Standort",
+    "services": "Dienstleistungen",
+    "budget": "Budget",
+    "hourly-rate": "Stundensatz",
+    "industry": "Branche",
+    "reviews": "Bewertungen",
+    "clear-all": "Alles Löschen",
+    "show-more": "Mehr Anzeigen",
+    "show-less": "Weniger Anzeigen",
+    "name": "Name",
+    "price": "Projektbudget",
+    "employees": "Teamgröße",
+    "errorTitle": "Fehler beim Laden der Agenturen",
+    "errorDescription": "Die Agenturen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "tryAgain": "Erneut Versuchen",
+    "emptyStateTitle": "Keine Agenturen Gefunden",
+    "emptyStateSubtitle": "Werden Sie Teil Unseres KI-Dienstleisternetzwerks",
+    "emptyStateDescription": "Wir konnten keine Agenturen finden, die Ihren Kriterien entsprechen. Passen Sie Ihre Filter an oder seien Sie der Erste, der seine Agentur listet.",
+    "listAgency": "Agentur Eintragen",
+    "loadMoreAgencies": "Weitere Agenturen Laden",
+    "endOfListMessage": "Sie haben das Ende der Liste erreicht"
+  },
+  "listing": {
+    "errorTitle": "Etwas ist schiefgelaufen",
+    "errorDescription": "Wir konnten die Agenturen nicht laden. Bitte versuchen Sie es erneut.",
+    "emptyStateTitle": "Keine Agenturen gefunden",
+    "emptyStateDescription": "Seien Sie der Erste, der Ihre Agentur zu unserem wachsenden Netzwerk von KI-Dienstleistern hinzufügt.",
+    "loadMore": "Mehr Laden",
+    "verified": "Verifiziert",
+    "topRated": "Bestbewertet",
+    "projectsCompleted": "Abgeschlossene Projekte",
+    "viewProfile": "Profil Ansehen",
+    "shareProfile": "Profil Teilen",
+    "endOfListMessage": "Sie haben das Ende der Liste erreicht",
+    "reviews": "{count} Bewertungen"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "stats": "Statistiken",
+    "resources": "Ressourcen",
+    "blog": "Blog",
+    "list_agency": "Agentur Eintragen",
+    "contact_us": "Kontakt"
+  },
+  "hero": {
+    "find": "Finden Sie Ihre perfekte",
+    "agency": "Agentur",
+    "search_placeholder": "Nach Agenturname oder Expertise suchen...",
+    "any_location": "Beliebiger Standort",
+    "find_provider": "Anbieter Finden",
+    "title": "HERZLICH WILLKOMMEN BEI TopAI.Agency!"
+  }
+}

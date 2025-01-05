@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="300" viewBox="0 0 1440 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fadeGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="white" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M0 250C360 250 360 150 720 150C1080 150 1080 250 1440 250" stroke="url(#fadeGradient)" stroke-width="40"/>
+    <path d="M0 200C360 200 360 100 720 100C1080 100 1080 200 1440 200" stroke="url(#fadeGradient)" stroke-width="40"/>
+    <path d="M0 150C360 150 360 50 720 50C1080 50 1080 150 1440 150" stroke="url(#fadeGradient)" stroke-width="40"/>
+    <path d="M0 100C360 100 360 0 720 0C1080 0 1080 100 1440 100" stroke="url(#fadeGradient)" stroke-width="40"/>
+  </g>
+</svg>

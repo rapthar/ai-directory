@@ -1,0 +1,241 @@
+{
+  "common": {
+    "tryAgain": "Try Again",
+    "listAgency": "List Your Agency",
+    "auth": {
+      "signIn": "Sign In",
+      "signOut": "Sign Out"
+    },
+    "newsletter": {
+      "title": "Stay ahead in AI innovation",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email address *",
+      "sign_up": "SIGN UP",
+      "disclaimer": "Subscribe to receive weekly insights on AI agencies, industry trends, and expert tips. You can unsubscribe at any time.",
+      "success": "Successfully subscribed to newsletter!",
+      "error": "Failed to subscribe. Please try again later."
+    },
+    "services": {
+      "title": "Services",
+      "ai_development": "AI Development",
+      "mvp_building": "MVP Building",
+      "saas_development": "SaaS Development",
+      "ai_integration": "AI Integration",
+      "custom_solutions": "Custom Solutions",
+      "ai_consulting": "AI Consulting",
+      "project_management": "Project Management"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "how_it_works": "How It Works",
+      "list_agency": "List Your Agency",
+      "success_stories": "Success Stories",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "resources": {
+      "title": "Resources",
+      "ai_guide": "AI Agency Guide",
+      "project_planning": "Project Planning",
+      "cost_calculator": "Cost Calculator",
+      "agency_reviews": "Agency Reviews",
+      "documentation": "Documentation",
+      "api_access": "API Access"
+    },
+    "support": {
+      "title": "Support",
+      "help_center": "Help Center",
+      "faqs": "FAQs",
+      "agency_support": "Agency Support",
+      "client_support": "Client Support"
+    },
+    "images": {
+      "badge_alt": "Ferroque Badge",
+      "chart_alt": "Ferroque Chart"
+    },
+    "copyright": " {year} Top AI Agency .Inc | All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "loadMore": "Load More"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question or want to work together? We'd love to hear from you.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message",
+      "services": "Services",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "chat": {
+      "title": "Chat With Us",
+      "subtitle": "Get instant answers to your questions through our various communication channels.",
+      "startChat": "Start Live Chat",
+      "sendEmail": "Send us an email",
+      "messageX": "Message on X (Twitter)"
+    },
+    "call": {
+      "title": "Call Us",
+      "subtitle": "Prefer to talk? Give us a call during business hours.",
+      "phone": "+1 (555) 000-0000"
+    },
+    "visit": {
+      "title": "Visit Our Office",
+      "subtitle": "Come meet us in person at our headquarters.",
+      "address": "123 AI Street, Silicon Valley, CA 94025"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "stats": "Stats",
+    "resources": "Resources",
+    "blog": "Blog",
+    "list_agency": "List Agency",
+    "contact_us": "Contact Us"
+  },
+  "hero": {
+    "find": "Find your perfect",
+    "agency": "agency",
+    "search_placeholder": "Search by agency name or expertise...",
+    "any_location": "Any Location",
+    "find_provider": "Find Provider"
+  },
+  "listing": {
+    "errorTitle": "Something went wrong",
+    "errorDescription": "We couldn't load the agencies. Please try again.",
+    "emptyStateTitle": "No agencies found",
+    "emptyStateDescription": "Be the first to add your agency to our growing network of AI service providers.",
+    "loadMore": "Load More",
+    "verified": "Verified",
+    "topRated": "Top Rated",
+    "projectsCompleted": "Projects Completed",
+    "viewProfile": "View Profile",
+    "shareProfile": "Share Profile",
+    "endOfListMessage": "You've reached the end of the list",
+    "reviews": "{count} Reviews"
+  },
+  "listings": {
+    "agencies": "AI Agencies",
+    "neural-networks": "Neural Networks",
+    "location-placeholder": "Location",
+    "services": "Services",
+    "budget": "Budget",
+    "hourly-rate": "Hourly Rate",
+    "industry": "Industry",
+    "reviews": "Reviews",
+    "clear-all": "Clear All",
+    "show-more": "Show More",
+    "show-less": "Show Less",
+    "name": "Name",
+    "price": "Project Budget",
+    "employees": "Team Size",
+    "errorTitle": "Error Loading Agencies",
+    "errorDescription": "We couldn't load the agencies. Please try again.",
+    "tryAgain": "Try Again",
+    "emptyStateTitle": "No Agencies Found",
+    "emptyStateSubtitle": "Join Our AI Service Provider Network",
+    "emptyStateDescription": "We couldn't find any agencies matching your criteria. Try adjusting your filters or be the first to list your agency.",
+    "listAgency": "List Your Agency",
+    "loadMoreAgencies": "Load More Agencies",
+    "endOfListMessage": "You've reached the end of the list"
+  },
+  "agencyForm": {
+    "cardTitle": "List Your Agency",
+    "cardSubtitle": "Join our curated directory of top AI agencies and showcase your expertise to potential clients.",
+    "form": {
+      "logo": {
+        "label": "Upload Logo",
+        "maxSize": "Maximum file size: 2MB"
+      },
+      "name": {
+        "label": "Agency/Team Name",
+        "placeholder": "e.g. MVPhero"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "hello@example.com"
+      },
+      "website": {
+        "label": "Website",
+        "placeholder": "https://example.com"
+      },
+      "shortDescription": {
+        "label": "Short Description",
+        "placeholder": "Brief overview of your agency (150 characters max)"
+      },
+      "fullDescription": {
+        "label": "Full Description",
+        "placeholder": "Detailed description of your agency, services, and expertise"
+      },
+      "location": {
+        "label": "Location",
+        "placeholder": "Select country"
+      },
+      "phone": {
+        "label": "Phone Number"
+      },
+      "categories": {
+        "label": "Categories",
+        "placeholder": "Select categories"
+      },
+      "skills": {
+        "label": "Skills & Expertise",
+        "placeholder": "Select skills"
+      },
+      "team": {
+        "label": "Team Members",
+        "addMember": "Add Team Member",
+        "name": {
+          "label": "Full Name",
+          "placeholder": "John Doe"
+        },
+        "role": {
+          "label": "Job Role",
+          "placeholder": "Select role"
+        },
+        "twitter": {
+          "label": "Twitter Username",
+          "placeholder": "@username"
+        }
+      },
+      "portfolio": {
+        "label": "Portfolio Projects",
+        "addProject": "Add Project",
+        "title": {
+          "label": "Project Title",
+          "placeholder": "Project name"
+        },
+        "url": {
+          "label": "Project URL",
+          "placeholder": "https://project.com"
+        }
+      },
+      "social": {
+        "linkedin": {
+          "label": "LinkedIn",
+          "placeholder": "Company LinkedIn URL"
+        },
+        "twitter": {
+          "label": "Twitter",
+          "placeholder": "@username"
+        }
+      },
+      "videoUrl": {
+        "label": "Pitch Video URL",
+        "placeholder": "YouTube or Vimeo URL",
+        "help": "Add a video showcasing your agency (optional)"
+      },
+      "submit": "Submit Agency",
+      "submitting": "Submitting..."
+    }
+  }
+}

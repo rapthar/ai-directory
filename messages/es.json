@@ -1,0 +1,256 @@
+{
+  "common": {
+    "tryAgain": "Intentar de Nuevo",
+    "newsletter": {
+      "title": "Mantente a la vanguardia en innovación IA",
+      "first_name": "Nombre",
+      "last_name": "Apellido",
+      "email": "Correo electrónico *",
+      "sign_up": "SUSCRIBIRSE",
+      "disclaimer": "Suscríbete para recibir información semanal sobre agencias de IA, tendencias de la industria y consejos de expertos. Puedes darte de baja en cualquier momento.",
+      "success": "¡Suscripción al boletín exitosa!",
+      "error": "Error en la suscripción. Por favor, inténtalo más tarde."
+    },
+    "services": {
+      "title": "Servicios",
+      "ai_development": "Desarrollo de IA",
+      "mvp_building": "Creación de MVP",
+      "saas_development": "Desarrollo SaaS",
+      "ai_integration": "Integración de IA",
+      "custom_solutions": "Soluciones Personalizadas",
+      "ai_consulting": "Consultoría de IA",
+      "project_management": "Gestión de Proyectos"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre Nosotros",
+      "how_it_works": "Cómo Funciona",
+      "list_agency": "Listar tu Agencia",
+      "success_stories": "Casos de Éxito",
+      "blog": "Blog",
+      "contact": "Contacto"
+    },
+    "resources": {
+      "title": "Recursos",
+      "ai_guide": "Guía de Agencias IA",
+      "project_planning": "Planificación de Proyectos",
+      "cost_calculator": "Calculadora de Costos",
+      "agency_reviews": "Reseñas de Agencias",
+      "documentation": "Documentación",
+      "api_access": "Acceso API"
+    },
+    "support": {
+      "title": "Soporte",
+      "help_center": "Centro de Ayuda",
+      "faqs": "Preguntas Frecuentes",
+      "agency_support": "Soporte para Agencias",
+      "client_support": "Soporte para Clientes"
+    },
+    "images": {
+      "badge_alt": "Insignia Ferroque",
+      "chart_alt": "Gráfico Ferroque"
+    },
+    "copyright": " TopAI.Agency .Inc | Todos los derechos reservados.",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "listAgency": "Listar tu Agencia",
+    "loadMore": "Cargar Más",
+    "auth": {
+      "signIn": "Iniciar sesión",
+      "signOut": "Cerrar sesión"
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "subtitle": "¿Tienes una pregunta o quieres trabajar juntos? Nos encantaría saber de ti.",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "phone": "Número de teléfono",
+        "message": "Mensaje",
+        "services": "Servicios",
+        "submit": "Enviar mensaje",
+        "sending": "Enviando...",
+        "success": "¡Mensaje enviado con éxito!",
+        "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+      },
+      "chat": {
+        "title": "Chatea con nosotros",
+        "subtitle": "Obtén respuestas instantáneas a tus preguntas a través de nuestros diversos canales de comunicación.",
+        "startChat": "Iniciar chat en vivo",
+        "sendEmail": "Envíanos un email",
+        "messageX": "Mensaje en X (Twitter)"
+      },
+      "call": {
+        "title": "Llámanos",
+        "subtitle": "¿Prefieres hablar? Llámanos durante el horario laboral.",
+        "phone": "+1 (555) 000-0000"
+      },
+      "visit": {
+        "title": "Visita nuestra oficina",
+        "subtitle": "Ven a conocernos en persona en nuestra sede.",
+        "address": "123 Calle AI, Silicon Valley, CA 94025"
+      },
+      "description": "Únete a cientos de negocios exitosos que han encontrado a su socio tecnológico perfecto a través de TopAI.Agency."
+    },
+    "agencyForm": {
+      "cardTitle": "Lista tu Agencia",
+      "cardSubtitle": "Únete a nuestro directorio seleccionado de agencias de IA y muestra tu experiencia a clientes potenciales.",
+      "form": {
+        "logo": {
+          "label": "Subir Logo",
+          "maxSize": "Tamaño máximo: 2MB"
+        },
+        "name": {
+          "label": "Nombre de la Agencia/Equipo",
+          "placeholder": "ej. MVPhero"
+        },
+        "email": {
+          "label": "Correo Electrónico",
+          "placeholder": "hola@ejemplo.com"
+        },
+        "website": {
+          "label": "Sitio Web",
+          "placeholder": "https://ejemplo.com"
+        },
+        "shortDescription": {
+          "label": "Descripción Corta",
+          "placeholder": "Breve resumen de tu agencia (máximo 150 caracteres)"
+        },
+        "fullDescription": {
+          "label": "Descripción Completa",
+          "placeholder": "Descripción detallada de tu agencia, servicios y experiencia"
+        },
+        "location": {
+          "label": "Ubicación",
+          "placeholder": "Seleccionar país"
+        },
+        "phone": {
+          "label": "Número de Teléfono"
+        },
+        "categories": {
+          "label": "Categorías",
+          "placeholder": "Seleccionar categorías"
+        },
+        "skills": {
+          "label": "Habilidades y Experiencia",
+          "placeholder": "Seleccionar habilidades"
+        },
+        "team": {
+          "label": "Miembros del Equipo",
+          "addMember": "Añadir Miembro",
+          "name": {
+            "label": "Nombre Completo",
+            "placeholder": "Juan Pérez"
+          },
+          "role": {
+            "label": "Cargo",
+            "placeholder": "Seleccionar cargo"
+          },
+          "twitter": {
+            "label": "Usuario de Twitter",
+            "placeholder": "@usuario"
+          }
+        },
+        "portfolio": {
+          "label": "Proyectos del Portfolio",
+          "addProject": "Añadir Proyecto",
+          "title": {
+            "label": "Título del Proyecto",
+            "placeholder": "Nombre del proyecto"
+          },
+          "url": {
+            "label": "URL del Proyecto",
+            "placeholder": "https://proyecto.com"
+          }
+        },
+        "social": {
+          "linkedin": {
+            "label": "LinkedIn",
+            "placeholder": "URL de LinkedIn de la empresa"
+          },
+          "twitter": {
+            "label": "Twitter",
+            "placeholder": "@usuario"
+          }
+        },
+        "videoUrl": {
+          "label": "URL del Video de Presentación",
+          "placeholder": "URL de YouTube o Vimeo",
+          "help": "Añade un video mostrando tu agencia (opcional)"
+        },
+        "submit": "Enviar Agencia",
+        "submitting": "Enviando..."
+      }
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "products": "Productos",
+    "stats": "Estadísticas",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "list_agency": "Registrar Agencia",
+    "contact_us": "Contáctanos"
+  },
+  "hero": {
+    "find": "Encuentra tu",
+    "agency": "agencia perfecta",
+    "search_placeholder": "Buscar por nombre de agencia o experiencia...",
+    "any_location": "Cualquier Ubicación",
+    "find_provider": "Encontrar Proveedor"
+  },
+  "listings": {
+    "agencies": "Agencias de IA",
+    "neural-networks": "Redes Neuronales",
+    "location-placeholder": "Ubicación",
+    "services": "Servicios",
+    "budget": "Presupuesto",
+    "hourly-rate": "Tarifa por Hora",
+    "industry": "Industria",
+    "reviews": "Reseñas",
+    "clear-all": "Limpiar Todo",
+    "show-more": "Mostrar Más",
+    "show-less": "Mostrar Menos",
+    "name": "Nombre",
+    "price": "Presupuesto del Proyecto",
+    "employees": "Tamaño del Equipo",
+    "errorTitle": "Error al Cargar las Agencias",
+    "errorDescription": "No pudimos cargar las agencias. Por favor, inténtalo de nuevo.",
+    "tryAgain": "Intentar de Nuevo",
+    "emptyStateTitle": "No se Encontraron Agencias",
+    "emptyStateSubtitle": "Únete a Nuestra Red de Proveedores de IA",
+    "emptyStateDescription": "No pudimos encontrar agencias que coincidan con tus criterios. Intenta ajustar tus filtros o sé el primero en listar tu agencia.",
+    "listAgency": "Listar tu Agencia",
+    "loadMoreAgencies": "Cargar Más Agencias",
+    "endOfListMessage": "Has llegado al final de la lista"
+  },
+  "listing": {
+    "errorTitle": "Algo salió mal",
+    "errorDescription": "No pudimos cargar las agencias. Por favor, inténtalo de nuevo.",
+    "emptyStateTitle": "No se encontraron agencias",
+    "emptyStateDescription": "Sé el primero en añadir tu agencia a nuestra creciente red de proveedores de servicios de IA.",
+    "loadMore": "Cargar Más",
+    "verified": "Verificado",
+    "topRated": "Mejor Valorado",
+    "projectsCompleted": "Proyectos Completados",
+    "viewProfile": "Ver Perfil",
+    "shareProfile": "Compartir Perfil",
+    "endOfListMessage": "Has llegado al final de la lista",
+    "reviews": "{count} Reseñas",
+    "faq": [
+      {
+        "question": "¿Qué es TopAI.Agency?",
+        "answer": "TopAI.Agency es una plataforma curada que muestra freelancers y equipos de desarrollo que se especializan en construir MVPs (Productos Mínimamente Viables). Presentamos profesionales verificados que pueden crear varios productos digitales, incluyendo aplicaciones web, aplicaciones móviles, extensiones de navegador y soluciones impulsadas por IA."
+      },
+      {
+        "question": "¿Cuál es el papel de TopAI.Agency en las relaciones entre clientes y agencias/equipos?",
+        "answer": "Sí, navegar por TopAI.Agency es completamente gratis. Cada profesional o agencia listada establece sus propias tarifas de servicio, que puedes encontrar detalladas en sus perfiles individuales."
+      }
+    ]
+  },
+  "helpCenter": {
+    "title": "¡BIENVENIDO A TopAI.Agency!",
+    "description": "Encuentra respuestas rápidas a preguntas comunes sobre TopAI.Agency. ¿No puedes encontrar lo que buscas?"
+  }
+}
