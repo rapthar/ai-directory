@@ -8,11 +8,12 @@ export const metadata: Metadata = {
   description: "Find agencies and teams to build your MVP or SaaS projects using Ai technology and human genius",
 };
 
-export default function RootLayout({
-  children,
-}: {
+type RootLayoutProps = {
   children: ReactNode;
-}) {
+  params: any;
+}
+
+export default async function RootLayout({ children }: RootLayoutProps) {
   return (
     <html>
       <head>

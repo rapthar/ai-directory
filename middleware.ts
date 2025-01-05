@@ -7,10 +7,12 @@ export default createMiddleware({
   localePrefix: 'always'
 });
 
+// Only run middleware on navigation pages
 export const config = {
-  // Match all pathnames except for
-  // - /api routes
-  // - /_next (Next.js internals)
-  // - /icons, /images, etc. (static files)
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+  matcher: [
+    // Skip all internal paths (_next)
+    '/((?!_next|api|.*\\..*).*)',
+    // Optional: only run on root (/) URL
+    '/'
+  ]
 };
