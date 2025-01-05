@@ -1,4 +1,4 @@
-import type { Metadata, LayoutProps as NextLayoutProps } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -9,9 +9,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: NextLayoutProps) {
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
+    <html>
       <head>
         <link
           rel="icon"
