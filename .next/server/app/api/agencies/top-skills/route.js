@@ -1,0 +1,122 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "app/api/agencies/top-skills/route";
+exports.ids = ["app/api/agencies/top-skills/route"];
+exports.modules = {
+
+/***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
+/*!*************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
+  \*************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/app-route.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-route.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/app-route.runtime.dev.js");
+
+/***/ }),
+
+/***/ "../app-render/work-async-storage.external":
+/*!*****************************************************************************!*\
+  !*** external "next/dist/server/app-render/work-async-storage.external.js" ***!
+  \*****************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/work-async-storage.external.js");
+
+/***/ }),
+
+/***/ "./work-unit-async-storage.external":
+/*!**********************************************************************************!*\
+  !*** external "next/dist/server/app-render/work-unit-async-storage.external.js" ***!
+  \**********************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/work-unit-async-storage.external.js");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fagencies%2Ftop-skills%2Froute&page=%2Fapi%2Fagencies%2Ftop-skills%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fagencies%2Ftop-skills%2Froute.ts&appDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fagencies%2Ftop-skills%2Froute&page=%2Fapi%2Fagencies%2Ftop-skills%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fagencies%2Ftop-skills%2Froute.ts&appDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   patchFetch: () => (/* binding */ patchFetch),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   serverHooks: () => (/* binding */ serverHooks),\n/* harmony export */   workAsyncStorage: () => (/* binding */ workAsyncStorage),\n/* harmony export */   workUnitAsyncStorage: () => (/* binding */ workUnitAsyncStorage)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/route-modules/app-route/module.compiled */ \"(rsc)/./node_modules/next/dist/server/route-modules/app-route/module.compiled.js\");\n/* harmony import */ var next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/route-kind */ \"(rsc)/./node_modules/next/dist/server/route-kind.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/server/lib/patch-fetch */ \"(rsc)/./node_modules/next/dist/server/lib/patch-fetch.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _Users_mac_Documents_GitHub_Flashcoded_Projects_ai_directory_app_api_agencies_top_skills_route_ts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/api/agencies/top-skills/route.ts */ \"(rsc)/./app/api/agencies/top-skills/route.ts\");\n\n\n\n\n// We inject the nextConfigOutput here so that we can use them in the route\n// module.\nconst nextConfigOutput = \"\"\nconst routeModule = new next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppRouteRouteModule({\n    definition: {\n        kind: next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_ROUTE,\n        page: \"/api/agencies/top-skills/route\",\n        pathname: \"/api/agencies/top-skills\",\n        filename: \"route\",\n        bundlePath: \"app/api/agencies/top-skills/route\"\n    },\n    resolvedPagePath: \"/Users/mac/Documents/GitHub/Flashcoded Projects/ai-directory/app/api/agencies/top-skills/route.ts\",\n    nextConfigOutput,\n    userland: _Users_mac_Documents_GitHub_Flashcoded_Projects_ai_directory_app_api_agencies_top_skills_route_ts__WEBPACK_IMPORTED_MODULE_3__\n});\n// Pull out the exports that we need to expose from the module. This should\n// be eliminated when we've moved the other routes to the new format. These\n// are used to hook into the route.\nconst { workAsyncStorage, workUnitAsyncStorage, serverHooks } = routeModule;\nfunction patchFetch() {\n    return (0,next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__.patchFetch)({\n        workAsyncStorage,\n        workUnitAsyncStorage\n    });\n}\n\n\n//# sourceMappingURL=app-route.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIvaW5kZXguanM/bmFtZT1hcHAlMkZhcGklMkZhZ2VuY2llcyUyRnRvcC1za2lsbHMlMkZyb3V0ZSZwYWdlPSUyRmFwaSUyRmFnZW5jaWVzJTJGdG9wLXNraWxscyUyRnJvdXRlJmFwcFBhdGhzPSZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFwaSUyRmFnZW5jaWVzJTJGdG9wLXNraWxscyUyRnJvdXRlLnRzJmFwcERpcj0lMkZVc2VycyUyRm1hYyUyRkRvY3VtZW50cyUyRkdpdEh1YiUyRkZsYXNoY29kZWQlMjBQcm9qZWN0cyUyRmFpLWRpcmVjdG9yeSUyRmFwcCZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJnJvb3REaXI9JTJGVXNlcnMlMkZtYWMlMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZGbGFzaGNvZGVkJTIwUHJvamVjdHMlMkZhaS1kaXJlY3RvcnkmaXNEZXY9dHJ1ZSZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvbiZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9JnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQStGO0FBQ3ZDO0FBQ3FCO0FBQ2lEO0FBQzlIO0FBQ0E7QUFDQTtBQUNBLHdCQUF3Qix5R0FBbUI7QUFDM0M7QUFDQSxjQUFjLGtFQUFTO0FBQ3ZCO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQ0E7QUFDQSxZQUFZO0FBQ1osQ0FBQztBQUNEO0FBQ0E7QUFDQTtBQUNBLFFBQVEsc0RBQXNEO0FBQzlEO0FBQ0EsV0FBVyw0RUFBVztBQUN0QjtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQzBGOztBQUUxRiIsInNvdXJjZXMiOlsiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEFwcFJvdXRlUm91dGVNb2R1bGUgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9yb3V0ZS1tb2R1bGVzL2FwcC1yb3V0ZS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL3JvdXRlLWtpbmRcIjtcbmltcG9ydCB7IHBhdGNoRmV0Y2ggYXMgX3BhdGNoRmV0Y2ggfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9saWIvcGF0Y2gtZmV0Y2hcIjtcbmltcG9ydCAqIGFzIHVzZXJsYW5kIGZyb20gXCIvVXNlcnMvbWFjL0RvY3VtZW50cy9HaXRIdWIvRmxhc2hjb2RlZCBQcm9qZWN0cy9haS1kaXJlY3RvcnkvYXBwL2FwaS9hZ2VuY2llcy90b3Atc2tpbGxzL3JvdXRlLnRzXCI7XG4vLyBXZSBpbmplY3QgdGhlIG5leHRDb25maWdPdXRwdXQgaGVyZSBzbyB0aGF0IHdlIGNhbiB1c2UgdGhlbSBpbiB0aGUgcm91dGVcbi8vIG1vZHVsZS5cbmNvbnN0IG5leHRDb25maWdPdXRwdXQgPSBcIlwiXG5jb25zdCByb3V0ZU1vZHVsZSA9IG5ldyBBcHBSb3V0ZVJvdXRlTW9kdWxlKHtcbiAgICBkZWZpbml0aW9uOiB7XG4gICAgICAgIGtpbmQ6IFJvdXRlS2luZC5BUFBfUk9VVEUsXG4gICAgICAgIHBhZ2U6IFwiL2FwaS9hZ2VuY2llcy90b3Atc2tpbGxzL3JvdXRlXCIsXG4gICAgICAgIHBhdGhuYW1lOiBcIi9hcGkvYWdlbmNpZXMvdG9wLXNraWxsc1wiLFxuICAgICAgICBmaWxlbmFtZTogXCJyb3V0ZVwiLFxuICAgICAgICBidW5kbGVQYXRoOiBcImFwcC9hcGkvYWdlbmNpZXMvdG9wLXNraWxscy9yb3V0ZVwiXG4gICAgfSxcbiAgICByZXNvbHZlZFBhZ2VQYXRoOiBcIi9Vc2Vycy9tYWMvRG9jdW1lbnRzL0dpdEh1Yi9GbGFzaGNvZGVkIFByb2plY3RzL2FpLWRpcmVjdG9yeS9hcHAvYXBpL2FnZW5jaWVzL3RvcC1za2lsbHMvcm91dGUudHNcIixcbiAgICBuZXh0Q29uZmlnT3V0cHV0LFxuICAgIHVzZXJsYW5kXG59KTtcbi8vIFB1bGwgb3V0IHRoZSBleHBvcnRzIHRoYXQgd2UgbmVlZCB0byBleHBvc2UgZnJvbSB0aGUgbW9kdWxlLiBUaGlzIHNob3VsZFxuLy8gYmUgZWxpbWluYXRlZCB3aGVuIHdlJ3ZlIG1vdmVkIHRoZSBvdGhlciByb3V0ZXMgdG8gdGhlIG5ldyBmb3JtYXQuIFRoZXNlXG4vLyBhcmUgdXNlZCB0byBob29rIGludG8gdGhlIHJvdXRlLlxuY29uc3QgeyB3b3JrQXN5bmNTdG9yYWdlLCB3b3JrVW5pdEFzeW5jU3RvcmFnZSwgc2VydmVySG9va3MgfSA9IHJvdXRlTW9kdWxlO1xuZnVuY3Rpb24gcGF0Y2hGZXRjaCgpIHtcbiAgICByZXR1cm4gX3BhdGNoRmV0Y2goe1xuICAgICAgICB3b3JrQXN5bmNTdG9yYWdlLFxuICAgICAgICB3b3JrVW5pdEFzeW5jU3RvcmFnZVxuICAgIH0pO1xufVxuZXhwb3J0IHsgcm91dGVNb2R1bGUsIHdvcmtBc3luY1N0b3JhZ2UsIHdvcmtVbml0QXN5bmNTdG9yYWdlLCBzZXJ2ZXJIb29rcywgcGF0Y2hGZXRjaCwgIH07XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFwcC1yb3V0ZS5qcy5tYXAiXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fagencies%2Ftop-skills%2Froute&page=%2Fapi%2Fagencies%2Ftop-skills%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fagencies%2Ftop-skills%2Froute.ts&appDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true!":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true! ***!
+  \******************************************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true!":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true! ***!
+  \******************************************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "(rsc)/./app/api/agencies/top-skills/route.ts":
+/*!**********************************************!*\
+  !*** ./app/api/agencies/top-skills/route.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GET: () => (/* binding */ GET)\n/* harmony export */ });\n/* harmony import */ var next_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/server */ \"(rsc)/./node_modules/next/dist/api/server.js\");\n/* harmony import */ var _lib_categories__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/lib/categories */ \"(rsc)/./lib/categories.ts\");\n\n//import { supabase } from \"@/lib/supabase\";\n\nasync function GET() {\n    try {\n        return next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.json(_lib_categories__WEBPACK_IMPORTED_MODULE_1__.categories);\n    } catch (error) {\n        console.error(\"Error fetching top skills:\", error);\n        return next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.json({\n            error: \"Failed to fetch top skills\"\n        }, {\n            status: 500\n        });\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvYXBpL2FnZW5jaWVzL3RvcC1za2lsbHMvcm91dGUudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQTJDO0FBQzNDLDRDQUE0QztBQUNFO0FBRXZDLGVBQWVFO0lBQ3BCLElBQUk7UUFDRixPQUFPRixxREFBWUEsQ0FBQ0csSUFBSSxDQUFDRix1REFBVUE7SUFDckMsRUFBRSxPQUFPRyxPQUFPO1FBQ2RDLFFBQVFELEtBQUssQ0FBQyw4QkFBOEJBO1FBQzVDLE9BQU9KLHFEQUFZQSxDQUFDRyxJQUFJLENBQ3RCO1lBQUVDLE9BQU87UUFBNkIsR0FDdEM7WUFBRUUsUUFBUTtRQUFJO0lBRWxCO0FBQ0YiLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWMvRG9jdW1lbnRzL0dpdEh1Yi9GbGFzaGNvZGVkIFByb2plY3RzL2FpLWRpcmVjdG9yeS9hcHAvYXBpL2FnZW5jaWVzL3RvcC1za2lsbHMvcm91dGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSBcIm5leHQvc2VydmVyXCI7XG4vL2ltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSBcIkAvbGliL3N1cGFiYXNlXCI7XG5pbXBvcnQgeyBjYXRlZ29yaWVzIH0gZnJvbSBcIkAvbGliL2NhdGVnb3JpZXNcIjtcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIEdFVCgpIHtcbiAgdHJ5IHtcbiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oY2F0ZWdvcmllcyk7XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgY29uc29sZS5lcnJvcihcIkVycm9yIGZldGNoaW5nIHRvcCBza2lsbHM6XCIsIGVycm9yKTtcbiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oXG4gICAgICB7IGVycm9yOiBcIkZhaWxlZCB0byBmZXRjaCB0b3Agc2tpbGxzXCIgfSxcbiAgICAgIHsgc3RhdHVzOiA1MDAgfVxuICAgICk7XG4gIH1cbn1cbiJdLCJuYW1lcyI6WyJOZXh0UmVzcG9uc2UiLCJjYXRlZ29yaWVzIiwiR0VUIiwianNvbiIsImVycm9yIiwiY29uc29sZSIsInN0YXR1cyJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/api/agencies/top-skills/route.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./lib/categories.ts":
+/*!***************************!*\
+  !*** ./lib/categories.ts ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   categories: () => (/* binding */ categories)\n/* harmony export */ });\nconst categories = [\n    {\n        name: \"AI Development\",\n        slug: \"ai-development\"\n    },\n    {\n        name: \"AI Consulting\",\n        slug: \"ai-consulting\"\n    },\n    {\n        name: \"Machine Learning\",\n        slug: \"machine-learning\"\n    },\n    {\n        name: \"Computer Vision\",\n        slug: \"computer-vision\"\n    },\n    {\n        name: \"Natural Language Processing\",\n        slug: \"nlp\"\n    },\n    {\n        name: \"Robotics & Automation\",\n        slug: \"robotics-automation\"\n    },\n    {\n        name: \"Data Science\",\n        slug: \"data-science\"\n    },\n    {\n        name: \"Deep Learning\",\n        slug: \"deep-learning\"\n    },\n    {\n        name: \"AI Infrastructure\",\n        slug: \"ai-infrastructure\"\n    },\n    {\n        name: \"MLOps\",\n        slug: \"mlops\"\n    },\n    {\n        name: \"AI Research\",\n        slug: \"ai-research\"\n    },\n    {\n        name: \"Edge AI\",\n        slug: \"edge-ai\"\n    },\n    {\n        name: \"AI Testing & Quality\",\n        slug: \"ai-testing\"\n    },\n    {\n        name: \"AI Ethics & Governance\",\n        slug: \"ai-ethics\"\n    },\n    {\n        name: \"Conversational AI\",\n        slug: \"conversational-ai\"\n    },\n    {\n        name: \"Generative AI\",\n        slug: \"generative-ai\"\n    },\n    {\n        name: \"AI Integration\",\n        slug: \"ai-integration\"\n    },\n    {\n        name: \"AI Security\",\n        slug: \"ai-security\"\n    },\n    {\n        name: \"AI Analytics\",\n        slug: \"ai-analytics\"\n    },\n    {\n        name: \"AI Education\",\n        slug: \"ai-education\"\n    },\n    {\n        name: \"Healthcare AI\",\n        slug: \"healthcare-ai\"\n    },\n    {\n        name: \"Financial AI\",\n        slug: \"financial-ai\"\n    },\n    {\n        name: \"Retail AI\",\n        slug: \"retail-ai\"\n    },\n    {\n        name: \"Manufacturing AI\",\n        slug: \"manufacturing-ai\"\n    },\n    {\n        name: \"AI Marketing\",\n        slug: \"ai-marketing\"\n    },\n    {\n        name: \"AI Content Creation\",\n        slug: \"ai-content\"\n    },\n    {\n        name: \"AI Product Development\",\n        slug: \"ai-product\"\n    },\n    {\n        name: \"AI Strategy\",\n        slug: \"ai-strategy\"\n    },\n    {\n        name: \"AI UX/UI\",\n        slug: \"ai-ux-ui\"\n    },\n    {\n        name: \"AI Cloud Solutions\",\n        slug: \"ai-cloud\"\n    }\n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9saWIvY2F0ZWdvcmllcy50cyIsIm1hcHBpbmdzIjoiOzs7O0FBQU8sTUFBTUEsYUFBYTtJQUN4QjtRQUFFQyxNQUFNO1FBQWtCQyxNQUFNO0lBQWlCO0lBQ2pEO1FBQUVELE1BQU07UUFBaUJDLE1BQU07SUFBZ0I7SUFDL0M7UUFBRUQsTUFBTTtRQUFvQkMsTUFBTTtJQUFtQjtJQUNyRDtRQUFFRCxNQUFNO1FBQW1CQyxNQUFNO0lBQWtCO0lBQ25EO1FBQUVELE1BQU07UUFBK0JDLE1BQU07SUFBTTtJQUNuRDtRQUFFRCxNQUFNO1FBQXlCQyxNQUFNO0lBQXNCO0lBQzdEO1FBQUVELE1BQU07UUFBZ0JDLE1BQU07SUFBZTtJQUM3QztRQUFFRCxNQUFNO1FBQWlCQyxNQUFNO0lBQWdCO0lBQy9DO1FBQUVELE1BQU07UUFBcUJDLE1BQU07SUFBb0I7SUFDdkQ7UUFBRUQsTUFBTTtRQUFTQyxNQUFNO0lBQVE7SUFDL0I7UUFBRUQsTUFBTTtRQUFlQyxNQUFNO0lBQWM7SUFDM0M7UUFBRUQsTUFBTTtRQUFXQyxNQUFNO0lBQVU7SUFDbkM7UUFBRUQsTUFBTTtRQUF3QkMsTUFBTTtJQUFhO0lBQ25EO1FBQUVELE1BQU07UUFBMEJDLE1BQU07SUFBWTtJQUNwRDtRQUFFRCxNQUFNO1FBQXFCQyxNQUFNO0lBQW9CO0lBQ3ZEO1FBQUVELE1BQU07UUFBaUJDLE1BQU07SUFBZ0I7SUFDL0M7UUFBRUQsTUFBTTtRQUFrQkMsTUFBTTtJQUFpQjtJQUNqRDtRQUFFRCxNQUFNO1FBQWVDLE1BQU07SUFBYztJQUMzQztRQUFFRCxNQUFNO1FBQWdCQyxNQUFNO0lBQWU7SUFDN0M7UUFBRUQsTUFBTTtRQUFnQkMsTUFBTTtJQUFlO0lBQzdDO1FBQUVELE1BQU07UUFBaUJDLE1BQU07SUFBZ0I7SUFDL0M7UUFBRUQsTUFBTTtRQUFnQkMsTUFBTTtJQUFlO0lBQzdDO1FBQUVELE1BQU07UUFBYUMsTUFBTTtJQUFZO0lBQ3ZDO1FBQUVELE1BQU07UUFBb0JDLE1BQU07SUFBbUI7SUFDckQ7UUFBRUQsTUFBTTtRQUFnQkMsTUFBTTtJQUFlO0lBQzdDO1FBQUVELE1BQU07UUFBdUJDLE1BQU07SUFBYTtJQUNsRDtRQUFFRCxNQUFNO1FBQTBCQyxNQUFNO0lBQWE7SUFDckQ7UUFBRUQsTUFBTTtRQUFlQyxNQUFNO0lBQWM7SUFDM0M7UUFBRUQsTUFBTTtRQUFZQyxNQUFNO0lBQVc7SUFDckM7UUFBRUQsTUFBTTtRQUFzQkMsTUFBTTtJQUFXO0NBQ2hELENBQVUiLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWMvRG9jdW1lbnRzL0dpdEh1Yi9GbGFzaGNvZGVkIFByb2plY3RzL2FpLWRpcmVjdG9yeS9saWIvY2F0ZWdvcmllcy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgY2F0ZWdvcmllcyA9IFtcbiAgeyBuYW1lOiBcIkFJIERldmVsb3BtZW50XCIsIHNsdWc6IFwiYWktZGV2ZWxvcG1lbnRcIiB9LFxuICB7IG5hbWU6IFwiQUkgQ29uc3VsdGluZ1wiLCBzbHVnOiBcImFpLWNvbnN1bHRpbmdcIiB9LFxuICB7IG5hbWU6IFwiTWFjaGluZSBMZWFybmluZ1wiLCBzbHVnOiBcIm1hY2hpbmUtbGVhcm5pbmdcIiB9LFxuICB7IG5hbWU6IFwiQ29tcHV0ZXIgVmlzaW9uXCIsIHNsdWc6IFwiY29tcHV0ZXItdmlzaW9uXCIgfSxcbiAgeyBuYW1lOiBcIk5hdHVyYWwgTGFuZ3VhZ2UgUHJvY2Vzc2luZ1wiLCBzbHVnOiBcIm5scFwiIH0sXG4gIHsgbmFtZTogXCJSb2JvdGljcyAmIEF1dG9tYXRpb25cIiwgc2x1ZzogXCJyb2JvdGljcy1hdXRvbWF0aW9uXCIgfSxcbiAgeyBuYW1lOiBcIkRhdGEgU2NpZW5jZVwiLCBzbHVnOiBcImRhdGEtc2NpZW5jZVwiIH0sXG4gIHsgbmFtZTogXCJEZWVwIExlYXJuaW5nXCIsIHNsdWc6IFwiZGVlcC1sZWFybmluZ1wiIH0sXG4gIHsgbmFtZTogXCJBSSBJbmZyYXN0cnVjdHVyZVwiLCBzbHVnOiBcImFpLWluZnJhc3RydWN0dXJlXCIgfSxcbiAgeyBuYW1lOiBcIk1MT3BzXCIsIHNsdWc6IFwibWxvcHNcIiB9LFxuICB7IG5hbWU6IFwiQUkgUmVzZWFyY2hcIiwgc2x1ZzogXCJhaS1yZXNlYXJjaFwiIH0sXG4gIHsgbmFtZTogXCJFZGdlIEFJXCIsIHNsdWc6IFwiZWRnZS1haVwiIH0sXG4gIHsgbmFtZTogXCJBSSBUZXN0aW5nICYgUXVhbGl0eVwiLCBzbHVnOiBcImFpLXRlc3RpbmdcIiB9LFxuICB7IG5hbWU6IFwiQUkgRXRoaWNzICYgR292ZXJuYW5jZVwiLCBzbHVnOiBcImFpLWV0aGljc1wiIH0sXG4gIHsgbmFtZTogXCJDb252ZXJzYXRpb25hbCBBSVwiLCBzbHVnOiBcImNvbnZlcnNhdGlvbmFsLWFpXCIgfSxcbiAgeyBuYW1lOiBcIkdlbmVyYXRpdmUgQUlcIiwgc2x1ZzogXCJnZW5lcmF0aXZlLWFpXCIgfSxcbiAgeyBuYW1lOiBcIkFJIEludGVncmF0aW9uXCIsIHNsdWc6IFwiYWktaW50ZWdyYXRpb25cIiB9LFxuICB7IG5hbWU6IFwiQUkgU2VjdXJpdHlcIiwgc2x1ZzogXCJhaS1zZWN1cml0eVwiIH0sXG4gIHsgbmFtZTogXCJBSSBBbmFseXRpY3NcIiwgc2x1ZzogXCJhaS1hbmFseXRpY3NcIiB9LFxuICB7IG5hbWU6IFwiQUkgRWR1Y2F0aW9uXCIsIHNsdWc6IFwiYWktZWR1Y2F0aW9uXCIgfSxcbiAgeyBuYW1lOiBcIkhlYWx0aGNhcmUgQUlcIiwgc2x1ZzogXCJoZWFsdGhjYXJlLWFpXCIgfSxcbiAgeyBuYW1lOiBcIkZpbmFuY2lhbCBBSVwiLCBzbHVnOiBcImZpbmFuY2lhbC1haVwiIH0sXG4gIHsgbmFtZTogXCJSZXRhaWwgQUlcIiwgc2x1ZzogXCJyZXRhaWwtYWlcIiB9LFxuICB7IG5hbWU6IFwiTWFudWZhY3R1cmluZyBBSVwiLCBzbHVnOiBcIm1hbnVmYWN0dXJpbmctYWlcIiB9LFxuICB7IG5hbWU6IFwiQUkgTWFya2V0aW5nXCIsIHNsdWc6IFwiYWktbWFya2V0aW5nXCIgfSxcbiAgeyBuYW1lOiBcIkFJIENvbnRlbnQgQ3JlYXRpb25cIiwgc2x1ZzogXCJhaS1jb250ZW50XCIgfSxcbiAgeyBuYW1lOiBcIkFJIFByb2R1Y3QgRGV2ZWxvcG1lbnRcIiwgc2x1ZzogXCJhaS1wcm9kdWN0XCIgfSxcbiAgeyBuYW1lOiBcIkFJIFN0cmF0ZWd5XCIsIHNsdWc6IFwiYWktc3RyYXRlZ3lcIiB9LFxuICB7IG5hbWU6IFwiQUkgVVgvVUlcIiwgc2x1ZzogXCJhaS11eC11aVwiIH0sXG4gIHsgbmFtZTogXCJBSSBDbG91ZCBTb2x1dGlvbnNcIiwgc2x1ZzogXCJhaS1jbG91ZFwiIH1cbl0gYXMgY29uc3Q7XG5cbmV4cG9ydCB0eXBlIENhdGVnb3J5ID0gdHlwZW9mIGNhdGVnb3JpZXNbbnVtYmVyXTtcbmV4cG9ydCB0eXBlIENhdGVnb3J5U2x1ZyA9IENhdGVnb3J5W1wic2x1Z1wiXTtcbiJdLCJuYW1lcyI6WyJjYXRlZ29yaWVzIiwibmFtZSIsInNsdWciXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./lib/categories.ts\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fagencies%2Ftop-skills%2Froute&page=%2Fapi%2Fagencies%2Ftop-skills%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fagencies%2Ftop-skills%2Froute.ts&appDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmac%2FDocuments%2FGitHub%2FFlashcoded%20Projects%2Fai-directory&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();

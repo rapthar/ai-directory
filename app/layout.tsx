@@ -7,15 +7,19 @@ export const metadata: Metadata = {
   description: "Find agencies and teams to build your MVP or SaaS projects using Ai technology and human genius",
 };
 
+interface RootLayoutProps {
+  children: React.ReactNode;
+  params: {
+    locale?: string;
+  };
+}
+
 export default function RootLayout({
   children,
-  params,
-}: {
-  children: React.ReactNode;
-  params?: { locale?: string };
-}) {
+  params = { locale: 'en' },
+}: RootLayoutProps) {
   return (
-    <html lang={params?.locale || "en"}>
+    <html lang={params.locale}>
       <head>
         <link
           rel="icon"
