@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -7,12 +8,11 @@ export const metadata: Metadata = {
   description: "Find agencies and teams to build your MVP or SaaS projects using Ai technology and human genius",
 };
 
-type RootLayoutProps = {
-  children: React.ReactNode;
-  params: Promise<{ locale?: string }>;
-};
-
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
     <html>
       <head>
