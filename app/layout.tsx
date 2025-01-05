@@ -8,13 +8,17 @@ export const metadata: Metadata = {
   description: "Find agencies and teams to build your MVP or SaaS projects using Ai technology and human genius",
 };
 
-interface Props {
+interface RootLayoutProps {
   children: React.ReactNode;
+  params?: Promise<{ locale?: string }>;
 }
 
-export default function RootLayout({ children }: Props) {
+export default async function RootLayout({ children, params }: RootLayoutProps) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || defaultLocale;
+
   return (
-    <html lang={defaultLocale}>
+    <html lang={locale}>
       <head>
         <link
           rel="icon"
