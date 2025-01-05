@@ -1,24 +1,20 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
-import { defaultLocale } from '@/i18n/settings';
 
 export const metadata: Metadata = {
   title: "AI Agency Directory | Find Agencies and Teams to build great ideas together",
   description: "Find agencies and teams to build your MVP or SaaS projects using Ai technology and human genius",
 };
 
-interface RootLayoutProps {
+type RootLayoutProps = {
   children: React.ReactNode;
-  params?: Promise<{ locale?: string }>;
-}
+  params: Promise<{ locale?: string }>;
+};
 
-export default async function RootLayout({ children, params }: RootLayoutProps) {
-  const resolvedParams = await params;
-  const locale = resolvedParams?.locale || defaultLocale;
-
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={locale}>
+    <html>
       <head>
         <link
           rel="icon"

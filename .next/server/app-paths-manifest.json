@@ -1,5 +1,0 @@
-{
-  "/api/agencies/top-skills/route": "app/api/agencies/top-skills/route.js",
-  "/api/agencies/search/route": "app/api/agencies/search/route.js",
-  "/[locale]/page": "app/[locale]/page.js"
-}
