@@ -1,13 +1,14 @@
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 import { Metadata } from 'next'
+import { LayoutProps } from 'next/navigation'
 
 export const metadata: Metadata = {
   title: "AI Agency Directory | Find Agencies and Teams to build great ideas together",
   description: "Find agencies and teams to build your MVP or SaaS projects using Ai technology and human genius",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children
 }: {
   children: React.ReactNode
