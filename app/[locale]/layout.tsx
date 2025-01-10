@@ -7,10 +7,10 @@ import { Footer } from "@/components/footer";
 
 type Props = {
   children: ReactNode;
-  params: { locale: string };
+  params: { locale: typeof locales[number] };
 };
 
-async function getMessages(locale: string) {
+async function getMessages(locale: typeof locales[number]) {
   try {
     return (await import(`@/messages/${locale}.json`)).default;
   } catch {
