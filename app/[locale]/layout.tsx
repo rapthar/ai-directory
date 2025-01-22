@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer";
 
 type Props = {
   children: ReactNode;
-  params: { locale: typeof locales[number] };
+  params?: { locale?: string };
 };
 
 async function getMessages(locale: typeof locales[number]) {
