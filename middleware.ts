@@ -4,7 +4,8 @@ import {locales, defaultLocale} from './i18n/settings';
 export default createMiddleware({
   locales,
   defaultLocale,
-  localePrefix: 'always'
+  localePrefix: 'always',
+  localeDetection: true
 });
 
 // Only run middleware on navigation pages

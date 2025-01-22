@@ -39,6 +39,8 @@ export interface Agency {
   created_at?: string;
   updated_at?: string;
   slug?: string;
+  rating?: number;
+  reviews?: number;
 }
 
 export interface AgencyWithDetails extends Agency {

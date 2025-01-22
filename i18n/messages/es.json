@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Inicio",
-    "about": "¿Por qué FAATLIST?",
+    "about": "¿Por qué TopAI.Agency?",
     "create": "Lista tu agencia",
     "faq": "Preguntas frecuentes"
   },
@@ -17,7 +17,14 @@
     "visitWebsite": "Visitar Sitio Web",
     "visitLinkedIn": "Conectar en LinkedIn",
     "visitTwitter": "Seguir en X/Twitter",
-    "backToListing": "Volver a la Lista"
+    "backToListing": "Volver a la Lista",
+    "company": {
+      "blog": "Blog",
+      "contact": "Contacto"
+    },
+    "auth": {
+      "signIn": "Iniciar sesión"
+    }
   },
   "sharer": {
     "title": "¿Conoces a alguien que podría beneficiarse? ¡Compártelo!",
@@ -43,7 +50,7 @@
     },
     "cta": {
       "title": "¿Listo para Transformar Tu Idea?",
-      "description": "Únete a cientos de negocios exitosos que han encontrado a su socio tecnológico perfecto a través de FAATLIST."
+      "description": "Únete a cientos de negocios exitosos que han encontrado a su socio tecnológico perfecto a través de TopAI.Agency."
     }
   },
   "listings": {
@@ -59,13 +66,15 @@
     "emptyStateTitle": "¡Sé el primero!",
     "emptyStateSubtitle": "Lista tu agencia o equipo ahora.",
     "emptyStateDescription": "Únete al grupo exclusivo de agencias y equipos pioneros que están dando forma al futuro de la industria de la IA. Obtén visibilidad inigualable, prospectos y conéctate con los mejores clientes antes que nadie. ¡Tu agencia o equipo se incluirá aquí con soporte para enlaces dofollow y con soporte completo de SEO!",
-    "endOfListMessage": "¡Has llegado al final de la lista! "
+    "endOfListMessage": "¡Has llegado al final de la lista! 🎉"
   },
   "hero": {
-    "announcement": "¡Lista tu agencia GRATIS! 🎉🎉🎉",
+    "find": "Encontrar",
+    "agency": "Agencia",
     "findAgencies": "Encuentra Agencias y Equipos",
-    "title": "Construya y lance su MVP o proyectos a gran escala dentro del presupuesto y el tiempo!",
-    "description": "Convierta sus ideas en realidad rápidamente con agencias tecnológicas verificadas y consultores de Ai."
+    "announcement": "¡Lista tu agencia GRATIS! 🎉🎉🎉",
+    "title": "¡Construye y lanza tu MVP o proyectos a gran escala dentro del presupuesto y el tiempo!",
+    "description": "Convierte tus ideas en realidad rápidamente con agencias tecnológicas verificadas y consultores de Ai."
   },
   "footer": {
     "stayUpdated": "Mantente actualizado",
@@ -78,121 +87,43 @@
     "twitter": "Twitter",
     "allRightsReserved": "Todos los derechos reservados.",
     "builtWith": "Construido con  y",
-    "by": "por"
+    "by": "por",
+    "copyright": "2024 Agency Directory. Todos los derechos reservados.",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad",
+    "contact": "Contáctanos"
   },
   "faq": {
     "hero": {
       "view": {
         "title": "Preguntas Frecuentes",
-        "description": "Encuentra respuestas rápidas a preguntas comunes sobre FAATLIST. ¿No puedes encontrar lo que buscas?",
+        "description": "Encuentra respuestas rápidas a preguntas comunes sobre TopAI.Agency. ¿No puedes encontrar lo que buscas?",
         "contact": "Contacta a nuestro equipo de soporte",
         "searchPlaceholder": "Buscar en las preguntas frecuentes..."
       }
     },
     "general": {
-      "title": "Información General",
-      "items": [
-        {
-          "question": "¿Qué es FAATLIST?",
-          "answer": "FAATLIST es una plataforma curada que muestra freelancers y equipos de desarrollo que se especializan en construir MVPs (Productos Mínimamente Viables). Presentamos profesionales verificados que pueden crear varios productos digitales, incluyendo aplicaciones web, aplicaciones móviles, extensiones de navegador y soluciones impulsadas por IA."
-        },
-        {
-          "question": "¿Cómo encuentro la agencia/equipo adecuado?",
-          "answer": "Navega a través de nuestra lista completa de agencias y equipos verificados, cada uno con perfiles detallados que muestran su experiencia y precios. Puedes filtrar según tus necesidades específicas del proyecto, ya sea una aplicación web, una aplicación móvil o el desarrollo de herramientas de IA."
-        },
-        {
-          "question": "¿Cuál es el papel de FAATLIST en las relaciones entre clientes y agencias/equipos?",
-          "answer": "Operamos como un servicio de directorio, conectando a los clientes con agencias y equipos calificados. Si bien revisamos cuidadosamente todos los listados, recomendamos realizar tu propia diligencia debida antes de interactuar con cualquier profesional. No gestionamos directamente ni asumimos la responsabilidad de los resultados de proyectos individuales."
-        },
-        {
-          "question": "¿Es gratis navegar por el directorio?",
-          "answer": "Sí, navegar por FAATLIST es completamente gratis. Cada profesional o agencia listada establece sus propias tarifas de servicio, que puedes encontrar detalladas en sus perfiles individuales."
-        }
-      ]
-    },
-    "listings": {
-      "title": "Listados y Presentaciones",
-      "items": [
-        {
-          "question": "¿Cómo enumero mis servicios?",
-          "answer": "Para unirte a nuestro directorio, haz clic en el botón 'Lista tu Agencia' y completa el formulario de presentación con tus detalles profesionales, experiencia y ofertas de servicios. Nuestro equipo revisará tu presentación para asegurarse de que cumpla con nuestros estándares de calidad antes de publicarla."
-        }
-      ]
-    }
-  },
-  "landing": {
-    "verifiedAgency": "Agencia verificada",
-    "budgetFrom": "Presupuesto desde",
-    "teamSize": "El tamaño del equipo es",
-    "founded": "Fundada en",
-    "projectsCompleted": "Proyectos completados",
-    "featuredProjects": "Proyectos destacados",
-    "quickInfo": "Información rápida",
-    "unspecified": "no especificado",
-    "viewProject": "Ver proyecto"
-  },
-  "checkout": {
-    "main": {
-      "title": "¡BIENVENIDO A FAATLIST!",
-      "description": "El listado de tu agencia se ha creado con éxito y está pendiente de aprobación."
-    },
-    "benefit1": {
-      "title": "Tu listado estará activo después de la aprobación.",
-      "description": "Fundadores, equipos no técnicos y empresas de todo el mundo ahora pueden descubrir y contactar a tu agencia."
-    },
-    "benefit2": {
-      "title": "Visibilidad mejorada",
-      "description": "Tu agencia se publicará con generación de prospectos, soporte completo de SEO, enlace dofollow y publicaciones en redes sociales."
-    },
-    "nextStep": {
-      "title": "Próximos pasos",
-      "description": "Completa tu pago para finalizar tu listado."
-    },
-    "previewButtonText": "Previsualiza tu listado"
-  },
-  "payWithStripe": {
-    "pay": "Pagar $20.00",
-    "processing": "Procesando..."
-  },
-  "paymentView": {
-    "success": {
-      "title": "¡Tu pago fue exitoso! Estamos emocionados de tenerte a bordo."
-    },
-    "cancel": {
-      "title": "¡El pago fue cancelado!",
-      "description": "El proceso de pago fue cancelado. ¿Te gustaría intentarlo de nuevo?"
-    },
-    "default": {
-      "title": "¡No se procesó el pago!",
-      "description": "Error al almacenar la información del pago."
+      "title": "Información General"
     }
   },
   "agencyForm": {
     "cardTitle": "Envía tu agencia o equipo",
     "cardSubtitle": "Miles de fundadores lo verán",
-    "uploadLogo": "Subir logo",
-    "agencyName": "Nombre de la agencia/equipo",
-    "shortDescription": "Descripción corta",
-    "fullDescription": "Descripción completa",
-    "yearFounded": "Año de fundación",
-    "projectsDone": "Proyectos realizados",
+    "uploadLogo": "Subir Logo",
+    "agencyName": "Nombre de Agencia/Equipo",
+    "shortDescription": "Descripción Corta",
+    "fullDescription": "Descripción Completa",
+    "yearFounded": "Año de Fundación",
+    "projectsDone": "Proyectos Realizados",
     "email": "Correo electrónico",
     "telephone": "Teléfono",
     "location": "Ubicación",
-    "websiteURL": "URL del sitio web",
+    "websiteURL": "URL del Sitio Web",
     "linkedinURL": "URL de LinkedIn",
-    "twitterHandle": "Manejo de X/Twitter",
-    "specialtyCategory": "Categoría de especialidad de la agencia/equipo",
-    "skills": "Habilidades de la agencia/equipo",
-    "teamSize": "Tamaño del equipo",
-    "budgetFrom": "Presupuesto desde",
-    "pitchVideoURL": "URL del video de presentación (opcional)",
-    "supportTeamMembers": "Miembros del equipo de apoyo",
-    "portfolioRequired": "* Portafolio (Se requiere uno)",
-    "addMember": "Agregar miembro",
-    "remove": "Eliminar",
-    "addPortfolioItem": "Agregar elemento al portafolio",
-    "checkout": "Pagar",
-    "getListed": "Ser listado en 24 horas"
+    "twitterHandle": "Usuario de X/Twitter",
+    "specialtyCategory": "Categoría de Especialidad de Agencia/Equipo",
+    "skills": "Habilidades de Agencia/Equipo",
+    "teamSize": "Tamaño del Equipo",
+    "budgetFrom": "Presupuesto Desde"
   }
 }

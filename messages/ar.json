@@ -1,56 +1,8 @@
 {
-  "common": {
-    "newsletter": {
-      "title": "كن في المقدمة في ابتكار الذكاء الاصطناعي",
-      "first_name": "الاسم الأول",
-      "last_name": "اسم العائلة",
-      "email": "البريد الإلكتروني *",
-      "sign_up": "اشتراك",
-      "disclaimer": "اشترك لتلقي رؤى أسبوعية حول وكالات الذكاء الاصطناعي واتجاهات الصناعة ونصائح الخبراء. يمكنك إلغاء الاشتراك في أي وقت.",
-      "success": "تم الاشتراك في النشرة الإخبارية بنجاح!",
-      "error": "فشل الاشتراك. يرجى المحاولة مرة أخرى لاحقاً."
-    },
-    "services": {
-      "title": "الخدمات",
-      "ai_development": "تطوير الذكاء الاصطناعي",
-      "mvp_building": "بناء MVP",
-      "saas_development": "تطوير SaaS",
-      "ai_integration": "دمج الذكاء الاصطناعي",
-      "custom_solutions": "حلول مخصصة",
-      "ai_consulting": "استشارات الذكاء الاصطناعي",
-      "project_management": "إدارة المشاريع"
-    },
-    "company": {
-      "title": "الشركة",
-      "about": "من نحن",
-      "how_it_works": "كيف يعمل",
-      "list_agency": "سجل وكالتك",
-      "success_stories": "قصص النجاح",
-      "blog": "المدونة",
-      "contact": "اتصل بنا"
-    },
-    "resources": {
-      "title": "الموارد",
-      "ai_guide": "دليل وكالات الذكاء الاصطناعي",
-      "project_planning": "تخطيط المشاريع",
-      "cost_calculator": "حاسبة التكاليف",
-      "agency_reviews": "تقييمات الوكالات",
-      "documentation": "التوثيق",
-      "api_access": "الوصول إلى API"
-    },
-    "support": {
-      "title": "الدعم",
-      "help_center": "مركز المساعدة",
-      "faqs": "الأسئلة الشائعة",
-      "agency_support": "دعم الوكالات",
-      "client_support": "دعم العملاء"
-    },
-    "images": {
-      "badge_alt": "شارة Ferroque",
-      "chart_alt": "مخطط Ferroque"
-    },
-    "copyright": "© {year} Top AI Agency .Inc | جميع الحقوق محفوظة.",
-    "terms": "الشروط",
-    "privacy": "الخصوصية"
-  }
+  "navigation.home": "الرئيسية",
+  "common.company.blog": "المدونة",
+  "common.company.contact": "اتصل بنا",
+  "common.auth.signIn": "تسجيل الدخول",
+  "common.listAgency": "أضف وكالتك",
+  "agencyForm": "نموذج الوكالة"
 }

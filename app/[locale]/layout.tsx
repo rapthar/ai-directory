@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
 import { locales } from "@/i18n/settings";
+import { setRequestLocale } from 'next-intl/server';
 import { MainNav } from "@/components/main-nav";
 import { Footer } from "@/components/footer";
 
@@ -24,6 +25,8 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const locale = (params?.locale || 'en') as "en" | "fr" | "de" | "es" | "pt" | "ar" | "yo";
+  // Enable static rendering
+  setRequestLocale(locale);
   const messages = await getMessages(locale);
 
   // Validate the locale
