@@ -23,22 +23,27 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const messages = await getMessages(params.locale);
+  const locale = params?.locale || 'en';
+  const messages = await getMessages(locale);
 
   // Validate the locale
-  if (!locales.includes(params.locale)) {
+  if (!locales.includes(locale)) {
     notFound();
   }
 
   return (
-    <NextIntlClientProvider locale={params.locale} messages={messages}>
-      <div className="flex flex-col min-h-screen bg-grid-small-purple">
-        <MainNav />
-        <main className="flex-1">
-          {children}
-        </main>
-        <Footer />
-      </div>
-    </NextIntlClientProvider>
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          <div className="flex flex-col min-h-screen bg-grid-small-purple">
+            <MainNav />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }
