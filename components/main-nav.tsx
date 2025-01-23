@@ -53,9 +53,11 @@ export function MainNav() {
       </div>
 
       <div className="flex items-center gap-4">
-        <Link href="/signin" className="hidden md:block text-[#8A8F98] hover:text-white transition-colors text-lg">
-          {t("common.auth.signIn")}
-        </Link>
+        <div className="hidden md:flex items-center gap-4">
+          <Link href="/register" className="text-white hover:text-white transition-colors text-lg">
+            Sign Up
+          </Link>
+        </div>
         <div className="relative">
           <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#FF3B9A] to-[#4845FF]" />
           <Button

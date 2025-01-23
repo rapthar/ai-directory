@@ -23,7 +23,12 @@
       "contact": "Contact"
     },
     "auth": {
-      "signIn": "Sign In"
+      "signIn": "Sign In",
+      "register": "Register",
+      "signUp": "Sign Up",
+      "forgotPassword": "Forgot Password?",
+      "resetPassword": "Reset Password",
+      "createAccount": "Create Account"
     }
   },
   "sharer": {
