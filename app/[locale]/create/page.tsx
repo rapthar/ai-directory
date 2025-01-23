@@ -9,7 +9,7 @@ export const metadata = getSEOTags({
 
 const CreatePage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[#0B1829] text-white">
       <div className="max-w-[1400px] mx-auto px-6 py-24 sm:px-8 lg:px-12">
         <div className="max-w-6xl mx-auto">
           <AgencyForm />

@@ -1,23 +1,22 @@
 'use client';
 
-import { Suspense } from 'react';
-import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslations } from 'next-intl';
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { toast } from 'react-toastify';
+import { useState } from 'react';
+import { toast } from 'sonner';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 
 type FormData = {
   firstName: string;
   lastName: string;
   email: string;
-  phone: string;
+  phone?: string;
   message: string;
 };
 
-function ContactForm() {
+export default function ContactPage() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const t = useTranslations('contact');
@@ -114,13 +113,5 @@ function ContactForm() {
         </div>
       </div>
     </div>
-  );
-}
-
-export default function Page() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <ContactForm />
-    </Suspense>
   );
 }

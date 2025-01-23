@@ -81,6 +81,20 @@
     "title": "Build and Launch your MVP or Full Scale Projects within Budget and Time!",
     "description": "Turn your ideas into reality fast with verified Ai tech agencies and consultants."
   },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question or want to work together? We'd love to hear from you.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number (Optional)",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    }
+  },
   "footer": {
     "stayUpdated": "Stay Updated",
     "stayUpdatedDescription": "Know when we launch something cool.\nWe promise not to spam you.",
