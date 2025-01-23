@@ -151,7 +151,7 @@
     },
     "cta": {
       "title": "Bereit, Ihre Idee zu transformieren?",
-      "description": "Schließen Sie sich Hunderten erfolgreicher Unternehmen an, die ihren perfekten Technologiepartner durch TopAI.Agency gefunden haben."
+      "description": "Schließen Sie sich Hunderten erfolgreichen Unternehmen an, die ihren perfekten Technologiepartner durch TopAI.Agency gefunden haben."
     }
   },
   "company": {
@@ -220,5 +220,129 @@
     "stayUpdated": "Bleiben Sie auf dem Laufenden",
     "stayUpdatedDescription": "Erfahren Sie, wenn wir etwas Neues launchen.\nWir versprechen, Sie nicht mit Spam zu belästigen.",
     "copyright": " {year} KI-Verzeichnis. Alle Rechte vorbehalten."
+  },
+  "agencyForm": {
+    "cardTitle": "Agentur eintragen",
+    "cardSubtitle": "Werden Sie Teil unseres ausgewählten Verzeichnisses der besten KI-Agenturen und präsentieren Sie Ihre Expertise potenziellen Kunden.",
+    "form": {
+      "logo": {
+        "label": "Logo",
+        "maxSize": "Maximale Größe: 2MB"
+      },
+      "name": {
+        "label": "Agenturname",
+        "placeholder": "z.B. AI Solutions"
+      },
+      "shortDescription": {
+        "label": "Kurzbeschreibung",
+        "placeholder": "Eine kurze Beschreibung Ihrer Agentur (max. 150 Zeichen)"
+      },
+      "fullDescription": {
+        "label": "Vollständige Beschreibung",
+        "placeholder": "Eine detaillierte Beschreibung Ihrer Agentur, Ihrer Dienstleistungen und Expertise"
+      },
+      "founded": {
+        "label": "Gründungsjahr",
+        "placeholder": "z.B. 2020"
+      },
+      "projects_completed": {
+        "label": "Abgeschlossene Projekte",
+        "placeholder": "z.B. 100+"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "z.B. kontakt@agentur.de"
+      },
+      "telephone": {
+        "label": "Telefon",
+        "placeholder": "z.B. +49 30 12345678"
+      },
+      "location": {
+        "label": "Standort",
+        "placeholder": "Land auswählen",
+        "searchPlaceholder": "Land suchen...",
+        "notFound": "Kein Land gefunden"
+      },
+      "website": {
+        "label": "Webseite",
+        "placeholder": "z.B. https://agentur.de"
+      },
+      "social": {
+        "linkedin": {
+          "label": "LinkedIn",
+          "placeholder": "LinkedIn URL"
+        },
+        "twitter": {
+          "label": "Twitter/X",
+          "placeholder": "Twitter Benutzername",
+          "error": "Ungültiger Twitter Benutzername. Verwenden Sie nur Buchstaben, Zahlen und Unterstriche"
+        }
+      },
+      "categories": {
+        "label": "Kategorien"
+      },
+      "skills": {
+        "label": "Fähigkeiten",
+        "searchPlaceholder": "Fähigkeiten suchen...",
+        "notFound": "Keine Fähigkeiten gefunden"
+      },
+      "team_size": {
+        "label": "Teamgröße",
+        "placeholder": "Teamgröße auswählen",
+        "options": {
+          "1-5": "1-5 Mitglieder",
+          "6-10": "6-10 Mitglieder",
+          "11-20": "11-20 Mitglieder",
+          "21-50": "21-50 Mitglieder",
+          "51-100": "51-100 Mitglieder",
+          "100+": "100+ Mitglieder"
+        }
+      },
+      "starting_budget": {
+        "label": "Startbudget",
+        "placeholder": "z.B. 10.000 €"
+      },
+      "pitchVideo": {
+        "label": "Pitch-Video URL",
+        "placeholder": "z.B. https://loom.com/share/ihr-video",
+        "helper": "Fügen Sie ein Video hinzu, das die Arbeit und Expertise Ihrer Agentur präsentiert"
+      },
+      "team": {
+        "label": "Teammitglieder",
+        "addMember": "Mitglied hinzufügen",
+        "twitter": {
+          "placeholder": "Twitter/X Benutzername",
+          "error": "Ungültiger Twitter Benutzername. Verwenden Sie nur Buchstaben, Zahlen und Unterstriche"
+        },
+        "name": {
+          "placeholder": "Vollständiger Name"
+        },
+        "role": {
+          "label": "Rolle auswählen",
+          "searchPlaceholder": "Rollen suchen...",
+          "notFound": "Keine Rollen gefunden"
+        }
+      },
+      "portfolio": {
+        "label": "Portfolio",
+        "add": "Projekt hinzufügen",
+        "remove": "Projekt entfernen",
+        "title": {
+          "placeholder": "Projekttitel"
+        },
+        "url": {
+          "placeholder": "Projekt-URL"
+        }
+      },
+      "submit": "Agentur einreichen",
+      "submitting": "Wird eingereicht...",
+      "listedWithin": "Ihre Agentur wird nach Prüfung innerhalb von 24 Stunden gelistet",
+      "success": "Agentur erfolgreich eingereicht!",
+      "error": "Fehler beim Einreichen der Agentur. Bitte versuchen Sie es erneut."
+    },
+    "messages": {
+      "success": "Agentur erfolgreich eingereicht!",
+      "error": "Bitte korrigieren Sie die Fehler im Formular"
+    }
   }
 }

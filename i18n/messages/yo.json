@@ -155,18 +155,128 @@
     }
   },
   "agencyForm": {
-    "cardTitle": "Fi Ilé-iṣẹ tàbí Ẹgbẹ́ Rẹ Ránṣẹ́",
-    "cardSubtitle": "Ẹgbẹ̀rún àwọn olùdásílẹ̀ yóò rí i",
-    "uploadLogo": "Gbé Àmì Sókè",
-    "agencyName": "Orúkọ Ilé-iṣẹ/Ẹgbẹ́",
-    "shortDescription": "Àpèjúwe Kúkurú",
-    "fullDescription": "Àpèjúwe Kíkún",
-    "yearFounded": "Ọdún Ìdásílẹ̀",
-    "projectsDone": "Àwọn Iṣẹ́ Tí A Ti Parí",
-    "email": "Imeeli",
-    "telephone": "Fóònù",
-    "location": "Ibùdó",
-    "websiteURL": "URL Ojú Ònà"
+    "cardTitle": "Forukọsilẹ Ileeṣẹ rẹ",
+    "cardSubtitle": "Darapọ mọ atọka wa ti awọn ileeṣẹ AI ti o dara julọ ki o si fi ọgbọn rẹ han fun awọn oludokoowo ti o ṣeeṣe.",
+    "form": {
+      "logo": {
+        "label": "Aami",
+        "maxSize": "Iwọn to pọju julọ: 2MB"
+      },
+      "name": {
+        "label": "Orukọ Ileeṣẹ",
+        "placeholder": "Apẹẹrẹ: AI Solutions"
+      },
+      "shortDescription": {
+        "label": "Apejuwe Kukuru",
+        "placeholder": "Apejuwe kukuru nipa ileeṣẹ rẹ (koko ọrọ 150)"
+      },
+      "fullDescription": {
+        "label": "Apejuwe Kikun",
+        "placeholder": "Apejuwe ni kikun nipa ileeṣẹ rẹ, awọn iṣẹ ati ọgbọn rẹ"
+      },
+      "founded": {
+        "label": "Ọdun Ipilẹṣẹ",
+        "placeholder": "Apẹẹrẹ: 2020"
+      },
+      "projects_completed": {
+        "label": "Awọn Iṣẹ ti a Pari",
+        "placeholder": "Apẹẹrẹ: 100+"
+      },
+      "email": {
+        "label": "Imeeli",
+        "placeholder": "Apẹẹrẹ: contact@agency.com"
+      },
+      "telephone": {
+        "label": "Foonu",
+        "placeholder": "Apẹẹrẹ: +234 801 234 5678"
+      },
+      "location": {
+        "label": "Ipo",
+        "placeholder": "Yan orilẹ-ede",
+        "searchPlaceholder": "Wa orilẹ-ede...",
+        "notFound": "Ko ri orilẹ-ede kankan"
+      },
+      "website": {
+        "label": "Aaye Ayelujara",
+        "placeholder": "Apẹẹrẹ: https://agency.com"
+      },
+      "social": {
+        "linkedin": {
+          "label": "LinkedIn",
+          "placeholder": "Ọna asopọ LinkedIn"
+        },
+        "twitter": {
+          "label": "Twitter/X",
+          "placeholder": "Orukọ olumulo Twitter",
+          "error": "Orukọ olumulo Twitter ko tọ. Lo awọn lẹta, nọmba ati underscore nikan"
+        }
+      },
+      "categories": {
+        "label": "Awọn Ẹka"
+      },
+      "skills": {
+        "label": "Awọn Ọgbọn",
+        "searchPlaceholder": "Wa awọn ọgbọn...",
+        "notFound": "Ko ri awọn ọgbọn kankan"
+      },
+      "team_size": {
+        "label": "Iwọn Ẹgbẹ",
+        "placeholder": "Yan iwọn ẹgbẹ",
+        "options": {
+          "1-5": "Ọmọ ẹgbẹ 1-5",
+          "6-10": "Ọmọ ẹgbẹ 6-10",
+          "11-20": "Ọmọ ẹgbẹ 11-20",
+          "21-50": "Ọmọ ẹgbẹ 21-50",
+          "51-100": "Ọmọ ẹgbẹ 51-100",
+          "100+": "Ọmọ ẹgbẹ 100+"
+        }
+      },
+      "starting_budget": {
+        "label": "Owo Ibẹrẹ",
+        "placeholder": "Apẹẹrẹ: ₦1,000,000"
+      },
+      "pitchVideo": {
+        "label": "Ọna asopọ Fidio Ipilẹṣẹ",
+        "placeholder": "Apẹẹrẹ: https://loom.com/share/your-video",
+        "helper": "Fi fidio kun ti o ṣafihan iṣẹ ati ọgbọn ileeṣẹ rẹ"
+      },
+      "team": {
+        "label": "Awọn Ọmọ Ẹgbẹ",
+        "addMember": "Fi Ọmọ Ẹgbẹ kun",
+        "twitter": {
+          "placeholder": "Orukọ olumulo Twitter/X",
+          "error": "Orukọ olumulo Twitter ko tọ. Lo awọn lẹta, nọmba ati underscore nikan"
+        },
+        "name": {
+          "placeholder": "Orukọ Kikun"
+        },
+        "role": {
+          "label": "Yan Ipa",
+          "searchPlaceholder": "Wa awọn ipa...",
+          "notFound": "Ko ri awọn ipa kankan"
+        }
+      },
+      "portfolio": {
+        "label": "Iwe Iṣẹ",
+        "add": "Fi Iṣẹ kun",
+        "remove": "Yọ Iṣẹ kuro",
+        "title": {
+          "placeholder": "Akọle Iṣẹ"
+        },
+        "url": {
+          "placeholder": "Ọna asopọ Iṣẹ"
+        }
+      },
+      "submit": "Fi Ileeṣẹ ranṣẹ",
+      "submitting": "Nfiranṣẹ...",
+      "listedWithin": "A yoo fi ileeṣẹ rẹ sii laarin wakati 24 lẹhin ayẹwo",
+      "success": "O ti fi ileeṣẹ ranṣẹ ni aṣeyọri!",
+      "error": "Aṣiṣe waye nigba ti a n fi ileeṣẹ ranṣẹ. Jọwọ gbiyanju lẹẹkansi."
+    },
+    "messages": {
+      "success": "O ti fi ileeṣẹ ranṣẹ ni aṣeyọri!",
+      "error": "Jọwọ ṣatunṣe awọn aṣiṣe ninu fọọmu naa"
+    }
   },
   "newsletter": {
     "title": "Jẹ́ kí a Sopọ̀",

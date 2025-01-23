@@ -231,23 +231,127 @@
     }
   },
   "agencyForm": {
-    "cardTitle": "قدم وكالتك أو فريقك",
-    "cardSubtitle": "سيراها آلاف المؤسسين",
-    "uploadLogo": "تحميل الشعار",
-    "agencyName": "اسم الوكالة/الفريق",
-    "shortDescription": "وصف مختصر",
-    "fullDescription": "وصف كامل",
-    "yearFounded": "سنة التأسيس",
-    "projectsDone": "المشاريع المنجزة",
-    "email": "البريد الإلكتروني",
-    "telephone": "الهاتف",
-    "location": "الموقع",
-    "websiteURL": "رابط الموقع الإلكتروني",
-    "linkedinURL": "رابط LinkedIn",
-    "twitterHandle": "حساب X/Twitter",
-    "specialtyCategory": "فئة تخصص الوكالة/الفريق",
-    "skills": "مهارات الوكالة/الفريق",
-    "teamSize": "حجم الفريق",
-    "budgetFrom": "الميزانية من"
+    "cardTitle": "سجل وكالتك",
+    "cardSubtitle": "انضم إلى دليلنا المختار لأفضل وكالات الذكاء الاصطناعي واعرض خبرتك للعملاء المحتملين.",
+    "form": {
+      "logo": {
+        "label": "الشعار",
+        "maxSize": "الحجم الأقصى: 2 ميجابايت"
+      },
+      "name": {
+        "label": "اسم الوكالة",
+        "placeholder": "مثال: AI Solutions"
+      },
+      "shortDescription": {
+        "label": "وصف مختصر",
+        "placeholder": "وصف موجز لوكالتك (150 حرف كحد أقصى)"
+      },
+      "fullDescription": {
+        "label": "وصف كامل",
+        "placeholder": "وصف مفصل لوكالتك وخدماتك وخبراتك"
+      },
+      "founded": {
+        "label": "سنة التأسيس",
+        "placeholder": "مثال: 2020"
+      },
+      "projects_completed": {
+        "label": "المشاريع المنجزة",
+        "placeholder": "مثال: +100"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "مثال: contact@agency.com"
+      },
+      "telephone": {
+        "label": "الهاتف",
+        "placeholder": "مثال: +966 50 123 4567"
+      },
+      "location": {
+        "label": "الموقع",
+        "placeholder": "اختر الدولة",
+        "searchPlaceholder": "البحث عن دولة...",
+        "notFound": "لم يتم العثور على دولة"
+      },
+      "website": {
+        "label": "الموقع الإلكتروني",
+        "placeholder": "مثال: https://agency.com"
+      },
+      "social": {
+        "linkedin": {
+          "label": "لينكد إن",
+          "placeholder": "رابط لينكد إن"
+        },
+        "twitter": {
+          "label": "تويتر/إكس",
+          "placeholder": "اسم المستخدم في تويتر",
+          "error": "اسم مستخدم تويتر غير صالح. استخدم الحروف والأرقام والشرطة السفلية فقط"
+        }
+      },
+      "categories": {
+        "label": "الفئات"
+      },
+      "skills": {
+        "label": "المهارات",
+        "searchPlaceholder": "البحث عن مهارات...",
+        "notFound": "لم يتم العثور على مهارات"
+      },
+      "team_size": {
+        "label": "حجم الفريق",
+        "placeholder": "اختر حجم الفريق",
+        "options": {
+          "1-5": "1-5 أعضاء",
+          "6-10": "6-10 أعضاء",
+          "11-20": "11-20 عضو",
+          "21-50": "21-50 عضو",
+          "51-100": "51-100 عضو",
+          "100+": "+100 عضو"
+        }
+      },
+      "starting_budget": {
+        "label": "الميزانية الأولية",
+        "placeholder": "مثال: 10,000 ريال"
+      },
+      "pitchVideo": {
+        "label": "رابط فيديو العرض التقديمي",
+        "placeholder": "مثال: https://loom.com/share/your-video",
+        "helper": "أضف فيديو يعرض عمل وخبرة وكالتك"
+      },
+      "team": {
+        "label": "أعضاء الفريق",
+        "addMember": "إضافة عضو",
+        "twitter": {
+          "placeholder": "اسم المستخدم في تويتر/إكس",
+          "error": "اسم مستخدم تويتر غير صالح. استخدم الحروف والأرقام والشرطة السفلية فقط"
+        },
+        "name": {
+          "placeholder": "الاسم الكامل"
+        },
+        "role": {
+          "label": "اختر الدور",
+          "searchPlaceholder": "البحث عن أدوار...",
+          "notFound": "لم يتم العثور على أدوار"
+        }
+      },
+      "portfolio": {
+        "label": "المحفظة",
+        "add": "إضافة مشروع",
+        "remove": "حذف المشروع",
+        "title": {
+          "placeholder": "عنوان المشروع"
+        },
+        "url": {
+          "placeholder": "رابط المشروع"
+        }
+      },
+      "submit": "إرسال الوكالة",
+      "submitting": "جاري الإرسال...",
+      "listedWithin": "سيتم إدراج وكالتك خلال 24 ساعة بعد المراجعة",
+      "success": "تم إرسال الوكالة بنجاح!",
+      "error": "حدث خطأ في إرسال الوكالة. يرجى المحاولة مرة أخرى."
+    },
+    "messages": {
+      "success": "تم إرسال الوكالة بنجاح!",
+      "error": "يرجى تصحيح الأخطاء في النموذج"
+    }
   }
 }

@@ -217,5 +217,129 @@
     "privacy": "Confidentialité",
     "terms": "Conditions",
     "copyright": " {year} TopAI.Agency. Tous droits réservés."
+  },
+  "agencyForm": {
+    "cardTitle": "Listez Votre Agence",
+    "cardSubtitle": "Rejoignez notre répertoire sélectionné des meilleures agences IA et présentez votre expertise aux clients potentiels.",
+    "form": {
+      "logo": {
+        "label": "Logo",
+        "maxSize": "Taille maximale: 2MB"
+      },
+      "name": {
+        "label": "Nom de l'Agence",
+        "placeholder": "ex: AI Solutions"
+      },
+      "shortDescription": {
+        "label": "Description Courte",
+        "placeholder": "Une brève description de votre agence (max 150 caractères)"
+      },
+      "fullDescription": {
+        "label": "Description Complète",
+        "placeholder": "Une description détaillée de votre agence, de vos services et de votre expertise"
+      },
+      "founded": {
+        "label": "Année de Création",
+        "placeholder": "ex: 2020"
+      },
+      "projects_completed": {
+        "label": "Projets Réalisés",
+        "placeholder": "ex: 100+"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "ex: contact@agence.com"
+      },
+      "telephone": {
+        "label": "Téléphone",
+        "placeholder": "ex: +33 1 23 45 67 89"
+      },
+      "location": {
+        "label": "Localisation",
+        "placeholder": "Sélectionnez un pays",
+        "searchPlaceholder": "Rechercher un pays...",
+        "notFound": "Aucun pays trouvé"
+      },
+      "website": {
+        "label": "Site Web",
+        "placeholder": "ex: https://agence.com"
+      },
+      "social": {
+        "linkedin": {
+          "label": "LinkedIn",
+          "placeholder": "URL LinkedIn"
+        },
+        "twitter": {
+          "label": "Twitter/X",
+          "placeholder": "Nom d'utilisateur Twitter",
+          "error": "Nom d'utilisateur Twitter invalide. Utilisez uniquement des lettres, des chiffres et des underscores"
+        }
+      },
+      "categories": {
+        "label": "Catégories"
+      },
+      "skills": {
+        "label": "Compétences",
+        "searchPlaceholder": "Rechercher des compétences...",
+        "notFound": "Aucune compétence trouvée"
+      },
+      "team_size": {
+        "label": "Taille de l'Équipe",
+        "placeholder": "Sélectionnez la taille de l'équipe",
+        "options": {
+          "1-5": "1-5 membres",
+          "6-10": "6-10 membres",
+          "11-20": "11-20 membres",
+          "21-50": "21-50 membres",
+          "51-100": "51-100 membres",
+          "100+": "100+ membres"
+        }
+      },
+      "starting_budget": {
+        "label": "Budget Initial",
+        "placeholder": "ex: $10,000"
+      },
+      "pitchVideo": {
+        "label": "URL de la Vidéo de Présentation",
+        "placeholder": "ex: https://loom.com/share/votre-video",
+        "helper": "Ajoutez une vidéo présentant le travail et l'expertise de votre agence"
+      },
+      "team": {
+        "label": "Membres de l'Équipe",
+        "addMember": "Ajouter un Membre",
+        "twitter": {
+          "placeholder": "Nom d'utilisateur Twitter/X",
+          "error": "Nom d'utilisateur Twitter invalide. Utilisez uniquement des lettres, des chiffres et des underscores"
+        },
+        "name": {
+          "placeholder": "Nom Complet"
+        },
+        "role": {
+          "label": "Sélectionner un Rôle",
+          "searchPlaceholder": "Rechercher des rôles...",
+          "notFound": "Aucun rôle trouvé"
+        }
+      },
+      "portfolio": {
+        "label": "Portfolio",
+        "add": "Ajouter un Projet",
+        "remove": "Supprimer le Projet",
+        "title": {
+          "placeholder": "Titre du Projet"
+        },
+        "url": {
+          "placeholder": "URL du Projet"
+        }
+      },
+      "submit": "Soumettre l'Agence",
+      "submitting": "Soumission en cours...",
+      "listedWithin": "Votre agence sera listée dans les 24 heures après examen",
+      "success": "Agence soumise avec succès !",
+      "error": "Échec de la soumission de l'agence. Veuillez réessayer."
+    },
+    "messages": {
+      "success": "Agence soumise avec succès !",
+      "error": "Veuillez corriger les erreurs dans le formulaire"
+    }
   }
 }

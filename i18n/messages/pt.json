@@ -178,37 +178,127 @@
     }
   },
   "agencyForm": {
-    "cardTitle": "Envie sua Agência ou Equipe",
-    "cardSubtitle": "Milhares de fundadores verão",
-    "uploadLogo": "Enviar Logo",
-    "agencyName": "Nome da Agência/Equipe",
-    "shortDescription": "Descrição Curta",
-    "fullDescription": "Descrição Completa",
-    "yearFounded": "Ano de Fundação",
-    "projectsDone": "Projetos Concluídos",
-    "email": "Email",
-    "telephone": "Telefone",
-    "location": "Localização",
-    "websiteURL": "URL do Website",
-    "linkedinURL": "URL do LinkedIn",
-    "twitterHandle": "Usuário do X/Twitter",
-    "specialtyCategory": "Categoria de Especialização",
-    "skills": "Habilidades",
-    "teamSize": "Tamanho da Equipe",
-    "budgetFrom": "Orçamento a partir de",
-    "success": "Agência enviada com sucesso!",
-    "error": "Erro ao enviar agência. Por favor, tente novamente.",
+    "cardTitle": "Cadastre sua Agência",
+    "cardSubtitle": "Junte-se ao nosso diretório selecionado das melhores agências de IA e mostre sua experiência para clientes potenciais.",
     "form": {
       "logo": {
-        "label": "Logo da Agência",
-        "maxSize": "Tamanho máximo: 5MB",
-        "dragDrop": "Arraste e solte sua logo aqui ou",
-        "browse": "procure",
-        "error": {
-          "tooLarge": "Arquivo muito grande. Tamanho máximo: 5MB",
-          "invalidType": "Tipo de arquivo inválido. Use PNG, JPG ou JPEG"
+        "label": "Logo",
+        "maxSize": "Tamanho máximo: 2MB"
+      },
+      "name": {
+        "label": "Nome da Agência",
+        "placeholder": "ex: AI Solutions"
+      },
+      "shortDescription": {
+        "label": "Descrição Curta",
+        "placeholder": "Uma breve descrição da sua agência (máx. 150 caracteres)"
+      },
+      "fullDescription": {
+        "label": "Descrição Completa",
+        "placeholder": "Uma descrição detalhada da sua agência, serviços e experiência"
+      },
+      "founded": {
+        "label": "Ano de Fundação",
+        "placeholder": "ex: 2020"
+      },
+      "projects_completed": {
+        "label": "Projetos Concluídos",
+        "placeholder": "ex: 100+"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "ex: contato@agencia.com.br"
+      },
+      "telephone": {
+        "label": "Telefone",
+        "placeholder": "ex: +55 11 98765-4321"
+      },
+      "location": {
+        "label": "Localização",
+        "placeholder": "Selecione um país",
+        "searchPlaceholder": "Buscar país...",
+        "notFound": "Nenhum país encontrado"
+      },
+      "website": {
+        "label": "Site",
+        "placeholder": "ex: https://agencia.com.br"
+      },
+      "social": {
+        "linkedin": {
+          "label": "LinkedIn",
+          "placeholder": "URL do LinkedIn"
+        },
+        "twitter": {
+          "label": "Twitter/X",
+          "placeholder": "Usuário do Twitter",
+          "error": "Usuário do Twitter inválido. Use apenas letras, números e underlines"
         }
-      }
+      },
+      "categories": {
+        "label": "Categorias"
+      },
+      "skills": {
+        "label": "Habilidades",
+        "searchPlaceholder": "Buscar habilidades...",
+        "notFound": "Nenhuma habilidade encontrada"
+      },
+      "team_size": {
+        "label": "Tamanho da Equipe",
+        "placeholder": "Selecione o tamanho da equipe",
+        "options": {
+          "1-5": "1-5 membros",
+          "6-10": "6-10 membros",
+          "11-20": "11-20 membros",
+          "21-50": "21-50 membros",
+          "51-100": "51-100 membros",
+          "100+": "100+ membros"
+        }
+      },
+      "starting_budget": {
+        "label": "Orçamento Inicial",
+        "placeholder": "ex: R$ 10.000"
+      },
+      "pitchVideo": {
+        "label": "URL do Vídeo de Apresentação",
+        "placeholder": "ex: https://loom.com/share/seu-video",
+        "helper": "Adicione um vídeo mostrando o trabalho e a experiência da sua agência"
+      },
+      "team": {
+        "label": "Membros da Equipe",
+        "addMember": "Adicionar Membro",
+        "twitter": {
+          "placeholder": "Usuário do Twitter/X",
+          "error": "Usuário do Twitter inválido. Use apenas letras, números e underlines"
+        },
+        "name": {
+          "placeholder": "Nome Completo"
+        },
+        "role": {
+          "label": "Selecionar Cargo",
+          "searchPlaceholder": "Buscar cargos...",
+          "notFound": "Nenhum cargo encontrado"
+        }
+      },
+      "portfolio": {
+        "label": "Portfólio",
+        "add": "Adicionar Projeto",
+        "remove": "Remover Projeto",
+        "title": {
+          "placeholder": "Título do Projeto"
+        },
+        "url": {
+          "placeholder": "URL do Projeto"
+        }
+      },
+      "submit": "Enviar Agência",
+      "submitting": "Enviando...",
+      "listedWithin": "Sua agência será listada dentro de 24 horas após a revisão",
+      "success": "Agência enviada com sucesso!",
+      "error": "Erro ao enviar a agência. Por favor, tente novamente."
+    },
+    "messages": {
+      "success": "Agência enviada com sucesso!",
+      "error": "Por favor, corrija os erros no formulário"
     }
   },
   "filters": {

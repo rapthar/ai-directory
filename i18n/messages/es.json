@@ -261,59 +261,127 @@
     }
   },
   "agencyForm": {
-    "cardTitle": "Envía tu Agencia o Equipo",
-    "cardSubtitle": "Miles de fundadores lo verán",
-    "uploadLogo": "Subir Logo",
-    "agencyName": "Nombre de Agencia/Equipo",
-    "shortDescription": "Descripción Corta",
-    "fullDescription": "Descripción Completa",
-    "yearFounded": "Año de Fundación",
-    "projectsDone": "Proyectos Completados",
-    "email": "Correo Electrónico",
-    "telephone": "Teléfono",
-    "location": "Ubicación",
-    "websiteURL": "URL del Sitio Web",
-    "linkedinURL": "URL de LinkedIn",
-    "twitterHandle": "Usuario de X/Twitter",
-    "specialtyCategory": "Categoría de Especialización",
-    "skills": "Habilidades",
-    "teamSize": "Tamaño del Equipo",
-    "budgetFrom": "Presupuesto desde",
-    "success": "¡Agencia enviada con éxito!",
-    "error": "Error al enviar la agencia. Por favor, intenta de nuevo.",
+    "cardTitle": "Registra tu Agencia",
+    "cardSubtitle": "Únete a nuestro directorio seleccionado de las mejores agencias de IA y muestra tu experiencia a clientes potenciales.",
     "form": {
       "logo": {
-        "label": "Logo de la agencia",
-        "maxSize": "Tamaño máximo: 5MB"
+        "label": "Logo",
+        "maxSize": "Tamaño máximo: 2MB"
       },
       "name": {
-        "label": "Nombre de la agencia",
-        "placeholder": "Ingrese el nombre de su agencia"
+        "label": "Nombre de la Agencia",
+        "placeholder": "ej: AI Solutions"
       },
       "shortDescription": {
-        "label": "Descripción corta",
-        "placeholder": "Breve descripción de tu agencia (máximo 150 caracteres)"
+        "label": "Descripción Corta",
+        "placeholder": "Una breve descripción de tu agencia (máx. 150 caracteres)"
       },
       "fullDescription": {
-        "label": "Descripción completa",
-        "placeholder": "Describe detalladamente los servicios y experiencia de tu agencia"
+        "label": "Descripción Completa",
+        "placeholder": "Una descripción detallada de tu agencia, servicios y experiencia"
       },
       "founded": {
-        "label": "Año de fundación",
-        "placeholder": "¿En qué año se fundó tu agencia?"
+        "label": "Año de Fundación",
+        "placeholder": "ej: 2020"
+      },
+      "projects_completed": {
+        "label": "Proyectos Completados",
+        "placeholder": "ej: 100+"
+      },
+      "email": {
+        "label": "Correo Electrónico",
+        "placeholder": "ej: contacto@agencia.es"
+      },
+      "telephone": {
+        "label": "Teléfono",
+        "placeholder": "ej: +34 91 234 5678"
+      },
+      "location": {
+        "label": "Ubicación",
+        "placeholder": "Selecciona un país",
+        "searchPlaceholder": "Buscar país...",
+        "notFound": "No se encontró ningún país"
+      },
+      "website": {
+        "label": "Sitio Web",
+        "placeholder": "ej: https://agencia.es"
+      },
+      "social": {
+        "linkedin": {
+          "label": "LinkedIn",
+          "placeholder": "URL de LinkedIn"
+        },
+        "twitter": {
+          "label": "Twitter/X",
+          "placeholder": "Usuario de Twitter",
+          "error": "Usuario de Twitter inválido. Usa solo letras, números y guiones bajos"
+        }
+      },
+      "categories": {
+        "label": "Categorías"
+      },
+      "skills": {
+        "label": "Habilidades",
+        "searchPlaceholder": "Buscar habilidades...",
+        "notFound": "No se encontraron habilidades"
+      },
+      "team_size": {
+        "label": "Tamaño del Equipo",
+        "placeholder": "Selecciona el tamaño del equipo",
+        "options": {
+          "1-5": "1-5 miembros",
+          "6-10": "6-10 miembros",
+          "11-20": "11-20 miembros",
+          "21-50": "21-50 miembros",
+          "51-100": "51-100 miembros",
+          "100+": "100+ miembros"
+        }
+      },
+      "starting_budget": {
+        "label": "Presupuesto Inicial",
+        "placeholder": "ej: 10.000 €"
+      },
+      "pitchVideo": {
+        "label": "URL del Video de Presentación",
+        "placeholder": "ej: https://loom.com/share/tu-video",
+        "helper": "Añade un video mostrando el trabajo y la experiencia de tu agencia"
+      },
+      "team": {
+        "label": "Miembros del Equipo",
+        "addMember": "Añadir Miembro",
+        "twitter": {
+          "placeholder": "Usuario de Twitter/X",
+          "error": "Usuario de Twitter inválido. Usa solo letras, números y guiones bajos"
+        },
+        "name": {
+          "placeholder": "Nombre Completo"
+        },
+        "role": {
+          "label": "Seleccionar Rol",
+          "searchPlaceholder": "Buscar roles...",
+          "notFound": "No se encontraron roles"
+        }
       },
       "portfolio": {
         "label": "Portafolio",
+        "add": "Añadir Proyecto",
+        "remove": "Eliminar Proyecto",
         "title": {
-          "placeholder": "Título del proyecto"
+          "placeholder": "Título del Proyecto"
         },
         "url": {
-          "placeholder": "URL del proyecto"
-        },
-        "add": "Agregar proyecto"
+          "placeholder": "URL del Proyecto"
+        }
       },
-      "submit": "Enviar",
-      "listedWithin": "Listado dentro de 24 horas"
+      "submit": "Enviar Agencia",
+      "submitting": "Enviando...",
+      "listedWithin": "Tu agencia será listada dentro de las 24 horas después de la revisión",
+      "success": "¡Agencia enviada con éxito!",
+      "error": "Error al enviar la agencia. Por favor, inténtalo de nuevo."
+    },
+    "messages": {
+      "success": "¡Agencia enviada con éxito!",
+      "error": "Por favor, corrige los errores en el formulario"
     }
   }
 }
