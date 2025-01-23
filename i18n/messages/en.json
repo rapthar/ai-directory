@@ -238,7 +238,9 @@
       },
       "location": {
         "label": "Location",
-        "placeholder": "e.g. San Francisco, CA"
+        "placeholder": "e.g. San Francisco, CA",
+        "searchPlaceholder": "Search location...",
+        "notFound": "No location found"
       },
       "founded": {
         "label": "Founded Year",
@@ -246,11 +248,23 @@
       },
       "team_size": {
         "label": "Team Size",
-        "placeholder": "e.g. 10-50"
+        "placeholder": "Select team size",
+        "options": {
+          "1-5": "1-5 members",
+          "6-10": "6-10 members",
+          "11-20": "11-20 members",
+          "21-50": "21-50 members",
+          "51-100": "51-100 members",
+          "100+": "100+ members"
+        }
       },
       "projects_completed": {
         "label": "Projects Completed",
         "placeholder": "e.g. 100+"
+      },
+      "budget": {
+        "label": "Starting Budget",
+        "placeholder": "Select budget range"
       },
       "starting_budget": {
         "label": "Starting Budget",
@@ -262,49 +276,52 @@
       },
       "skills": {
         "label": "Skills & Expertise",
-        "placeholder": "Select skills"
+        "placeholder": "Select skills",
+        "searchPlaceholder": "Search skills...",
+        "notFound": "No skills found"
       },
       "team": {
         "label": "Team Members",
-        "fullname": {
-          "label": "Full Name",
-          "placeholder": "e.g. John Doe"
-        },
-        "job_role": {
-          "label": "Job Role",
-          "placeholder": "e.g. AI Engineer"
-        },
+        "addMember": "Add Team Member",
         "twitter": {
-          "label": "Twitter Handle",
-          "placeholder": "e.g. @johndoe"
+          "placeholder": "Twitter/X handle",
+          "error": "Invalid Twitter/X handle. Use only letters, numbers, and underscores"
         },
-        "addMember": "Add Team Member"
+        "name": {
+          "placeholder": "Full Name"
+        },
+        "role": {
+          "label": "Select Role",
+          "searchPlaceholder": "Search roles...",
+          "notFound": "No roles found"
+        }
       },
       "portfolio": {
         "label": "Portfolio",
+        "add": "Add Project",
+        "remove": "Remove Project",
         "title": {
-          "label": "Project Title",
-          "placeholder": "e.g. AI Chatbot for Customer Service"
+          "placeholder": "Project Title"
         },
         "url": {
-          "label": "Project URL",
-          "placeholder": "e.g. https://project.com"
-        },
-        "addProject": "Add Project"
+          "placeholder": "Project URL"
+        }
       },
       "social": {
         "linkedin": {
-          "label": "LinkedIn",
+          "label": "LinkedIn Profile",
           "placeholder": "e.g. https://linkedin.com/company/mvphero"
         },
         "twitter": {
-          "label": "Twitter",
-          "placeholder": "e.g. https://twitter.com/mvphero"
+          "label": "Twitter/X Handle",
+          "placeholder": "username (without @)",
+          "error": "Invalid Twitter/X handle. Use only letters, numbers, and underscores"
         }
       },
-      "pitch_video": {
+      "pitchVideo": {
         "label": "Pitch Video URL",
-        "placeholder": "e.g. https://youtube.com/watch?v=..."
+        "placeholder": "e.g. https://loom.com/share/your-video",
+        "helper": "Add a video showcasing your agency's work and expertise"
       },
       "telephone": {
         "label": "Phone Number",
@@ -312,8 +329,13 @@
       },
       "submit": "Submit Agency",
       "submitting": "Submitting...",
+      "listedWithin": "Your agency will be listed within 24 hours after review",
       "success": "Agency submitted successfully!",
       "error": "Failed to submit agency. Please try again."
+    },
+    "messages": {
+      "success": "Agency submitted successfully!",
+      "error": "Please fix the errors in the form"
     }
   },
   "why": {

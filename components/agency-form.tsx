@@ -271,14 +271,14 @@ export default function AgencyForm() {
                     className="text-md text-pink-300"
                     htmlFor="projects_completed"
                   >
-                    {t("form.projectsDone.label")}
+                    {t("form.projects_completed.label")}
                   </Label>
                   <select
                     id="projects_completed"
                     className="w-full h-10 rounded-md border border-input bg-black px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                     {...form.register("projects_completed")}
                   >
-                    <option value="">{t("form.projectsDone.placeholder")}</option>
+                    <option value="">{t("form.projects_completed.placeholder")}</option>
                     {[...Array(9)].map((_, i) => (
                       <option key={i + 1} value={i + 1}>
                         {i + 1}
@@ -312,7 +312,7 @@ export default function AgencyForm() {
 
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="telephone">
-                    {t("form.phone.label")}
+                    {t("form.telephone.label")}
                   </Label>
                   <div className="phone-input-container">
                     <PhoneInput
@@ -327,7 +327,7 @@ export default function AgencyForm() {
                       inputProps={{
                         id: "telephone",
                         name: "telephone",
-                        "aria-label": "Phone number",
+                        "aria-label": t("form.telephone.label"),
                       }}
                       specialLabel=""
                       containerClass="phone-input"
@@ -449,13 +449,16 @@ export default function AgencyForm() {
                   )}
                 </div>
                 <div className="space-y-2">
-                  <Label className="text-md text-pink-300" htmlFor="linkedin">
-                    {t("form.linkedin.label")}
+                  <Label
+                    className="text-md text-pink-300"
+                    htmlFor="linkedin"
+                  >
+                    {t("form.social.linkedin.label")}
                   </Label>
                   <Input
                     id="linkedin"
                     type="url"
-                    placeholder={t("form.linkedin.placeholder")}
+                    placeholder={t("form.social.linkedin.placeholder")}
                     className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                     {...form.register("linkedin")}
                   />
@@ -467,21 +470,21 @@ export default function AgencyForm() {
                 </div>
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="twitter">
-                    {t("form.twitter.label")}
+                    {t("form.social.twitter.label")}
                   </Label>
 
                   <div className="relative">
                     <div className="flex items-center">
-                      <div className="absolute left-3 flex items-center pointer-events-none text-pink-500">
+                      <div className="absolute left-2 text-gray-400">
                         @
                       </div>
                       <Input
-                        placeholder={t("form.twitter.placeholder")}
+                        placeholder={t("form.social.twitter.placeholder")}
                         className="pl-7 bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                         {...form.register("twitter", {
                           pattern: {
                             value: /^[A-Za-z0-9_]{1,30}$/,
-                            message: t("form.twitter.error"),
+                            message: t("form.social.twitter.error"),
                           },
                           onChange: (e) => {
                             // Remove @ if user includes it
@@ -624,20 +627,20 @@ export default function AgencyForm() {
               <div className="grid gap-4 sm:grid-cols-4">
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="team_size">
-                    {t("form.teamSize.label")}
+                    {t("form.team_size.label")}
                   </Label>
                   <select
                     id="team_size"
-                    className="w-full h-10 rounded-md border border-input bg-black px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+                    className="bg-black/20 border-gray-800 focus:border-gray-700 text-white rounded-md"
                     {...form.register("team_size")}
                   >
-                    <option value="">{t("form.teamSize.placeholder")}</option>
-                    <option value="1-5">{t("form.teamSize.options.1-5")}</option>
-                    <option value="6-10">{t("form.teamSize.options.6-10")}</option>
-                    <option value="11-20">{t("form.teamSize.options.11-20")}</option>
-                    <option value="21-50">{t("form.teamSize.options.21-50")}</option>
-                    <option value="51-100">{t("form.teamSize.options.51-100")}</option>
-                    <option value="100+">{t("form.teamSize.options.100+")}</option>
+                    <option value="">{t("form.team_size.placeholder")}</option>
+                    <option value="1-5">{t("form.team_size.options.1-5")}</option>
+                    <option value="6-10">{t("form.team_size.options.6-10")}</option>
+                    <option value="11-20">{t("form.team_size.options.11-20")}</option>
+                    <option value="21-50">{t("form.team_size.options.21-50")}</option>
+                    <option value="51-100">{t("form.team_size.options.51-100")}</option>
+                    <option value="100+">{t("form.team_size.options.100+")}</option>
                   </select>
                   {form.formState.errors.team_size && (
                     <p className="text-sm text-red-500">
@@ -650,14 +653,14 @@ export default function AgencyForm() {
                     className="text-md text-pink-300"
                     htmlFor="starting_budget"
                   >
-                    {t("form.budget.label")}
+                    {t("form.starting_budget.label")}
                   </Label>
                   <select
                     id="starting_budget"
                     className="w-full h-10 rounded-md border border-input bg-black px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                     {...form.register("starting_budget")}
                   >
-                    <option value="">{t("form.budget.placeholder")}</option>
+                    <option value="">{t("form.starting_budget.placeholder")}</option>
                     {[...Array(10)].map((_, i) => (
                       <option key={500 * (i + 1)} value={500 * (i + 1)}>
                         ${500 * (i + 1)}
@@ -685,7 +688,7 @@ export default function AgencyForm() {
                   className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                   {...form.register("pitch_video_url")}
                 />
-                <span className="text-sm">
+                <p className="text-sm text-muted-foreground">
                   {t("form.pitchVideo.helper")}{" "}
                   <Link
                     className="underline"
@@ -694,8 +697,7 @@ export default function AgencyForm() {
                   >
                     Loom
                   </Link>
-                  .
-                </span>
+                </p>
                 {form.formState.errors.pitch_video_url && (
                   <p className="text-sm text-red-500">
                     {form.formState.errors.pitch_video_url.message}

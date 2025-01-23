@@ -136,15 +136,15 @@
   },
   "agencyForm": {
     "cardTitle": "Registre sua Agência",
-    "cardSubtitle": "Junte-se ao nosso diretório selecionado de agências de IA e mostre sua expertise para clientes em potencial.",
+    "cardSubtitle": "Junte-se ao nosso diretório selecionado de agências de IA e mostre sua expertise para clientes potenciais.",
     "form": {
       "logo": {
         "label": "Carregar Logo",
         "maxSize": "Tamanho máximo do arquivo: 2MB"
       },
       "name": {
-        "label": "Nome da Agência/Equipe",
-        "placeholder": "ex. MVPhero"
+        "label": "Nome da agência",
+        "placeholder": "Digite o nome da sua agência"
       },
       "shortDescription": {
         "label": "Descrição Curta",
@@ -247,6 +247,34 @@
     "messages": {
       "success": "Sua agência foi enviada para revisão.",
       "error": "Por favor, verifique se todos os campos obrigatórios estão preenchidos corretamente."
+    }
+  },
+  "faq": {
+    "general": {
+      "title": "Geral",
+      "items": [
+        {
+          "question": "Como posso listar minha agência?",
+          "answer": "Para listar sua agência, clique no botão 'Adicionar agência' no topo da página e preencha o formulário com as informações da sua empresa."
+        },
+        {
+          "question": "Quanto custa para listar minha agência?",
+          "answer": "O preço para listar sua agência depende do plano escolhido. Oferecemos diferentes opções para atender às suas necessidades."
+        },
+        {
+          "question": "Como posso editar minha listagem?",
+          "answer": "Você pode editar sua listagem fazendo login na sua conta e acessando o painel de controle da sua agência."
+        }
+      ]
+    },
+    "listings": {
+      "title": "Listagens",
+      "items": [
+        {
+          "question": "Como funciona o processo de verificação?",
+          "answer": "Nossa equipe revisa cada listagem para garantir que atenda aos nossos padrões de qualidade antes de ser publicada no diretório."
+        }
+      ]
     }
   },
   "footer": {

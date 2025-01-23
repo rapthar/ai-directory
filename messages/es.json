@@ -132,12 +132,13 @@
     "cardSubtitle": "Únase a nuestro directorio selecto de agencias de IA y muestre su experiencia a clientes potenciales.",
     "form": {
       "logo": {
-        "label": "Subir Logo",
-        "maxSize": "Tamaño máximo de archivo: 2MB"
+        "label": "Logo de la agencia",
+        "description": "Sube el logo de tu agencia. Tamaño recomendado: 400x400px.",
+        "error": "Error al cargar el logo. Por favor, inténtalo de nuevo."
       },
       "name": {
-        "label": "Nombre de Agencia/Equipo",
-        "placeholder": "ej. MVPhero"
+        "label": "Nombre de la agencia",
+        "placeholder": "Ingrese el nombre de su agencia"
       },
       "shortDescription": {
         "label": "Descripción Corta",
@@ -152,16 +153,16 @@
         "placeholder": "Seleccionar Año"
       },
       "projectsDone": {
-        "label": "Proyectos Realizados",
-        "placeholder": "Seleccionar Proyectos"
+        "label": "Proyectos realizados",
+        "placeholder": "Número de proyectos completados"
       },
       "email": {
-        "label": "Correo Electrónico",
-        "placeholder": "ej. tu@email.com"
+        "label": "Correo electrónico",
+        "placeholder": "Correo electrónico de contacto"
       },
       "phone": {
         "label": "Teléfono",
-        "placeholder": "Ingrese número de teléfono"
+        "placeholder": "Número de teléfono"
       },
       "location": {
         "label": "Ubicación",
@@ -212,20 +213,20 @@
         "helper": "¿No tiene enlace de video? Cree uno ahora usando"
       },
       "team": {
-        "label": "Miembros del Equipo de Soporte",
+        "label": "Equipo",
         "twitter": {
-          "placeholder": "Usuario de X/Twitter",
-          "error": "Formato de usuario de Twitter/X inválido"
+          "placeholder": "@usuario",
+          "error": "Por favor ingrese un nombre de usuario válido"
         },
         "name": {
-          "placeholder": "Nombre"
+          "placeholder": "Nombre del miembro"
         },
         "role": {
-          "label": "Seleccionar rol",
-          "searchPlaceholder": "Buscar roles...",
-          "notFound": "No se encontró rol."
+          "label": "Rol",
+          "searchPlaceholder": "Buscar rol...",
+          "notFound": "Rol no encontrado"
         },
-        "addMember": "Agregar Miembro"
+        "addMember": "Agregar miembro"
       },
       "submit": "Enviar",
       "submitting": "Enviando...",
