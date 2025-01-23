@@ -1,11 +1,10 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-if (!process.env.RESEND_API_KEY) {
-  throw new Error('Missing RESEND_API_KEY environment variable');
-}
+const RESEND_API_KEY = process.env.RESEND_API_KEY || 'dummy-key-for-build';
+const CONTACT_EMAIL = process.env.CONTACT_EMAIL || 'default@example.com';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
@@ -13,7 +12,7 @@ export async function POST(req: Request) {
 
     const { data, error } = await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
-      to: [process.env.CONTACT_EMAIL || 'your-email@example.com'],
+      to: [CONTACT_EMAIL],
       subject: 'New Contact Form Submission',
       html: `
         <h2>New Contact Form Submission</h2>
