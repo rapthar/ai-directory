@@ -1,8 +1,382 @@
 {
-  "navigation.home": "الرئيسية",
-  "common.company.blog": "المدونة",
-  "common.company.contact": "اتصل بنا",
-  "common.auth.signIn": "تسجيل الدخول",
-  "common.listAgency": "أضف وكالتك",
-  "agencyForm": "نموذج الوكالة"
+  "contact": {
+    "title": "اتصل بنا",
+    "description": "نحن هنا لمساعدتك. املأ النموذج أدناه وسنرد عليك في أقرب وقت ممكن.",
+    "form": {
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "message": "الرسالة",
+      "submit": "إرسال",
+      "success": "تم إرسال رسالتك بنجاح!",
+      "error": "حدث خطأ. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "hero": {
+    "find": "ابحث عن",
+    "agency": "وكالتك المثالية",
+    "search_placeholder": "ابحث عن اسم الوكالة أو الخبرة...",
+    "any_location": "أي موقع",
+    "find_provider": "ابحث عن مزود"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "blog": "المدونة",
+    "contact": "اتصل بنا",
+    "signUp": "تسجيل",
+    "products": "المنتجات",
+    "stats": "الإحصائيات",
+    "resources": "الموارد",
+    "list_agency": "إضافة وكالة",
+    "contact_us": "اتصل بنا",
+    "signUp": "تسجيل"
+  },
+  "common": {
+    "tryAgain": "حاول مرة أخرى",
+    "listAgency": "أضف وكالتك",
+    "auth": {
+      "title": "المصادقة",
+      "signIn": "تسجيل الدخول",
+      "signOut": "تسجيل الخروج",
+      "register": "تسجيل",
+      "signUp": "تسجيل"
+    },
+    "services": {
+      "title": "الخدمات",
+      "ai_development": "تطوير الذكاء الاصطناعي",
+      "mvp_building": "بناء MVP",
+      "saas_development": "تطوير SaaS",
+      "ai_integration": "دمج الذكاء الاصطناعي",
+      "custom_solutions": "حلول مخصصة",
+      "ai_consulting": "استشارات الذكاء الاصطناعي",
+      "project_management": "إدارة المشاريع"
+    },
+    "company": {
+      "title": "الشركة",
+      "about": "عن الشركة",
+      "how_it_works": "كيف يعمل",
+      "list_agency": "إضافة وكالة",
+      "success_stories": "قصص النجاح",
+      "blog": "المدونة",
+      "contact": "اتصل بنا"
+    },
+    "resources": {
+      "title": "الموارد",
+      "ai_guide": "دليل الذكاء الاصطناعي",
+      "project_planning": "تخطيط المشاريع",
+      "cost_calculator": "حاسبة التكلفة",
+      "agency_reviews": "تقييمات الوكالات",
+      "documentation": "التوثيق",
+      "api_access": "الوصول إلى API"
+    },
+    "support": {
+      "title": "الدعم",
+      "help_center": "مركز المساعدة",
+      "faqs": "الأسئلة الشائعة",
+      "agency_support": "دعم الوكالات",
+      "client_support": "دعم العملاء"
+    },
+    "images": {
+      "title": "الصور",
+      "badge_alt": "شارة الجودة",
+      "chart_alt": "مخطط النمو"
+    },
+    "copyright": " {year} Top AI Agency .Inc | جميع الحقوق محفوظة.",
+    "terms": "الشروط والأحكام",
+    "privacy": "سياسة الخصوصية",
+    "loadMore": "تحميل المزيد"
+  },
+  "listing": {
+    "errorTitle": "حدث خطأ ما",
+    "errorDescription": "لم نتمكن من تحميل الوكالات. يرجى المحاولة مرة أخرى.",
+    "emptyStateTitle": "لم يتم العثور على وكالات",
+    "emptyStateDescription": "كن أول من يضيف وكالته إلى شبكتنا المتنامية من مزودي خدمات الذكاء الاصطناعي.",
+    "loadMore": "تحميل المزيد",
+    "verified": "موثق",
+    "topRated": "الأعلى تقييماً",
+    "projectsCompleted": "المشاريع المكتملة",
+    "viewProfile": "عرض الملف",
+    "shareProfile": "مشاركة الملف",
+    "endOfListMessage": "لقد وصلت إلى نهاية القائمة",
+    "reviews": "{count} تقييمات"
+  },
+  "listings": {
+    "agencies": "وكالات الذكاء الاصطناعي",
+    "neural-networks": "الشبكات العصبية",
+    "location-placeholder": "الموقع",
+    "services": "الخدمات",
+    "budget": "الميزانية",
+    "hourly-rate": "السعر بالساعة",
+    "industry": "الصناعة",
+    "reviews": "التقييمات",
+    "clear-all": "مسح الكل",
+    "show-more": "عرض المزيد",
+    "show-less": "عرض أقل",
+    "name": "الاسم",
+    "price": "ميزانية المشروع",
+    "employees": "حجم الفريق",
+    "errorTitle": "خطأ في تحميل الوكالات",
+    "errorDescription": "لم نتمكن من تحميل الوكالات. يرجى المحاولة مرة أخرى.",
+    "tryAgain": "حاول مرة أخرى",
+    "emptyStateTitle": "لم يتم العثور على وكالات",
+    "emptyStateSubtitle": "انضم إلى شبكتنا من مزودي خدمات الذكاء الاصطناعي",
+    "emptyStateDescription": "لم نجد وكالات تطابق معاييرك. حاول تعديل المرشحات أو كن أول من يدرج وكالته.",
+    "listAgency": "إدراج وكالة",
+    "loadMoreAgencies": "تحميل المزيد من الوكالات",
+    "endOfListMessage": "لقد وصلت إلى نهاية القائمة"
+  },
+  "agencyForm": {
+    "cardTitle": "سجل وكالتك",
+    "cardSubtitle": "انضم إلى دليلنا المختار من وكالات الذكاء الاصطناعي واعرض خبرتك للعملاء المحتملين.",
+    "form": {
+      "logo": {
+        "label": "تحميل الشعار",
+        "maxSize": "الحجم الأقصى للملف: 2 ميجابايت"
+      },
+      "name": {
+        "label": "اسم الوكالة/الفريق",
+        "placeholder": "مثال MVPhero"
+      },
+      "shortDescription": {
+        "label": "وصف مختصر",
+        "placeholder": "نظرة عامة موجزة عن وكالتك (150 حرف كحد أقصى)"
+      },
+      "fullDescription": {
+        "label": "الوصف الكامل",
+        "placeholder": "وصف مفصل لوكالتك وخدماتها وخبراتها"
+      },
+      "founded": {
+        "label": "سنة التأسيس",
+        "placeholder": "اختر السنة"
+      },
+      "projectsDone": {
+        "label": "المشاريع المنجزة",
+        "placeholder": "اختر المشاريع"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "مثال: your@email.com"
+      },
+      "phone": {
+        "label": "الهاتف",
+        "placeholder": "أدخل رقم الهاتف"
+      },
+      "location": {
+        "label": "الموقع",
+        "placeholder": "اختر الموقع",
+        "searchPlaceholder": "البحث عن موقع",
+        "notFound": "لم يتم العثور على موقع."
+      },
+      "website": {
+        "label": "رابط الموقع الإلكتروني",
+        "placeholder": "https://www.example.com"
+      },
+      "linkedin": {
+        "label": "رابط LinkedIn",
+        "placeholder": "https://www.linkedin.com/company/your-agency"
+      },
+      "twitter": {
+        "label": "حساب X/تويتر",
+        "placeholder": "اسم المستخدم في X/تويتر"
+      },
+      "categories": {
+        "label": "تخصص الوكالة/الفريق"
+      },
+      "skills": {
+        "label": "مهارات الوكالة/الفريق",
+        "searchPlaceholder": "البحث عن المهارات...",
+        "notFound": "لم يتم العثور على مهارة.",
+        "selectSkills": "اختر المهارات"
+      },
+      "teamSize": {
+        "label": "حجم الفريق",
+        "placeholder": "اختر حجم الفريق",
+        "options": {
+          "1-5": "1-5",
+          "6-10": "6-10",
+          "11-20": "11-20",
+          "21-50": "21-50",
+          "51-100": "51-100",
+          "100+": "+100"
+        }
+      },
+      "budget": {
+        "label": "الميزانية تبدأ من",
+        "placeholder": "الميزانية الأولية"
+      },
+      "pitchVideo": {
+        "label": "رابط فيديو العرض (اختياري)",
+        "placeholder": "https://www.youtube.com/watch?v=...",
+        "helper": "ليس لديك رابط فيديو؟ قم بإنشاء واحد الآن باستخدام"
+      },
+      "team": {
+        "label": "أعضاء فريق الدعم",
+        "twitter": {
+          "placeholder": "اسم المستخدم في X/تويتر",
+          "error": "تنسيق اسم مستخدم Twitter/X غير صالح"
+        },
+        "name": {
+          "placeholder": "الاسم"
+        },
+        "role": {
+          "label": "اختر الدور",
+          "searchPlaceholder": "البحث عن الأدوار...",
+          "notFound": "لم يتم العثور على دور."
+        },
+        "addMember": "إضافة عضو"
+      },
+      "submit": "إرسال",
+      "submitting": "جاري الإرسال...",
+      "listedWithin": "سيتم الإدراج خلال 24 ساعة"
+    },
+    "validation": {
+      "required": "هذا الحقل مطلوب",
+      "email": "عنوان بريد إلكتروني غير صالح",
+      "url": "تنسيق URL غير صالح",
+      "twitter": "تنسيق اسم مستخدم Twitter/X غير صالح"
+    },
+    "messages": {
+      "success": "تم إرسال وكالتك للمراجعة.",
+      "error": "يرجى التحقق من أن جميع الحقول المطلوبة قد تم ملؤها بشكل صحيح."
+    }
+  },
+  "newsletter": {
+    "title": "ابق على اطلاع بابتكارات الذكاء الاصطناعي",
+    "first_name": "الاسم الأول",
+    "last_name": "اسم العائلة",
+    "email": "البريد الإلكتروني *",
+    "sign_up": "اشترك",
+    "success": "تم الاشتراك بنجاح!",
+    "error": "حدث خطأ في الاشتراك. يرجى المحاولة مرة أخرى.",
+    "disclaimer": "اشترك للحصول على معلومات أسبوعية حول وكالات الذكاء الاصطناعي واتجاهات الصناعة ونصائح الخبراء. يمكنك إلغاء الاشتراك في أي وقت."
+  },
+  "services": {
+    "title": "الخدمات",
+    "ai_development": "تطوير الذكاء الاصطناعي",
+    "mvp_building": "بناء MVP",
+    "saas_development": "تطوير SaaS",
+    "ai_integration": "دمج الذكاء الاصطناعي",
+    "custom_solutions": "حلول مخصصة",
+    "ai_consulting": "استشارات الذكاء الاصطناعي",
+    "project_management": "إدارة المشاريع"
+  },
+  "company": {
+    "title": "الشركة",
+    "about": "عن الشركة",
+    "how_it_works": "كيف يعمل",
+    "list_agency": "إضافة وكالة",
+    "success_stories": "قصص النجاح",
+    "blog": "المدونة",
+    "contact": "اتصل بنا"
+  },
+  "resources": {
+    "title": "الموارد",
+    "ai_guide": "دليل الذكاء الاصطناعي",
+    "project_planning": "تخطيط المشاريع",
+    "cost_calculator": "حاسبة التكلفة",
+    "agency_reviews": "تقييمات الوكالات",
+    "documentation": "التوثيق",
+    "api_access": "الوصول إلى API"
+  },
+  "support": {
+    "title": "الدعم",
+    "help_center": "مركز المساعدة",
+    "faqs": "الأسئلة الشائعة",
+    "agency_support": "دعم الوكالات",
+    "client_support": "دعم العملاء"
+  },
+  "images": {
+    "badge_alt": "شارة الجودة",
+    "chart_alt": "مخطط النمو"
+  },
+  "copyright": " {year} جميع الحقوق محفوظة",
+  "terms": "الشروط والأحكام",
+  "privacy": "سياسة الخصوصية",
+  "footer": {
+    "company": "الشركة",
+    "about": "عن الشركة",
+    "careers": "الوظائف",
+    "blog": "المدونة",
+    "contact": "اتصل بنا",
+    "resources": "الموارد",
+    "help": "المساعدة",
+    "privacy": "سياسة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "copyright": " {year} Top AI Agency. جميع الحقوق محفوظة."
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "subtitle": "مرحباً بعودتك",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "forgot_password": "نسيت كلمة المرور؟",
+      "remember_me": "تذكرني",
+      "submit": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "إنشاء حساب",
+      "error": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+      "success": "تم تسجيل الدخول بنجاح"
+    },
+    "register": {
+      "title": "التسجيل",
+      "subtitle": "إنشاء حسابك",
+      "name": "الاسم الكامل",
+      "username": "اسم المستخدم",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirm_password": "تأكيد كلمة المرور",
+      "agree_terms": "أوافق على {terms} و {privacy}",
+      "terms": "الشروط والأحكام",
+      "privacy": "سياسة الخصوصية",
+      "submit": "تسجيل",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول",
+      "error": {
+        "general": "خطأ في التسجيل",
+        "email_exists": "البريد الإلكتروني مسجل بالفعل",
+        "password_mismatch": "كلمات المرور غير متطابقة",
+        "weak_password": "كلمة المرور ضعيفة جداً",
+        "invalid_email": "البريد الإلكتروني غير صالح"
+      },
+      "success": "تم التسجيل بنجاح",
+      "verification_sent": "تم إرسال رسالة التحقق"
+    },
+    "signup": {
+      "title": "التسجيل",
+      "subtitle": "أنشئ حسابك المجاني",
+      "cta": "سجل الآن",
+      "benefits": {
+        "title": "المميزات",
+        "1": "الوصول إلى جميع وكالات الذكاء الاصطناعي",
+        "2": "تواصل مباشر مع المزودين",
+        "3": "استشارة مجانية",
+        "4": "توصيات مخصصة"
+      }
+    }
+  },
+  "create": {
+    "title": "إنشاء وكالة",
+    "subtitle": "أضف وكالة الذكاء الاصطناعي الخاصة بك",
+    "agency_name": "اسم الوكالة",
+    "agency_description": "الوصف",
+    "location": "الموقع",
+    "website": "الموقع الإلكتروني",
+    "services": "الخدمات",
+    "team_size": "حجم الفريق",
+    "hourly_rate": "السعر بالساعة",
+    "contact_email": "البريد الإلكتروني للتواصل",
+    "contact_phone": "هاتف التواصل",
+    "submit": "إنشاء الوكالة",
+    "success": "تم إنشاء الوكالة بنجاح",
+    "error": "خطأ في إنشاء الوكالة"
+  },
+  "header": {
+    "sign_up": "التسجيل",
+    "sign_in": "تسجيل الدخول",
+    "menu": "القائمة",
+    "close": "إغلاق",
+    "search": "بحث"
+  }
 }

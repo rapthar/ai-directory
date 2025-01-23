@@ -1,8 +1,338 @@
 {
-  "navigation.home": "Início",
-  "common.company.blog": "Blog",
-  "common.company.contact": "Contato",
-  "common.auth.signIn": "Entrar",
-  "common.listAgency": "Adicionar sua agência",
-  "agencyForm": "Formulário da Agência"
+  "contact": {
+    "title": "Contato",
+    "description": "Estamos aqui para ajudar. Preencha o formulário abaixo e responderemos o mais breve possível.",
+    "form": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "message": "Mensagem",
+      "submit": "Enviar",
+      "success": "Sua mensagem foi enviada com sucesso!",
+      "error": "Ocorreu um erro. Por favor, tente novamente."
+    }
+  },
+  "hero": {
+    "find": "Encontre sua",
+    "agency": "agência perfeita",
+    "search_placeholder": "Pesquisar por nome da agência ou expertise...",
+    "any_location": "Qualquer localização",
+    "find_provider": "Encontrar fornecedor"
+  },
+  "navigation": {
+    "home": "Início",
+    "blog": "Blog",
+    "contact": "Contato",
+    "signUp": "Cadastrar",
+    "products": "Produtos",
+    "stats": "Estatísticas",
+    "resources": "Recursos",
+    "list_agency": "Adicionar agência",
+    "contact_us": "Fale conosco"
+  },
+  "common": {
+    "tryAgain": "Tentar novamente",
+    "listAgency": "Adicionar sua agência",
+    "auth": {
+      "title": "Autenticação",
+      "signIn": "Entrar",
+      "signOut": "Sair",
+      "register": "Cadastrar",
+      "signUp": "Cadastrar"
+    },
+    "services": {
+      "title": "Serviços",
+      "ai_development": "Desenvolvimento de IA",
+      "mvp_building": "Criação de MVP",
+      "saas_development": "Desenvolvimento SaaS",
+      "ai_integration": "Integração de IA",
+      "custom_solutions": "Soluções personalizadas",
+      "ai_consulting": "Consultoria em IA",
+      "project_management": "Gestão de projetos"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre nós",
+      "how_it_works": "Como funciona",
+      "list_agency": "Adicionar agência",
+      "success_stories": "Casos de sucesso",
+      "blog": "Blog",
+      "contact": "Contato"
+    },
+    "resources": {
+      "title": "Recursos",
+      "ai_guide": "Guia de agências de IA",
+      "project_planning": "Planejamento de projetos",
+      "cost_calculator": "Calculadora de custos",
+      "agency_reviews": "Avaliações de agências",
+      "documentation": "Documentação",
+      "api_access": "Acesso à API"
+    },
+    "support": {
+      "title": "Suporte",
+      "help_center": "Central de ajuda",
+      "faqs": "Perguntas frequentes",
+      "agency_support": "Suporte para agências",
+      "client_support": "Suporte para clientes"
+    },
+    "images": {
+      "title": "Imagens",
+      "badge_alt": "Distintivo de Qualidade",
+      "chart_alt": "Gráfico de Crescimento"
+    },
+    "copyright": " {year} Top AI Agency .Inc | Todos os direitos reservados.",
+    "terms": "Termos de Uso",
+    "privacy": "Política de Privacidade",
+    "loadMore": "Carregar mais"
+  },
+  "newsletter": {
+    "title": "Fique atualizado com as inovações em IA",
+    "first_name": "Nome",
+    "last_name": "Sobrenome",
+    "email": "Endereço de e-mail *",
+    "sign_up": "INSCREVER-SE",
+    "disclaimer": "Inscreva-se para receber informações semanais sobre agências de IA, tendências do setor e dicas de especialistas. Você pode cancelar a qualquer momento.",
+    "success": "Inscrição na newsletter realizada com sucesso!",
+    "error": "Falha na inscrição. Por favor, tente novamente mais tarde."
+  },
+  "listing": {
+    "errorTitle": "Algo deu errado",
+    "errorDescription": "Não foi possível carregar as agências. Por favor, tente novamente.",
+    "emptyStateTitle": "Nenhuma agência encontrada",
+    "emptyStateDescription": "Seja o primeiro a adicionar sua agência à nossa crescente rede de provedores de serviços de IA.",
+    "loadMore": "Carregar mais",
+    "verified": "Verificado",
+    "topRated": "Melhor avaliado",
+    "projectsCompleted": "Projetos concluídos",
+    "viewProfile": "Ver perfil",
+    "shareProfile": "Compartilhar perfil",
+    "endOfListMessage": "Você chegou ao fim da lista"
+  },
+  "listings": {
+    "agencies": "Agências de IA",
+    "neural-networks": "Redes neurais",
+    "location-placeholder": "Localização",
+    "services": "Serviços",
+    "budget": "Orçamento",
+    "hourly-rate": "Taxa horária",
+    "industry": "Indústria",
+    "reviews": "Avaliações",
+    "clear-all": "Limpar tudo",
+    "show-more": "Mostrar mais",
+    "show-less": "Mostrar menos",
+    "name": "Nome",
+    "price": "Orçamento do projeto",
+    "employees": "Tamanho da equipe",
+    "errorTitle": "Erro ao carregar agências",
+    "errorDescription": "Não foi possível carregar as agências. Por favor, tente novamente.",
+    "tryAgain": "Tentar novamente",
+    "emptyStateTitle": "Nenhuma agência encontrada",
+    "emptyStateSubtitle": "Junte-se à nossa rede de provedores de serviços de IA",
+    "emptyStateDescription": "Não encontramos agências que correspondam aos seus critérios. Tente ajustar seus filtros ou seja o primeiro a listar sua agência.",
+    "listAgency": "Listar agência",
+    "loadMoreAgencies": "Carregar mais agências",
+    "endOfListMessage": "Você chegou ao fim da lista"
+  },
+  "agencyForm": {
+    "cardTitle": "Registre sua Agência",
+    "cardSubtitle": "Junte-se ao nosso diretório selecionado de agências de IA e mostre sua expertise para clientes em potencial.",
+    "form": {
+      "logo": {
+        "label": "Carregar Logo",
+        "maxSize": "Tamanho máximo do arquivo: 2MB"
+      },
+      "name": {
+        "label": "Nome da Agência/Equipe",
+        "placeholder": "ex. MVPhero"
+      },
+      "shortDescription": {
+        "label": "Descrição Curta",
+        "placeholder": "Breve visão geral da sua agência (máximo 150 caracteres)"
+      },
+      "fullDescription": {
+        "label": "Descrição Completa",
+        "placeholder": "Descrição detalhada da sua agência, serviços e expertise"
+      },
+      "founded": {
+        "label": "Ano de Fundação",
+        "placeholder": "Selecionar Ano"
+      },
+      "projectsDone": {
+        "label": "Projetos Realizados",
+        "placeholder": "Selecionar Projetos"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "ex. seu@email.com"
+      },
+      "phone": {
+        "label": "Telefone",
+        "placeholder": "Digite o número de telefone"
+      },
+      "location": {
+        "label": "Localização",
+        "placeholder": "Selecionar Localização",
+        "searchPlaceholder": "Buscar localização",
+        "notFound": "Localização não encontrada."
+      },
+      "website": {
+        "label": "URL do Site",
+        "placeholder": "https://www.exemplo.com"
+      },
+      "linkedin": {
+        "label": "URL do LinkedIn",
+        "placeholder": "https://www.linkedin.com/company/sua-agencia"
+      },
+      "twitter": {
+        "label": "Usuário do X/Twitter",
+        "placeholder": "Usuário do X/Twitter"
+      },
+      "categories": {
+        "label": "Especialidade da Agência/Equipe"
+      },
+      "skills": {
+        "label": "Habilidades da Agência/Equipe",
+        "searchPlaceholder": "Buscar habilidades...",
+        "notFound": "Habilidade não encontrada.",
+        "selectSkills": "Selecionar Habilidades"
+      },
+      "teamSize": {
+        "label": "Tamanho da Equipe",
+        "placeholder": "Selecionar Tamanho da Equipe",
+        "options": {
+          "1-5": "1-5",
+          "6-10": "6-10",
+          "11-20": "11-20",
+          "21-50": "21-50",
+          "51-100": "51-100",
+          "100+": "100+"
+        }
+      },
+      "budget": {
+        "label": "Orçamento a partir de",
+        "placeholder": "Orçamento Inicial"
+      },
+      "pitchVideo": {
+        "label": "URL do Vídeo de Apresentação (opcional)",
+        "placeholder": "https://www.youtube.com/watch?v=...",
+        "helper": "Sem link de vídeo? Crie um agora usando"
+      },
+      "team": {
+        "label": "Membros da Equipe de Suporte",
+        "twitter": {
+          "placeholder": "Usuário do X/Twitter",
+          "error": "Formato de usuário do Twitter/X inválido"
+        },
+        "name": {
+          "placeholder": "Nome"
+        },
+        "role": {
+          "label": "Selecionar função",
+          "searchPlaceholder": "Buscar funções...",
+          "notFound": "Função não encontrada."
+        },
+        "addMember": "Adicionar Membro"
+      },
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "listedWithin": "Listado em 24 horas"
+    },
+    "validation": {
+      "required": "Este campo é obrigatório",
+      "email": "Endereço de e-mail inválido",
+      "url": "Formato de URL inválido",
+      "twitter": "Formato de usuário do Twitter/X inválido"
+    },
+    "messages": {
+      "success": "Sua agência foi enviada para revisão.",
+      "error": "Por favor, verifique se todos os campos obrigatórios estão preenchidos corretamente."
+    }
+  },
+  "footer": {
+    "company": "Empresa",
+    "about": "Sobre nós",
+    "careers": "Carreiras",
+    "blog": "Blog",
+    "contact": "Contato",
+    "resources": "Recursos",
+    "help": "Ajuda",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "copyright": " {year} Top AI Agency. Todos os direitos reservados."
+  },
+  "auth": {
+    "login": {
+      "title": "Entrar",
+      "subtitle": "Bem-vindo de volta",
+      "email": "E-mail",
+      "password": "Senha",
+      "forgot_password": "Esqueceu sua senha?",
+      "remember_me": "Manter conectado",
+      "submit": "Entrar",
+      "noAccount": "Não tem uma conta?",
+      "signUp": "Cadastrar",
+      "error": "E-mail ou senha inválidos",
+      "success": "Login realizado com sucesso"
+    },
+    "register": {
+      "title": "Cadastrar",
+      "subtitle": "Crie sua conta",
+      "name": "Nome completo",
+      "username": "Nome de usuário",
+      "email": "E-mail",
+      "password": "Senha",
+      "confirm_password": "Confirmar senha",
+      "agree_terms": "Concordo com os {terms} e a {privacy}",
+      "terms": "termos de uso",
+      "privacy": "política de privacidade",
+      "submit": "Cadastrar",
+      "haveAccount": "Já tem uma conta?",
+      "signIn": "Entrar",
+      "error": {
+        "general": "Erro no cadastro",
+        "email_exists": "Este e-mail já está cadastrado",
+        "password_mismatch": "As senhas não coincidem",
+        "weak_password": "A senha é muito fraca",
+        "invalid_email": "E-mail inválido"
+      },
+      "success": "Cadastro realizado com sucesso",
+      "verification_sent": "E-mail de verificação enviado"
+    },
+    "signup": {
+      "title": "Cadastrar",
+      "subtitle": "Crie sua conta gratuita",
+      "cta": "Cadastre-se agora",
+      "benefits": {
+        "title": "Benefícios",
+        "1": "Acesso a todas as agências de IA",
+        "2": "Contato direto com fornecedores",
+        "3": "Consultoria gratuita",
+        "4": "Recomendações personalizadas"
+      }
+    }
+  },
+  "create": {
+    "title": "Criar agência",
+    "subtitle": "Adicione sua agência de IA",
+    "agency_name": "Nome da agência",
+    "agency_description": "Descrição",
+    "location": "Localização",
+    "website": "Website",
+    "services": "Serviços",
+    "team_size": "Tamanho da equipe",
+    "hourly_rate": "Taxa horária",
+    "contact_email": "E-mail de contato",
+    "contact_phone": "Telefone de contato",
+    "submit": "Criar agência",
+    "success": "Agência criada com sucesso",
+    "error": "Erro ao criar agência"
+  },
+  "header": {
+    "sign_up": "Cadastrar",
+    "sign_in": "Entrar",
+    "menu": "Menu",
+    "close": "Fechar",
+    "search": "Buscar"
+  }
 }

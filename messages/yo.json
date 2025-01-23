@@ -49,8 +49,283 @@
       "badge_alt": "Aami Ferroque",
       "chart_alt": "Aworan Ferroque"
     },
-    "copyright": "© {year} Top AI Agency .Inc | Gbogbo ẹtọ wa ni ipamọ.",
+    "copyright": " {year} Top AI Agency .Inc | Gbogbo ẹtọ wa ni ipamọ.",
     "terms": "Awọn ofin",
-    "privacy": "Aṣiri"
+    "privacy": "Aṣiri",
+    "loadMore": "Fi sii"
+  },
+  "contact": {
+    "title": "Kan si wa",
+    "description": "A wa nibi lati ran ọ lọwọ. Fi fọọmu yi silẹ ni isalẹ ati pe a yoo dahun laipe.",
+    "form": {
+      "firstName": "Orukọ kini",
+      "lastName": "Orukọ idile",
+      "email": "Imeeli",
+      "phone": "Fonu",
+      "message": "Ọrọ",
+      "submit": "Firanṣẹ",
+      "success": "A ti fi ọrọ rẹ ranṣẹ ni aṣeyọri!",
+      "error": "Aṣiṣe kan ṣẹlẹ. Jọwọ gbiyanju lẹẹkansi."
+    }
+  },
+  "hero": {
+    "find": "Wa",
+    "agency": "ile-iṣẹ to dara julọ",
+    "search_placeholder": "Wa ile-iṣẹ tabi oye...",
+    "any_location": "Ibikibi",
+    "find_provider": "Wa olupese"
+  },
+  "navigation": {
+    "home": "Ile",
+    "blog": "Bulọọgi",
+    "contact": "Kan si wa",
+    "signUp": "Forukọsilẹ",
+    "products": "Awọn ọja",
+    "stats": "Iwe-iroyin",
+    "resources": "Awọn ohun elo",
+    "list_agency": "Fi ile-iṣẹ kun",
+    "contact_us": "Kan si wa",
+    "agencies": "Awọn ile-iṣẹ",
+    "signUp": "Forukọsilẹ"
+  },
+  "footer": {
+    "company": "Ile-iṣẹ",
+    "about": "Nipa wa",
+    "careers": "Iṣẹ",
+    "blog": "Bulọọgi",
+    "contact": "Kan si wa",
+    "resources": "Awọn ohun elo",
+    "help": "Iranlọwọ",
+    "privacy": "Aṣiri",
+    "terms": "Awọn ofin",
+    "copyright": " {year} Top AI Agency. Gbogbo ẹtọ wa ni ipamọ."
+  },
+  "listing": {
+    "errorTitle": "Nkan kan ṣẹlẹ",
+    "errorDescription": "A ko le gba awọn ile-iṣẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "emptyStateTitle": "Ko si awọn ile-iṣẹ",
+    "emptyStateDescription": "Jẹ ẹni akọkọ lati fi ile-iṣẹ rẹ kun si nẹtiwọọki wa ti n dagba ti awọn olupese iṣẹ AI.",
+    "loadMore": "Fi sii",
+    "verified": "Ti jẹrisi",
+    "topRated": "Awọn ti o dara julọ",
+    "projectsCompleted": "Awọn iṣẹ ti pari",
+    "viewProfile": "Wo profaili",
+    "shareProfile": "Pin profaili",
+    "endOfListMessage": "O ti de opin akojọ naa",
+    "reviews": "{count} Awọn atunyẹwo"
+  },
+  "listings": {
+    "agencies": "Awọn ile-iṣẹ AI",
+    "neural-networks": "Awọn nẹtiwọọki neural",
+    "location-placeholder": "Ipo",
+    "services": "Awọn iṣẹ",
+    "budget": "Owo",
+    "hourly-rate": "Iye owo wakati",
+    "industry": "Ile-iṣẹ",
+    "reviews": "Awọn atunyẹwo",
+    "clear-all": "Pa gbogbo rẹ rẹ",
+    "show-more": "Fi sii",
+    "show-less": "Fi kere si",
+    "name": "Orukọ",
+    "price": "Owo iṣẹ",
+    "employees": "Iwọn ẹgbẹ",
+    "errorTitle": "Aṣiṣe ni gbigba awọn ile-iṣẹ",
+    "errorDescription": "A ko le gba awọn ile-iṣẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "tryAgain": "Tun gbiyanju",
+    "emptyStateTitle": "Ko si awọn ile-iṣẹ",
+    "emptyStateSubtitle": "Darapọ mọ nẹtiwọọki wa ti awọn olupese iṣẹ AI",
+    "emptyStateDescription": "A ko ri awọn ile-iṣẹ ti o ba awọn aṣa rẹ mu. Gbiyanju lati ṣatunṣe awọn aṣayan rẹ tabi jẹ ẹni akọkọ lati fi ile-iṣẹ rẹ silẹ.",
+    "listAgency": "Fi ile-iṣẹ silẹ",
+    "loadMoreAgencies": "Gba diẹ sii ninu awọn ile-iṣẹ",
+    "endOfListMessage": "O ti de opin akojọ naa"
+  },
+  "auth": {
+    "login": {
+      "title": "Wọle",
+      "subtitle": "E ku apadabo",
+      "email": "Imeeli",
+      "password": "Ọrọ igbaniwọle",
+      "forgot_password": "O gbagbe ọrọ igbaniwọle?",
+      "remember_me": "Ranti mi",
+      "submit": "Wọle",
+      "noAccount": "O ko ni akọọlẹ?",
+      "signUp": "Forukọsilẹ",
+      "error": "Imeeli tabi ọrọ igbaniwọle ti ko tọ",
+      "success": "O ti wọle ni aṣeyọri"
+    },
+    "register": {
+      "title": "Forukọsilẹ",
+      "subtitle": "Ṣẹda akọọlẹ rẹ",
+      "name": "Orukọ kikun",
+      "username": "Orukọ aṣàmúlò",
+      "email": "Imeeli",
+      "password": "Ọrọ igbaniwọle",
+      "confirm_password": "Jẹrisi ọrọ igbaniwọle",
+      "agree_terms": "Mo gba {terms} ati {privacy}",
+      "terms": "awọn ofin ati ipese",
+      "privacy": "asiri",
+      "submit": "Forukọsilẹ",
+      "haveAccount": "O ni akọọlẹ tẹlẹ?",
+      "signIn": "Wọle",
+      "error": {
+        "general": "Aṣiṣe ni iforukọsilẹ",
+        "email_exists": "Imeeli yi ti wa ni lilo",
+        "password_mismatch": "Awọn ọrọ igbaniwọle ko baramu",
+        "weak_password": "Ọrọ igbaniwọle jẹ alagbara",
+        "invalid_email": "Imeeli ti ko tọ"
+      },
+      "success": "Iforukọsilẹ ti ṣe ni aṣeyọri",
+      "verification_sent": "A ti fi imeeli ijẹrisi ranṣẹ"
+    },
+    "signup": {
+      "title": "Forukọsilẹ",
+      "subtitle": "Ṣẹda akọọlẹ ọfẹ rẹ",
+      "cta": "Forukọsilẹ bayi",
+      "benefits": {
+        "title": "Awọn anfani",
+        "1": "Wiwọle si gbogbo awọn ile-iṣẹ AI",
+        "2": "Kàn sí àwọn olupese taara",
+        "3": "Imọran ọfẹ",
+        "4": "Awọn iṣeduro pato"
+      }
+    }
+  },
+  "create": {
+    "title": "Ṣẹda ile-iṣẹ",
+    "subtitle": "Fi ile-iṣẹ AI rẹ kun",
+    "agency_name": "Orukọ ile-iṣẹ",
+    "agency_description": "Apejuwe",
+    "location": "Ipo",
+    "website": "Aaye ayelujara",
+    "services": "Awọn iṣẹ",
+    "team_size": "Iwọn ẹgbẹ",
+    "hourly_rate": "Iye owo wakati",
+    "contact_email": "Imeeli fún kíkàn sí",
+    "contact_phone": "Fonu fún kíkàn sí",
+    "submit": "Ṣẹda ile-iṣẹ",
+    "success": "Ile-iṣẹ ti ṣẹda ni aṣeyọri",
+    "error": "Aṣiṣe ni ṣiṣẹda ile-iṣẹ"
+  },
+  "header": {
+    "sign_up": "Forukọsilẹ",
+    "sign_in": "Wọle",
+    "menu": "Akojọ",
+    "close": "Pa",
+    "search": "Wa"
+  },
+  "agencyForm": {
+    "cardTitle": "Forukọsilẹ Ile-iṣẹ rẹ",
+    "cardSubtitle": "Darapọ mọ atọka aṣayan wa ti awọn ile-iṣẹ AI ati ṣafihan ọgbọn rẹ fun awọn oludokoowo ti o ṣeeṣe.",
+    "form": {
+      "logo": {
+        "label": "Gbe Aami soke",
+        "maxSize": "Iwọn faili to pọju julọ: 2MB"
+      },
+      "name": {
+        "label": "Orukọ Ile-iṣẹ/Ẹgbẹ",
+        "placeholder": "fun apẹẹrẹ MVPhero"
+      },
+      "shortDescription": {
+        "label": "Apejuwe Kukuru",
+        "placeholder": "Akopọ kukuru nipa ile-iṣẹ rẹ (o pọju 150 lẹta)"
+      },
+      "fullDescription": {
+        "label": "Apejuwe Kikun",
+        "placeholder": "Apejuwe ni kikun ti ile-iṣẹ rẹ, awọn iṣẹ ati ọgbọn"
+      },
+      "founded": {
+        "label": "Ọdun Ipilẹṣẹ",
+        "placeholder": "Yan Ọdun"
+      },
+      "projectsDone": {
+        "label": "Awọn iṣẹ ti a Pari",
+        "placeholder": "Yan Awọn iṣẹ"
+      },
+      "email": {
+        "label": "Imeeli",
+        "placeholder": "fun apẹẹrẹ your@email.com"
+      },
+      "phone": {
+        "label": "Foonu",
+        "placeholder": "Tẹ nọmba foonu sii"
+      },
+      "location": {
+        "label": "Ipo",
+        "placeholder": "Yan Ipo",
+        "searchPlaceholder": "Wa ipo",
+        "notFound": "Ko ri ipo."
+      },
+      "website": {
+        "label": "URL Aaye ayelujara",
+        "placeholder": "https://www.example.com"
+      },
+      "linkedin": {
+        "label": "URL LinkedIn",
+        "placeholder": "https://www.linkedin.com/company/your-agency"
+      },
+      "twitter": {
+        "label": "Orukọ X/Twitter",
+        "placeholder": "Orukọ olumulo X/Twitter"
+      },
+      "categories": {
+        "label": "Aṣa Ile-iṣẹ/Ẹgbẹ"
+      },
+      "skills": {
+        "label": "Awọn Ọgbọn Ile-iṣẹ/Ẹgbẹ",
+        "searchPlaceholder": "Wa awọn ọgbọn...",
+        "notFound": "Ko ri ọgbọn.",
+        "selectSkills": "Yan Awọn Ọgbọn"
+      },
+      "teamSize": {
+        "label": "Iwọn Ẹgbẹ",
+        "placeholder": "Yan Iwọn Ẹgbẹ",
+        "options": {
+          "1-5": "1-5",
+          "6-10": "6-10",
+          "11-20": "11-20",
+          "21-50": "21-50",
+          "51-100": "51-100",
+          "100+": "100+"
+        }
+      },
+      "budget": {
+        "label": "Owo ibẹrẹ lati",
+        "placeholder": "Owo Ibẹrẹ"
+      },
+      "pitchVideo": {
+        "label": "URL Fidio Ifihan (aṣayan)",
+        "placeholder": "https://www.youtube.com/watch?v=...",
+        "helper": "Ko si ọna asopọ fidio? Ṣẹda ọkan bayi pẹlu"
+      },
+      "team": {
+        "label": "Awọn Ọmọ Ẹgbẹ Atilẹyin",
+        "twitter": {
+          "placeholder": "Orukọ olumulo X/Twitter",
+          "error": "Ọna kika orukọ olumulo Twitter/X ko tọ"
+        },
+        "name": {
+          "placeholder": "Orukọ"
+        },
+        "role": {
+          "label": "Yan ipa",
+          "searchPlaceholder": "Wa awọn ipa...",
+          "notFound": "Ko ri ipa."
+        },
+        "addMember": "Fi Ọmọ Ẹgbẹ kun"
+      },
+      "submit": "Firanṣẹ",
+      "submitting": "Nfiranṣẹ...",
+      "listedWithin": "Yoo han laarin wakati 24"
+    },
+    "validation": {
+      "required": "A nilo aaye yii",
+      "email": "Adirẹsi imeeli ti ko tọ",
+      "url": "Ọna kika URL ko tọ",
+      "twitter": "Ọna kika orukọ olumulo Twitter/X ko tọ"
+    },
+    "messages": {
+      "success": "A ti fi ile-iṣẹ rẹ ranṣẹ fun ayẹwo.",
+      "error": "Jọwọ ṣayẹwo pe gbogbo awọn aaye ti a nilo ni a fi kun ni ọna ti o tọ."
+    }
   }
 }

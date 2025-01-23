@@ -1,18 +1,220 @@
 {
-  "contact": "Contact",
-  "contact.title": "Contactez-nous",
-  "contact.description": "Nous sommes là pour vous aider. Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
-  "contact.form.firstName": "Prénom",
-  "contact.form.lastName": "Nom",
-  "contact.form.email": "Email",
-  "contact.form.phone": "Téléphone",
-  "contact.form.message": "Message",
-  "contact.form.submit": "Envoyer",
-  "contact.form.success": "Votre message a été envoyé avec succès!",
-  "contact.form.error": "Une erreur s'est produite. Veuillez réessayer.",
-  "navigation.home": "Accueil",
-  "common.company.blog": "Blog",
-  "common.company.contact": "Contact",
-  "common.auth.signIn": "Se connecter",
-  "common.listAgency": "Ajouter votre agence"
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Nous sommes là pour vous aider. Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Votre message a été envoyé avec succès!",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    }
+  },
+  "hero": {
+    "find": "Trouvez votre",
+    "agency": "agence parfaite",
+    "search_placeholder": "Rechercher par nom d'agence ou expertise...",
+    "any_location": "N'importe où",
+    "find_provider": "Trouver un prestataire"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "contact": "Contact",
+    "signUp": "S'inscrire",
+    "products": "Produits",
+    "stats": "Statistiques",
+    "resources": "Ressources",
+    "list_agency": "Ajouter une agence",
+    "contact_us": "Nous contacter"
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Bon retour parmi nous",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié ?",
+      "remember_me": "Se souvenir de moi",
+      "sign_in": "Se connecter",
+      "submit": "Se connecter",
+      "noAccount": "Pas encore de compte ?",
+      "signUp": "S'inscrire",
+      "error": "E-mail ou mot de passe incorrect",
+      "success": "Connexion réussie"
+    },
+    "register": {
+      "title": "Inscription",
+      "subtitle": "Créez votre compte",
+      "name": "Nom complet",
+      "username": "Nom d'utilisateur",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "confirm_password": "Confirmer le mot de passe",
+      "agree_terms": "J'accepte les {terms} et la {privacy}",
+      "terms": "conditions d'utilisation",
+      "privacy": "politique de confidentialité",
+      "submit": "S'inscrire",
+      "haveAccount": "Déjà un compte ?",
+      "signIn": "Se connecter",
+      "error": {
+        "general": "Erreur lors de l'inscription",
+        "email_exists": "Cette adresse e-mail est déjà utilisée",
+        "password_mismatch": "Les mots de passe ne correspondent pas",
+        "weak_password": "Le mot de passe est trop faible",
+        "invalid_email": "Adresse e-mail invalide"
+      },
+      "success": "Inscription réussie",
+      "verification_sent": "Un e-mail de vérification a été envoyé"
+    },
+    "signup": {
+      "title": "Inscription",
+      "subtitle": "Créez votre compte gratuit",
+      "cta": "S'inscrire maintenant",
+      "benefits": {
+        "title": "Avantages",
+        "1": "Accès à toutes les agences d'IA",
+        "2": "Contact direct avec les fournisseurs",
+        "3": "Consultation gratuite",
+        "4": "Recommandations personnalisées"
+      }
+    }
+  },
+  "common": {
+    "tryAgain": "Réessayer",
+    "listAgency": "Ajouter votre agence",
+    "newsletter": {
+      "title": "Restez à la pointe de l'innovation en IA",
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "email": "Adresse email *",
+      "sign_up": "S'INSCRIRE",
+      "disclaimer": "Abonnez-vous pour recevoir des informations hebdomadaires sur les agences IA, les tendances du secteur et des conseils d'experts. Vous pouvez vous désabonner à tout moment.",
+      "success": "Inscription à la newsletter réussie !",
+      "error": "Échec de l'inscription. Veuillez réessayer plus tard."
+    },
+    "services": {
+      "title": "Services",
+      "ai_development": "Développement IA",
+      "mvp_building": "Création de MVP",
+      "saas_development": "Développement SaaS",
+      "ai_integration": "Intégration IA",
+      "custom_solutions": "Solutions personnalisées",
+      "ai_consulting": "Conseil en IA",
+      "project_management": "Gestion de projet"
+    },
+    "company": {
+      "title": "Entreprise",
+      "about": "À propos",
+      "how_it_works": "Comment ça marche",
+      "list_agency": "Ajouter votre agence",
+      "success_stories": "Témoignages",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "resources": {
+      "title": "Ressources",
+      "ai_guide": "Guide des agences IA",
+      "project_planning": "Planification de projet",
+      "cost_calculator": "Calculateur de coûts",
+      "agency_reviews": "Avis sur les agences",
+      "documentation": "Documentation",
+      "api_access": "Accès API"
+    },
+    "support": {
+      "title": "Support",
+      "help_center": "Centre d'aide",
+      "faqs": "FAQs",
+      "agency_support": "Support agence",
+      "client_support": "Support client"
+    },
+    "images": {
+      "title": "Images",
+      "badge_alt": "Badge Ferroque",
+      "chart_alt": "Graphique Ferroque"
+    },
+    "copyright": " {year} Top AI Agency .Inc | Tous droits réservés.",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "loadMore": "Charger plus"
+  },
+  "listing": {
+    "errorTitle": "Une erreur est survenue",
+    "errorDescription": "Nous n'avons pas pu charger les agences. Veuillez réessayer.",
+    "emptyStateTitle": "Aucune agence trouvée",
+    "emptyStateDescription": "Soyez le premier à ajouter votre agence à notre réseau croissant de fournisseurs de services IA.",
+    "loadMore": "Charger plus",
+    "verified": "Vérifié",
+    "topRated": "Très bien noté",
+    "projectsCompleted": "Projets terminés",
+    "viewProfile": "Voir le profil",
+    "shareProfile": "Partager le profil",
+    "endOfListMessage": "Vous avez atteint la fin de la liste",
+    "reviews": "{count} Avis"
+  },
+  "listings": {
+    "agencies": "Agences IA",
+    "neural-networks": "Réseaux de neurones",
+    "location-placeholder": "Localisation",
+    "services": "Services",
+    "budget": "Budget",
+    "hourly-rate": "Taux horaire",
+    "industry": "Industrie",
+    "reviews": "Avis",
+    "clear-all": "Tout effacer",
+    "show-more": "Voir plus",
+    "show-less": "Voir moins",
+    "name": "Nom",
+    "price": "Budget du projet",
+    "employees": "Taille de l'équipe",
+    "errorTitle": "Erreur de chargement des agences",
+    "errorDescription": "Nous n'avons pas pu charger les agences. Veuillez réessayer.",
+    "tryAgain": "Réessayer",
+    "emptyStateTitle": "Aucune agence trouvée",
+    "emptyStateSubtitle": "Rejoignez notre réseau de fournisseurs de services IA",
+    "emptyStateDescription": "Nous n'avons trouvé aucune agence correspondant à vos critères. Essayez d'ajuster vos filtres ou soyez le premier à lister votre agence.",
+    "listAgency": "Lister votre agence",
+    "loadMoreAgencies": "Charger plus d'agences",
+    "endOfListMessage": "Vous avez atteint la fin de la liste"
+  },
+  "agencyForm": {
+    "title": "Ajouter votre agence",
+    "subtitle": "Faites partie de notre répertoire d'agences d'IA",
+    "basicInfo": "Informations de base",
+    "agencyName": "Nom de l'agence",
+    "agencyNamePlaceholder": "Entrez le nom de votre agence",
+    "description": "Description",
+    "descriptionPlaceholder": "Décrivez votre agence et ses services...",
+    "location": "Localisation",
+    "locationPlaceholder": "Sélectionnez votre pays",
+    "website": "Site web",
+    "websitePlaceholder": "https://votreagence.com",
+    "categories": "Catégories",
+    "categoriesPlaceholder": "Sélectionnez les catégories",
+    "services": "Services",
+    "servicesPlaceholder": "Sélectionnez vos services",
+    "teamSize": "Taille de l'équipe",
+    "teamSizePlaceholder": "Nombre d'employés",
+    "hourlyRate": "Taux horaire",
+    "hourlyRatePlaceholder": "Taux horaire moyen en USD",
+    "contact": "Informations de contact",
+    "contactEmail": "Email de contact",
+    "contactEmailPlaceholder": "contact@votreagence.com",
+    "contactPhone": "Téléphone de contact",
+    "logo": "Logo de l'agence",
+    "logoHelp": "Téléchargez le logo de votre agence",
+    "submit": "Soumettre",
+    "success": "Agence ajoutée avec succès",
+    "error": "Erreur lors de l'ajout de l'agence",
+    "validation": {
+      "required": "Ce champ est requis",
+      "email": "Email invalide",
+      "url": "URL invalide",
+      "min": "Valeur minimale : {min}",
+      "max": "Valeur maximale : {max}"
+    }
+  }
 }

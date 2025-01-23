@@ -3,7 +3,15 @@
     "home": "Ile",
     "about": "Kí nìdí TopAI.Agency?",
     "create": "Fi Ilé-iṣẹ Rẹ Kun",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "signUp": "Forúkọsílẹ̀",
+    "blog": "Bulọọgi",
+    "contact": "Kan sí wa",
+    "products": "Àwọn Ọjà",
+    "stats": "Àwọn Ìwọ̀n",
+    "resources": "Àwọn Ohun Èlò",
+    "list_agency": "Fi Ilé-iṣẹ sílẹ̀",
+    "contact_us": "Kan sí wa"
   },
   "common": {
     "switchLocale": "Ṣe Àyípadà Èdè",
@@ -23,8 +31,16 @@
       "contact": "Kan sí wa"
     },
     "auth": {
-      "signIn": "Wọlé"
-    }
+      "signIn": "Wọlé",
+      "register": "Forúkọsílẹ̀",
+      "signUp": "Ṣẹ̀dá Àkọọ́lẹ̀",
+      "forgotPassword": "O gbàgbé Ọ̀rọ̀ Aṣínà?",
+      "resetPassword": "Tún Ọ̀rọ̀ Aṣínà Ṣe",
+      "createAccount": "Ṣẹ̀dá Àkọọ́lẹ̀"
+    },
+    "terms": "Àwọn Ìpèsè Iṣẹ́",
+    "privacy": "Ìlànà Àṣírí",
+    "copyright": " {year} Gbogbo ẹ̀tọ́ ni a ti pamọ́."
   },
   "sharer": {
     "title": "Ṣe o mọ ẹnikan tí o lè rí èyí lójúfẹ́ẹ́? Pín an!",
@@ -49,49 +65,81 @@
       "subdescription2": ". Kò sí ìwádìí àìnípẹ̀kun mọ́, yára rí àwọn ilé-iṣẹ́ tàbí ẹgbẹ́ tí o lè bá ṣiṣẹ́ nínú àkókò àti ìnáwó rẹ."
     },
     "cta": {
-      "title": "Ṣe O Tẹ́lẹ̀ Látí Ṣàtúnṣe Èrò Rẹ?",
-      "description": "Darapò mọ ogúnlọ́gọ̀ àwọn ilé-iṣẹ tí wọn ti rí aláfẹ́fẹ́ AI láti ọwọ́ TopAI.Agency."
+      "title": "Ṣe o ti ṣetán láti yí èrò rẹ padà?",
+      "description": "Darapọ̀ mọ́ ọ̀ọ́dúnrún àwọn iṣẹ́ tó ń ṣe déédé tí wọ́n ti rí ẹnìkejì imọ̀ ẹ̀rọ tó dára jù lọ nípasẹ̀ TopAI.Agency."
     }
   },
   "listings": {
-    "title": "Àtòjọ Ilé-iṣẹ",
-    "createNew": "Ṣẹda Atòjọ Tuntun",
-    "filter": "Àyẹ̀wò Àtòjọ",
-    "noResults": "Kò sí Àtòjọ Kankan"
+    "title": "Àkójọ Ilé-iṣẹ",
+    "createNew": "Ṣẹ̀dá Àkójọ Tuntun",
+    "filter": "Àjọ Àkójọ",
+    "noResults": "Kò sí àkójọ tí a rí",
+    "agencies": "Àwọn Ilé-iṣẹ AI",
+    "neural-networks": "Àwọn Ẹ̀rọ Ọpọlọ",
+    "location-placeholder": "Ibùdó",
+    "services": "Àwọn Iṣẹ́",
+    "budget": "Ìnáwó",
+    "hourly-rate": "Iye Owó Wákàtí",
+    "industry": "Ìṣọnà",
+    "reviews": "Àwọn Àgbéyẹ̀wò",
+    "clear-all": "Pa Gbogbo rẹ̀ Rẹ́",
+    "show-more": "Fi Síi Hàn",
+    "show-less": "Fi Kéré Hàn",
+    "errorTitle": "Àṣìṣe Nígbà Gbígbé Àwọn Ilé-iṣẹ Wọlé",
+    "errorDescription": "A kò le gbé àwọn ilé-iṣẹ wọlé. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi.",
+    "tryAgain": "Gbìyànjú Lẹ́ẹ̀kan Síi",
+    "emptyStateTitle": "Kò Sí Ilé-iṣẹ Tí A Rí",
+    "emptyStateSubtitle": "Darapọ̀ Mọ́ Ẹ̀ka Olùpèsè Iṣẹ́ AI Wa",
+    "emptyStateDescription": "A kò le rí àwọn ilé-iṣẹ tó bá àwọn àlẹ̀mọ́ rẹ mu. Gbìyànjú láti ṣàtúnṣe àwọn ajọ̀ rẹ tàbí jẹ́ ẹni àkọ́kọ́ láti fi ilé-iṣẹ rẹ sílẹ̀.",
+    "listAgency": "Fi Ilé-iṣẹ Rẹ Sílẹ̀",
+    "loadMoreAgencies": "Gbé Àwọn Ilé-iṣẹ Síi Wọlé",
+    "endOfListMessage": "O ti dé òpin àkójọ náà!"
   },
   "listing": {
-    "searchPlaceholder": "Ṣàwárí àwọn ilé-iṣẹ tó wà",
+    "searchPlaceholder": "Wá àwọn ilé-iṣẹ tó wà",
     "errorTitle": "Háà! Nǹkan kan ṣẹlẹ̀",
     "errorDescription": "A ní ìṣòro láti gbé àwọn ilé-iṣẹ wọlé lọ́wọ́lọ́wọ́. Èyí lè jẹ́ fún ìgbà díẹ̀, jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi.",
     "emptyStateTitle": "Jẹ́ Ẹni Àkọ́kọ́!",
     "emptyStateSubtitle": "Fi Ilé-iṣẹ tàbí Ẹgbẹ́ rẹ sílẹ̀ báyìí.",
-    "emptyStateDescription": "Darapọ̀ mọ́ ẹgbẹ́ pàtàkì àwọn ilé-iṣẹ́ àti ẹgbẹ́ aṣáájú tí ń ṣe àgbékalẹ̀ ọjọ́ ọ̀la iṣẹ́ AI. Gba àfihàn tí kò ní ìdọ́gba, àwọn olùtẹ̀lé, kí o sì darapọ̀ mọ́ àwọn oníbàárà pàtàkì ṣáájú ẹnikẹ́ni. Ilé-iṣẹ́ tàbí ẹgbẹ́ rẹ yóò wà níbí pẹ̀lú àtìlẹ́yìn fún àjọsọ dofollow, àti pẹ̀lú àtìlẹ́yìn SEO kíkún!",
-    "endOfListMessage": "O ti dé òpin àtòjọ náà! 🎉"
+    "emptyStateDescription": "Darapọ̀ mọ́ ẹgbẹ́ àṣà tí àwọn ilé-iṣẹ̀ àti ẹgbẹ́ tó ń ṣe ètò ọ̀jọ̀ iwájú fún iṣẹ́ AI. Gba àfihàn tí kò ní ìdọ́gba, àwọn iṣẹ́, kí o sì darapọ̀ mọ́ àwọn oníbàárà pàtàkì ṣáájú gbogbo ẹni. Ilé-iṣẹ tàbí ẹgbẹ́ rẹ yóò wà níbí pẹ̀lú àtìlẹ́yìn fún àwọn ìsopọ̀ dofollow àti àtìlẹ́yìn SEO kíkún!",
+    "endOfListMessage": "O ti dé òpin àkójọ náà! "
   },
   "hero": {
-    "find": "Wá",
-    "agency": "Ilé-iṣẹ",
+    "find": "Wa Ile-iṣẹ́ Pípé",
+    "agency": "Rẹ",
     "findAgencies": "Wá Àwọn Ilé-iṣẹ àti Ẹgbẹ́",
-    "announcement": "Fi ilé-iṣẹ rẹ sílẹ̀ LỌ́FẸ̀Ẹ́! 🎉🎉🎉",
-    "title": "Kọ́ kí o sì ṣe ìfilọ́lẹ̀ MVP tàbí àwọn iṣẹ́ nlá rẹ láàrín ìnáwó àti àkókò!",
-    "description": "Yí àwọn èrò rẹ di òtítọ́ kíákíá pẹ̀lú àwọn ilé-iṣẹ́ AI tí a ti fọwọ́sí àti àwọn olùdámọ̀ràn."
+    "announcement": "Fi Ilé-iṣẹ rẹ sílẹ̀ LỌ́FẸ̀Ẹ́! ",
+    "title": "Kọ́ kí o sì bẹ̀rẹ̀ MVP rẹ tàbí àwọn iṣẹ́ kíkún láàárín ìnáwó àti àkókò!",
+    "description": "Yára yí àwọn èrò rẹ padà sí òtítọ́ pẹ̀lú àwọn ilé-iṣẹ imọ̀ ẹ̀rọ AI àti olùdámọ̀ràn tí a ti fọwọ́sí.",
+    "search_placeholder": "Ṣe àwárí àwọn ilé-iṣẹ́ tó wà...",
+    "any_location": "Ibùdó Kankan",
+    "find_provider": "Wá Olùpèsè"
+  },
+  "contact": {
+    "title": "Kan sí Wa",
+    "subtitle": "Ṣé o ní ìbéèrè tàbí o fẹ́ ṣiṣẹ́ papọ̀? A fẹ́ gbọ́ láti ọ̀dọ̀ rẹ.",
+    "form": {
+      "firstName": "Orúkọ Àkọ́kọ́",
+      "lastName": "Orúkọ Ìdílé",
+      "email": "Àdírẹ́ẹ̀sì Imeeli",
+      "phone": "Nọ́mbà Fóònù (Àṣàyàn)",
+      "message": "Ọ̀rọ̀ Rẹ",
+      "submit": "Fi Ọ̀rọ̀ Ránṣẹ́",
+      "success": "Ọ̀rọ̀ ti fi ránṣẹ́ ní àṣeyọrí!",
+      "error": "Ìkùnà láti fi ọ̀rọ̀ ránṣẹ́. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi."
+    }
   },
   "footer": {
-    "stayUpdated": "Máa Gba Ìròyìn",
-    "stayUpdatedDescription": "Mọ̀ nígbà tí a bá ṣe ìfilọ́lẹ̀ ohun tuntun.\nA ṣèlérí láti má fi spam ránṣẹ́ sí ọ.",
-    "enterEmail": "Tẹ imeeli rẹ sílẹ̀",
-    "subscribe": "Forúkọsílẹ̀",
-    "subscribing": "Ń forúkọsílẹ̀...",
-    "connect": "Darapọ̀",
-    "email": "Imeeli",
-    "twitter": "Twitter",
-    "allRightsReserved": "Gbogbo ẹ̀tọ́ ni a ti fi pamọ́.",
-    "builtWith": "Jẹ́ dídá pẹ̀lú  àti",
-    "by": "látọwọ́",
-    "copyright": "2024 Agency Directory. Gbogbo ẹ̀tọ́ ni a ti fi pamọ́.",
-    "terms": "Àwọn Ìdí Iṣẹ́",
-    "privacy": "Ètò Àṣírí",
-    "contact": "Kan sí wa"
+    "company": "Ilé-iṣẹ́",
+    "about": "Nípa Wa",
+    "careers": "Iṣẹ́",
+    "blog": "Bulọọgi",
+    "contact": "Kan sí wa",
+    "resources": "Àwọn ohun èlò",
+    "help": "Ìrànlọ́wọ́",
+    "privacy": "Àṣírí",
+    "terms": "Àwọn Ìpèsè",
+    "copyright": " {year} TopAI.Agency. Gbogbo ẹ̀tọ́ ni a ti pamọ́."
   },
   "faq": {
     "hero": {
@@ -99,31 +147,77 @@
         "title": "Àwọn Ìbéèrè Tí A Máa Ń Béèrè",
         "description": "Rí àwọn ìdáhùn kíákíá sí àwọn ìbéèrè gbogbogbò nípa TopAI.Agency. Ṣé o kò rí ohun tí o ń wá?",
         "contact": "Kan sí ẹgbẹ́ àtìlẹ́yìn wa",
-        "searchPlaceholder": "Ṣàwárí àwọn FAQ..."
+        "searchPlaceholder": "Wá FAQs..."
       }
     },
     "general": {
-      "title": "Àlàyé Gbogbogbò"
+      "title": "Àwọn Ìfitónilétí Gbogbogbò"
     }
   },
   "agencyForm": {
-    "cardTitle": "Fi ilé-iṣẹ tàbí ẹgbẹ́ rẹ ránṣẹ́",
-    "cardSubtitle": "Ẹgbẹẹgbẹrun olùdásílẹ̀ yóò rí i",
-    "uploadLogo": "Gbe àmì sókè",
+    "cardTitle": "Fi Ilé-iṣẹ tàbí Ẹgbẹ́ Rẹ Ránṣẹ́",
+    "cardSubtitle": "Ẹgbẹ̀rún àwọn olùdásílẹ̀ yóò rí i",
+    "uploadLogo": "Gbé Àmì Sókè",
     "agencyName": "Orúkọ Ilé-iṣẹ/Ẹgbẹ́",
     "shortDescription": "Àpèjúwe Kúkurú",
     "fullDescription": "Àpèjúwe Kíkún",
     "yearFounded": "Ọdún Ìdásílẹ̀",
-    "projectsDone": "Àwọn Iṣẹ́ tí a Parí",
+    "projectsDone": "Àwọn Iṣẹ́ Tí A Ti Parí",
     "email": "Imeeli",
     "telephone": "Fóònù",
     "location": "Ibùdó",
-    "websiteURL": "URL Ojúewé Wẹ́ẹ̀bù",
-    "linkedinURL": "URL LinkedIn",
-    "twitterHandle": "Ọ̀rọ̀ X/Twitter",
-    "specialtyCategory": "Ẹ̀ka Àkànṣe Ilé-iṣẹ/Ẹgbẹ́",
-    "skills": "Àwọn Ọgbọ́n Ilé-iṣẹ/Ẹgbẹ́",
-    "teamSize": "Iye Ẹgbẹ́",
-    "budgetFrom": "Ìnáwó Láti"
-  }
+    "websiteURL": "URL Ojú Ònà"
+  },
+  "newsletter": {
+    "title": "Jẹ́ kí a Sopọ̀",
+    "first_name": "Orúkọ Àkọ́kọ́",
+    "last_name": "Orúkọ Ìdílé",
+    "email": "Àdírẹ́ẹ̀sì Imeeli",
+    "sign_up": "Forúkọsílẹ̀",
+    "disclaimer": "Nípa fífi orúkọ sílẹ̀, o gba àwọn Ìpèsè Iṣẹ́ àti Ìlànà Àṣírí wa",
+    "success": "O ti forúkọsílẹ̀ sí ìwé ìròyìn náà ní àṣeyọrí!",
+    "error": "Ìkùnà láti forúkọsílẹ̀. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi."
+  },
+  "services": {
+    "title": "Àwọn Iṣẹ́",
+    "ai_development": "Ìdàgbàsókè AI",
+    "mvp_building": "Kíkọ́ MVP",
+    "saas_development": "Ìdàgbàsókè SaaS",
+    "ai_integration": "Ìsopọ̀ AI",
+    "custom_solutions": "Àwọn Ojútùú Pàtàkì",
+    "ai_consulting": "Ìmọ̀ràn AI",
+    "project_management": "Ìṣàkóso Iṣẹ́"
+  },
+  "company": {
+    "title": "Ilé-iṣẹ́",
+    "about": "Nípa Wa",
+    "how_it_works": "Bí ó ṣe ń Ṣiṣẹ́",
+    "list_agency": "Fi Ilé-iṣẹ́ Rẹ sílẹ̀",
+    "success_stories": "Àwọn Ìtàn Àṣeyọrí",
+    "blog": "Blog",
+    "contact": "Kan sí wa"
+  },
+  "resources": {
+    "title": "Àwọn Ohun Èlò",
+    "ai_guide": "Ìtọ́sọ́nà AI",
+    "project_planning": "Ètò Iṣẹ́",
+    "cost_calculator": "Ìṣirò Owó",
+    "agency_reviews": "Àwọn Àgbéyẹ̀wò Ilé-iṣẹ́",
+    "documentation": "Àkọsílẹ̀",
+    "api_access": "Wíwọlé API"
+  },
+  "support": {
+    "title": "Àtìlẹ́yìn",
+    "help_center": "Ibùdó Ìrànlọ́wọ́",
+    "faqs": "Àwọn Ìbéèrè Tí A Máa Ń Béèrè",
+    "agency_support": "Àtìlẹ́yìn Ilé-iṣẹ́",
+    "client_support": "Àtìlẹ́yìn Oníbàárà"
+  },
+  "images": {
+    "badge_alt": "Àmì Ferroque",
+    "chart_alt": "Àwòrán Ferroque"
+  },
+  "copyright": " TopAI.Agency. Gbogbo ẹ̀tọ́ ni a ti pamọ́.",
+  "terms": "Àwọn Ìpèsè Iṣẹ́",
+  "privacy": "Ìlànà Àṣírí"
 }

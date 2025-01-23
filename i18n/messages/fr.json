@@ -1,129 +1,221 @@
 {
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Contactez notre équipe",
+    "description": "Vous avez des questions ou souhaitez collaborer ? Nous aimerions avoir de vos nouvelles.",
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone",
+      "message": "Votre Message",
+      "submit": "Envoyer le Message",
+      "success": "Message envoyé avec succès !",
+      "error": "Échec de l'envoi du message. Veuillez réessayer."
+    }
+  },
+  "hero": {
+    "find": "Trouvez Votre Parfaite",
+    "agency": "Agence",
+    "search_placeholder": "Rechercher des agences disponibles...",
+    "any_location": "Tous les Lieux",
+    "find_provider": "Trouver un Prestataire"
+  },
   "navigation": {
     "home": "Accueil",
-    "about": "Pourquoi TopAI.Agency?",
-    "create": "Listez votre agence",
-    "faq": "FAQ"
+    "blog": "Blog",
+    "contact": "Contact",
+    "signUp": "S'inscrire",
+    "products": "Produits",
+    "stats": "Statistiques",
+    "resources": "Ressources",
+    "list_agency": "Lister une Agence",
+    "contact_us": "Contactez-nous"
   },
   "common": {
+    "tryAgain": "Réessayer",
+    "listAgency": "Listez votre agence",
+    "auth": {
+      "title": "Authentification",
+      "signIn": "Se connecter",
+      "signOut": "Se déconnecter",
+      "register": "S'inscrire",
+      "signUp": "Créer un compte",
+      "forgotPassword": "Mot de passe oublié ?",
+      "resetPassword": "Réinitialiser le mot de passe",
+      "createAccount": "Créer un compte"
+    },
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "copyright": " {year} Tous droits réservés.",
+    "loadMore": "Charger Plus",
     "switchLocale": "Changer de langue",
     "search": "Rechercher",
     "submit": "Soumettre",
     "cancel": "Annuler",
-    "tryAgain": "Réessayer",
     "browseAgencies": "Parcourir les agences",
-    "listAgency": "Listez votre agence",
     "contactAgency": "Contacter l'agence",
     "visitWebsite": "Visiter le site Web",
     "visitLinkedIn": "Se connecter sur LinkedIn",
     "visitTwitter": "Suivre sur X/Twitter",
-    "backToListing": "Retour à la liste",
-    "company": {
-      "blog": "Blog",
-      "contact": "Contact"
+    "backToListing": "Retour à la liste"
+  },
+  "company": {
+    "title": "Entreprise",
+    "about": "À propos",
+    "how_it_works": "Comment ça marche",
+    "list_agency": "Ajouter votre agence",
+    "success_stories": "Histoires de réussite",
+    "blog": "Blog",
+    "contact": "Contact",
+    "mission": "Notre Mission",
+    "vision": "Notre Vision",
+    "values": "Nos Valeurs",
+    "team": "Notre Équipe",
+    "careers": "Carrières"
+  },
+  "resources": {
+    "title": "Ressources",
+    "ai_guide": "Guide de l'IA",
+    "project_planning": "Planification de projet",
+    "cost_calculator": "Calculateur de coûts",
+    "agency_reviews": "Avis sur les agences",
+    "documentation": "Documentation",
+    "api_access": "Accès API"
+  },
+  "support": {
+    "title": "Support",
+    "help_center": "Centre d'aide",
+    "faqs": "FAQs",
+    "agency_support": "Support Agence",
+    "client_support": "Support Client"
+  },
+  "images": {
+    "badge_alt": "Badge Qualité",
+    "chart_alt": "Graphique de Croissance"
+  },
+  "services": {
+    "title": "Services",
+    "ai_development": "Développement IA",
+    "mvp_building": "Création de MVP",
+    "saas_development": "Développement SaaS",
+    "ai_integration": "Intégration IA",
+    "custom_solutions": "Solutions Personnalisées",
+    "ai_consulting": "Conseil en IA",
+    "project_management": "Gestion de Projet"
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenue",
+      "subtitle": "Connectez-vous à votre compte",
+      "success": "Connexion réussie !",
+      "error": "Échec de la connexion. Veuillez réessayer.",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "signUp": "S'inscrire"
     },
-    "auth": {
+    "register": {
+      "title": "Créer un compte",
+      "subtitle": "Rejoignez notre communauté",
+      "success": "Inscription réussie !",
+      "error": "Échec de l'inscription. Veuillez réessayer.",
+      "username": "Nom d'utilisateur",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "submit": "Créer un compte",
+      "haveAccount": "Vous avez déjà un compte ?",
       "signIn": "Se connecter"
     }
   },
-  "sharer": {
-    "title": "Connaissez-vous quelqu'un qui pourrait en bénéficier? Partagez-le!",
-    "email": "Email",
-    "twitter": "Twitter",
-    "linkedin": "Linkedin",
-    "facebook": "Facebook",
-    "instagram": "Instagram",
-    "youtube": "Youtube",
-    "tiktok": "Tiktok",
-    "telegram": "Telegram",
-    "whatsapp": "Whatsapp"
+  "newsletter": {
+    "title": "Restez informé des innovations en IA",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email": "Adresse e-mail *",
+    "sign_up": "S'INSCRIRE",
+    "disclaimer": "En vous inscrivant, vous acceptez de recevoir des e-mails marketing de notre part. Vous pouvez vous désinscrire à tout moment.",
+    "success": "Inscription réussie !",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "listing": {
+    "errorTitle": "Quelque chose s'est mal passé",
+    "errorDescription": "Nous ne pouvons pas charger les agences. Veuillez réessayer.",
+    "emptyStateTitle": "Aucune agence trouvée",
+    "emptyStateDescription": "Soyez le premier à ajouter votre agence à notre réseau grandissant de prestataires de services IA.",
+    "loadMore": "Charger Plus",
+    "verified": "Vérifié",
+    "topRated": "Mieux Noté",
+    "projectsCompleted": "Projets Complétés",
+    "viewProfile": "Voir le Profil",
+    "shareProfile": "Partager le Profil",
+    "endOfListMessage": "Vous avez atteint la fin de la liste"
   },
   "why": {
     "hero": {
       "titleInWhite": "Révolutionner",
       "titleInColor": "la Découverte des Agences IA",
       "descriptionInWhite1": "Rejoignez le groupe exclusif d'agences pionnières et d'équipes qui façonnent l'avenir de",
-      "descriptionInWhite2": "l'industrie. Obtenez une visibilité inégalée, des prospects et connectez-vous avec les meilleurs clients avant tout le monde. Votre agence ou équipe sera listée ici,",
-      "descriptionInColor": "et publié sur les réseaux sociaux avec un soutien SEO complet!",
-      "subdescription1": "Nous transformons la façon dont les entreprises et les fondateurs non techniques peuvent trouver et collaborer avec des agences ou des équipes qui adoptent le pouvoir de",
-      "subdescription2": ". Plus de recherches sans fin, trouvez rapidement des agences ou des équipes avec lesquelles vous pouvez travailler dans votre temps et votre budget."
+      "descriptionInWhite2": "l'IA. Faites-vous remarquer en tant que précurseur. Votre agence sera ici,",
+      "descriptionInColor": "avec une visibilité complète et un support SEO !",
+      "subdescription1": "Nous transformons la façon dont les entreprises et les créateurs non techniques peuvent trouver et travailler avec des agences et des équipes alimentées par",
+      "subdescription2": ". Plus de recherches sans fin, trouvez rapidement des agences ou des équipes avec lesquelles vous pouvez travailler dans votre budget et votre calendrier."
     },
     "cta": {
-      "title": "Prêt à Transformer Votre Idée?",
-      "description": "Rejoignez des centaines d'entreprises prospères qui ont trouvé leur partenaire technologique idéal grâce à TopAI.Agency."
+      "title": "Prêt à transformer votre vision ?",
+      "description": "Rejoignez des centaines d'entreprises qui ont déjà trouvé leur partenaire technologique idéal grâce à TopAI.Agency."
     }
   },
   "listings": {
-    "title": "Répertoire des agences",
-    "createNew": "Créer une nouvelle annonce",
-    "filter": "Filtrer les annonces",
-    "noResults": "Aucune annonce trouvée"
+    "title": "Répertoire des Agences",
+    "createNew": "Créer une Nouvelle Liste",
+    "filter": "Filtrer les Listes",
+    "noResults": "Aucune liste trouvée",
+    "agencies": "Agences IA",
+    "neural-networks": "Réseaux Neuronaux",
+    "location-placeholder": "Localisation",
+    "services": "Services",
+    "budget": "Budget",
+    "hourly-rate": "Taux Horaire",
+    "industry": "Industrie",
+    "reviews": "Avis",
+    "clear-all": "Tout Effacer",
+    "show-more": "Voir Plus",
+    "show-less": "Voir Moins",
+    "errorTitle": "Erreur de Chargement des Agences",
+    "errorDescription": "Nous n'avons pas pu charger les agences. Veuillez réessayer.",
+    "tryAgain": "Réessayer",
+    "emptyStateTitle": "Aucune Agence Trouvée",
+    "emptyStateSubtitle": "Rejoignez Notre Réseau de Prestataires de Services IA",
+    "emptyStateDescription": "Nous n'avons trouvé aucune agence correspondant à vos critères. Essayez d'ajuster vos filtres ou soyez le premier à lister votre agence.",
+    "listAgency": "Lister Votre Agence",
+    "loadMoreAgencies": "Charger Plus d'Agences",
+    "endOfListMessage": "Vous avez atteint la fin de la liste"
   },
-  "listing": {
-    "searchPlaceholder": "Rechercher des agences disponibles",
-    "errorTitle": "Oups! Quelque chose s'est mal passé",
-    "errorDescription": "Nous avons des problèmes pour charger les agences en ce moment. Cela pourrait être temporaire, veuillez réessayer.",
-    "emptyStateTitle": "Soyez le premier!",
-    "emptyStateSubtitle": "Listez votre agence ou équipe maintenant.",
-    "emptyStateDescription": "Rejoignez le groupe exclusif d'agences et d'équipes pionnières qui façonnent l'avenir de l'industrie de l'IA. Obtenez une visibilité inégalée, des prospects et connectez-vous avec les meilleurs clients avant tout le monde. Votre agence ou équipe sera listée ici avec support pour les liens dofollow et un support SEO complet!",
-    "endOfListMessage": "Vous avez atteint la fin de la liste! 🎉"
-  },
-  "hero": {
-    "find": "Trouver",
-    "agency": "Agence",
-    "findAgencies": "Trouvez des agences et des équipes",
-    "announcement": "Inscrivez votre agence GRATUITEMENT! 🎉🎉🎉",
-    "title": "Construisez et lancez votre MVP ou vos projets à grande échelle dans le budget et le temps!",
-    "description": "Transformez vos idées en réalité rapidement avec des agences technologiques vérifiées et des consultants Ai."
-  },
-  "footer": {
-    "stayUpdated": "Restez informé",
-    "stayUpdatedDescription": "Soyez informé quand nous lançons quelque chose de nouveau.\nNous promettons de ne pas vous spammer.",
-    "enterEmail": "Entrez votre email",
-    "subscribe": "S'abonner",
-    "subscribing": "Abonnement en cours...",
-    "connect": "Se connecter",
+  "sharer": {
+    "title": "Connaissez-vous quelqu'un qui pourrait en bénéficier? Partagez-le!",
     "email": "Email",
     "twitter": "Twitter",
-    "allRightsReserved": "Tous droits réservés.",
-    "builtWith": "Construit avec  et",
-    "by": "par",
-    "copyright": "2024 Agency Directory. Tous droits réservés.",
-    "terms": "Conditions d'utilisation",
-    "privacy": "Politique de confidentialité",
-    "contact": "Contactez-nous"
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp"
   },
-  "faq": {
-    "hero": {
-      "view": {
-        "title": "Questions Fréquemment Posées",
-        "description": "Trouvez des réponses rapides aux questions courantes sur TopAI.Agency. Vous ne trouvez pas ce que vous cherchez?",
-        "contact": "Contactez notre équipe de support",
-        "searchPlaceholder": "Rechercher dans les FAQ..."
-      }
-    },
-    "general": {
-      "title": "Informations Générales"
-    }
-  },
-  "agencyForm": {
-    "cardTitle": "Soumettez votre agence ou équipe",
-    "cardSubtitle": "Des milliers de fondateurs le verront",
-    "uploadLogo": "Télécharger le logo",
-    "agencyName": "Nom de l'agence/équipe",
-    "shortDescription": "Description courte",
-    "fullDescription": "Description complète",
-    "yearFounded": "Année de création",
-    "projectsDone": "Projets réalisés",
-    "email": "Email",
-    "telephone": "Téléphone",
-    "location": "Localisation",
-    "websiteURL": "URL du site web",
-    "linkedinURL": "URL LinkedIn",
-    "twitterHandle": "Identifiant X/Twitter",
-    "specialtyCategory": "Catégorie de spécialité de l'agence/équipe",
-    "skills": "Compétences de l'agence/équipe",
-    "teamSize": "Taille de l'équipe",
-    "budgetFrom": "Budget à partir de"
+  "footer": {
+    "company": "Entreprise",
+    "about": "À Propos",
+    "careers": "Carrières",
+    "blog": "Blog",
+    "contact": "Contact",
+    "resources": "Ressources",
+    "help": "Aide",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "copyright": " {year} TopAI.Agency. Tous droits réservés."
   }
 }

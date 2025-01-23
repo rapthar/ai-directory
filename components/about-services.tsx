@@ -4,23 +4,23 @@ import { Card } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 
 export function AboutServices() {
-  const t = useTranslations();
+  const t = useTranslations("about.services");
 
   const services = [
     {
-      title: "SEO Follow AI Strategy",
+      title: t("items.seo.title"),
       icon: "🎯",
     },
     {
-      title: "Develop, Progress & Fulfill Service",
+      title: t("items.development.title"),
       icon: "⚡",
     },
     {
-      title: "24/7 Maintenance Customer Service",
+      title: t("items.support.title"),
       icon: "🛠",
     },
     {
-      title: "Community Blockchain Strategy",
+      title: t("items.blockchain.title"),
       icon: "🔗",
     },
   ];
@@ -29,7 +29,7 @@ export function AboutServices() {
     <section className="py-20">
       <div className="container mx-auto max-w-7xl px-8">
         <h2 className="text-3xl font-semibold mb-12 text-center text-white">
-          Thoughtful Digital <span className="text-pink-600">Strategies</span>
+          {t("title")} <span className="text-pink-600">{t("titleHighlight")}</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {services.map((service, index) => (
@@ -47,7 +47,7 @@ export function AboutServices() {
                 variant="outline"
                 className="rounded-full border-pink-600 text-white hover:bg-pink-600"
               >
-                <span>Learn More</span>
+                <span>{t("learnMore")}</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Card>

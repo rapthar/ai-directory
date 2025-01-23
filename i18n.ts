@@ -3,7 +3,7 @@ import { locales, defaultLocale } from './i18n/settings';
 import { setRequestLocale } from 'next-intl/server';
 
 export default getRequestConfig(async ({ locale }) => {
-  const messages = (await import(`./messages/${locale}.json`)).default;
+  const messages = (await import(`@/i18n/messages/${locale}.json`)).default;
   setRequestLocale(locale);
   return { messages };
 });

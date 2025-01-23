@@ -5,15 +5,17 @@ import { locales } from "@/i18n/settings";
 import { setRequestLocale } from 'next-intl/server';
 import { MainNav } from "@/components/main-nav";
 import { Footer } from "@/components/footer";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 type Props = {
   children: ReactNode;
-  params?: { locale?: string };
+  params: { locale: string };
 };
 
 async function getMessages(locale: typeof locales[number]) {
   try {
-    return (await import(`@/messages/${locale}.json`)).default;
+    return (await import(`@/i18n/messages/${locale}.json`)).default;
   } catch {
     notFound();
   }
@@ -35,18 +37,26 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          <div className="flex flex-col min-h-screen bg-grid-small-purple">
-            <MainNav />
-            <main className="flex-1">
-              {children}
-            </main>
-            <Footer />
-          </div>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale} messages={messages} timeZone="UTC">
+      <div className="flex min-h-screen flex-col" dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
+        <MainNav />
+        <main className="flex-1" suppressHydrationWarning>
+          {children}
+        </main>
+        <Footer />
+        <ToastContainer
+          position="bottom-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={locale === 'ar'}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+        />
+      </div>
+    </NextIntlClientProvider>
   );
 }

@@ -16,7 +16,7 @@ const newsletterSchema = z.object({
 export function Footer() {
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const t = useTranslations("common");
+  const t = useTranslations();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -189,11 +189,11 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-800">
           <div className="flex items-center mb-4 md:mb-0">
             <Link href="/" className="text-gray-400 mr-4">Topai.agency</Link>
-            <span className="text-gray-600 text-sm">{t("copyright", { year: 2025 })}</span>
+            <span className="text-gray-600 text-sm">{t("common.copyright", { year: new Date().getFullYear() })}</span>
           </div>
           <div className="flex items-center space-x-4">
-            <Link href="#" className="text-gray-400 hover:text-white">{t("terms")}</Link>
-            <Link href="#" className="text-gray-400 hover:text-white">{t("privacy")}</Link>
+            <Link href="#" className="text-gray-400 hover:text-white">{t("common.terms")}</Link>
+            <Link href="#" className="text-gray-400 hover:text-white">{t("common.privacy")}</Link>
           </div>
         </div>
       </div>

@@ -3,22 +3,26 @@ import { Upload, X } from "lucide-react";
 import Image from "next/image";
 
 interface ImageUploadProps {
-  onChange: (file: File | null) => void;
-  value?: File | null;
-  className?: string;
-  accept?: string;
-  maxSize?: number; // in MB
+  onChange: (file: File | null) => void
+  value?: string | File
+  className?: string
+  accept?: string
+  maxSize?: number
+  helpText?: string
 }
 
 export function ImageUpload({
   onChange,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   value,
   className = "",
   accept = "image/jpeg,image/png",
   maxSize = 5, // 5MB default
+  helpText,
 }: ImageUploadProps) {
-  const [preview, setPreview] = useState<string | null>(null);
+  const [preview, setPreview] = useState<string | null>(() => {
+    if (typeof value === 'string') return value;
+    return null;
+  });
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -108,7 +112,7 @@ export function ImageUpload({
               Click to upload or drag & drop
             </p>
             <p className="mt-1 text-xs text-gray-400">
-              JPEG or PNG, max {maxSize}MB
+              {helpText || `JPEG or PNG, max ${maxSize}MB`}
             </p>
           </div>
         )}
@@ -123,9 +127,8 @@ export function ImageUpload({
         disabled={isLoading}
       />
 
-      {error && (
-        <p className="text-sm text-red-500 mt-2 text-center">{error}</p>
-      )}
+      {error && <p className="text-sm text-red-500 mt-2">{error}</p>}
+      {helpText && <p className="text-sm text-gray-500 mt-2">{helpText}</p>}
     </div>
   );
 }

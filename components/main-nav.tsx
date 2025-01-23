@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Menu, GlobeIcon, ArrowRight } from "lucide-react";
-import { useState } from "react";
+import { Menu } from "lucide-react";
+import { useState, useCallback } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { LanguageSwitcher } from "./language-switcher";
 import Image from "next/image";
@@ -11,124 +11,135 @@ import {
   Sheet,
   SheetContent,
   SheetTrigger,
-  SheetTitle,
-  SheetDescription,
 } from "@/components/ui/sheet";
 import { VisuallyHidden } from "@/components/ui/visually-hidden";
+import { cn } from "@/lib/utils";
+
+const NavLink = ({ href, children, className, onClick }: { 
+  href: string; 
+  children: React.ReactNode; 
+  className?: string;
+  onClick?: () => void;
+}) => {
+  const locale = useLocale();
+  const localizedHref = href === '/' ? `/${locale}` : `/${locale}${href}`;
+  const isRTL = locale === 'ar';
+  
+  return (
+    <Link 
+      href={localizedHref} 
+      className={cn(
+        "font-medium text-white hover:text-gray-300 transition-colors",
+        isRTL && "font-arabic",
+        className
+      )}
+      onClick={onClick}
+    >
+      {children}
+    </Link>
+  );
+};
 
 export function MainNav() {
   const [isOpen, setIsOpen] = useState(false);
-  const t = useTranslations();
+  const t = useTranslations('navigation');
   const locale = useLocale();
+  const isRTL = locale === 'ar';
 
-  const handleLinkClick = () => {
+  const handleLinkClick = useCallback(() => {
     setIsOpen(false);
-  };
+  }, []);
+
+  const navItems = [
+    { key: 'home', href: '/' },
+    { key: 'blog', href: '/blog' },
+    { key: 'contact', href: '/contact' }
+  ];
 
   return (
-    <nav className="flex items-center justify-between py-4 px-6 border-b border-gray-800 bg-[#0B1829]">
-      <Link href="/" className="flex items-center gap-2">
-        <div className="w-8 h-8">
-          <Image
-            src="/white.png"
-            alt="Logo"
-            width={32}
-            height={32}
-            className="w-full h-full object-contain"
-          />
+    <nav className={cn(
+      "flex items-center justify-between py-4 px-6 border-b border-gray-800 bg-[#0B1829] relative",
+      isRTL && "flex-row-reverse"
+    )}>
+      <NavLink href="/" className={cn(isRTL && "ml-auto")} onClick={handleLinkClick}>
+        <div className={cn(
+          "flex items-center gap-2",
+          isRTL && "flex-row-reverse"
+        )}>
+          <div className="w-8 h-8 relative">
+            <Image
+              src="/white.png"
+              alt="Logo"
+              width={32}
+              height={32}
+              className="w-full h-full object-contain"
+              priority
+            />
+          </div>
+          <span className={cn(
+            "font-semibold text-xl text-white whitespace-nowrap",
+            isRTL && "font-arabic"
+          )}>
+            Topai.agency
+          </span>
         </div>
-        <span className="font-semibold text-xl text-white">Topai.agency</span>
-      </Link>
+      </NavLink>
       
-      <div className="hidden md:flex items-center gap-8">
-        <Link href="/" className="font-medium text-white">
-          {t("navigation.home")}
-        </Link>
-        <Link href="/blog" className="font-medium text-white">
-          {t("common.company.blog")}
-        </Link>
-        <Link href={`/${locale}/contact`} className="font-medium text-white">
-          {t("common.company.contact")}
-        </Link>
-      </div>
-
-      <div className="flex items-center gap-4">
-        <div className="hidden md:flex items-center gap-4">
-          <Link href="/register" className="text-white hover:text-white transition-colors text-lg">
-            Sign Up
+      <div className={cn(
+        "hidden md:flex items-center gap-8",
+        isRTL && "flex-row-reverse"
+      )}>
+        {navItems.map(({ key, href }) => (
+          <NavLink key={key} href={href} onClick={handleLinkClick}>
+            {t(key)}
+          </NavLink>
+        ))}
+        <Button
+          asChild
+          className="relative bg-transparent hover:bg-transparent text-white rounded-full px-8 py-3 group"
+        >
+          <Link href="/create" onClick={handleLinkClick}>
+            <span className="absolute inset-0 rounded-full bg-gradient-to-r from-[#FF3366] via-[#FF33FF] to-[#3366FF]" />
+            <span className="absolute inset-[1.5px] rounded-full bg-[#0B1829] transition-all group-hover:bg-opacity-90" />
+            <span className="relative flex items-center gap-2">
+              List Your Agency
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.16669 10H15.8334M15.8334 10L10 4.16669M15.8334 10L10 15.8334" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </span>
           </Link>
-        </div>
-        <div className="relative">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#FF3B9A] to-[#4845FF]" />
-          <Button
-            variant={"outline"}
-            asChild
-            className="relative bg-[#0B1829] text-white rounded-full px-8 py-1.5 text-base font-normal hover:opacity-90 border-0 m-[1px]"
-          >
-            <Link href="/create" className="flex items-center gap-2">
-              <span>{t("common.listAgency")}</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </Button>
-        </div>
-
-        <div className="hidden md:flex ml-4 items-center gap-2">
-          <GlobeIcon className="h-4 w-4 text-white" />
-          <LanguageSwitcher />
-        </div>
-
-        <Sheet open={isOpen} onOpenChange={setIsOpen}>
-          <SheetTrigger asChild className="md:hidden">
-            <Button variant="ghost" size="icon" className="text-white">
-              <Menu className="h-5 w-5" />
-              <span className="sr-only">Toggle Menu</span>
-            </Button>
-          </SheetTrigger>
-
-          <SheetContent side="right" className="w-[300px] bg-black text-white">
-            <SheetTitle className="text-white">
-              <VisuallyHidden>Navigation Menu</VisuallyHidden>
-            </SheetTitle>
-            <SheetDescription className="sr-only">
-              Main navigation menu for accessing different sections of the website
-            </SheetDescription>
-            <nav className="flex flex-col gap-4 mt-8">
-              <Link
-                href="/"
-                className="text-lg font-semibold hover:text-primary"
-                onClick={handleLinkClick}
-              >
-                {t("navigation.home")}
-              </Link>
-              <Link
-                href="/blog"
-                className="text-lg font-semibold hover:text-primary"
-                onClick={handleLinkClick}
-              >
-                {t("common.company.blog")}
-              </Link>
-              <Link
-                href={`/${locale}/contact`}
-                className="text-lg font-semibold hover:text-primary"
-                onClick={handleLinkClick}
-              >
-                {t("common.company.contact")}
-              </Link>
-              <Link
-                href="/signin"
-                className="text-lg font-semibold hover:text-primary"
-                onClick={handleLinkClick}
-              >
-                {t("common.auth.signIn")}
-              </Link>
-              <div className="flex items-center gap-2 mt-4">
-                <GlobeIcon className="h-4 w-4" />
-                <LanguageSwitcher />
-              </div>
-            </nav>
-          </SheetContent>
-        </Sheet>
+        </Button>
+        <LanguageSwitcher />
       </div>
+
+      <Sheet open={isOpen} onOpenChange={setIsOpen}>
+        <SheetTrigger asChild className={cn("md:hidden", isRTL && "mr-auto")}>
+          <Button variant="ghost" size="icon" className="text-white">
+            <Menu className="h-6 w-6" />
+            <VisuallyHidden>Toggle Menu</VisuallyHidden>
+          </Button>
+        </SheetTrigger>
+        <SheetContent 
+          side={isRTL ? "left" : "right"} 
+          className={cn(
+            "w-[300px] sm:w-[400px] bg-[#0B1829] text-white",
+            isRTL && "font-arabic"
+          )}
+        >
+          <nav className="flex flex-col gap-4">
+            {navItems.map(({ key, href }) => (
+              <NavLink key={key} href={href} onClick={handleLinkClick}>
+                <span className="block px-2 py-1 text-lg">
+                  {t(key)}
+                </span>
+              </NavLink>
+            ))}
+            <div className="mt-4">
+              <LanguageSwitcher />
+            </div>
+          </nav>
+        </SheetContent>
+      </Sheet>
     </nav>
   );
 }

@@ -12,7 +12,7 @@ export default getRequestConfig(async ({ locale }) => {
   setRequestLocale(typedLocale);
 
   try {
-    const messages = (await import(`../messages/${locale}.json`)).default;
+    const messages = (await import(`@/i18n/messages/${locale}.json`)).default;
     return { messages };
   } catch (error) {
     console.error(`Failed to load messages for locale: ${locale}`, error);

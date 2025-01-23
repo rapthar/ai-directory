@@ -83,7 +83,7 @@ export default function AgencyForm() {
       const isValid = await form.trigger();
 
       if (!isValid) {
-        toast.error("Please check all required fields are filled correctly.");
+        toast.error(t("messages.error"));
         return;
       }
 
@@ -131,7 +131,7 @@ export default function AgencyForm() {
       }
       const result = await response.json();
 
-      toast.success("Your agency has been submitted for review.");
+      toast.success(t("messages.success"));
 
       router.push(`/${locale}/create/checkout?reference=${result.reference}`);
     } catch (error) {
@@ -165,7 +165,7 @@ export default function AgencyForm() {
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <CardContent className="space-y-8 rounded-lg">
               <div className="space-y-2 w-full md:max-w-[300px] ">
-                <Label className="text-md text-pink-300">Upload Logo</Label>
+                <Label className="text-md text-pink-300">{t("form.logo.label")}</Label>
                 <ImageUpload
                   onChange={(file) => {
                     if (file) {
@@ -178,6 +178,7 @@ export default function AgencyForm() {
                   }}
                   value={form.watch("logo")}
                   maxSize={2} // 2MB limit for logos
+                  helpText={t("form.logo.maxSize")}
                 />
                 {form.formState.errors.logo && (
                   <p className="text-sm text-red-500">
@@ -187,11 +188,11 @@ export default function AgencyForm() {
               </div>
               <div className="space-y-2">
                 <Label className="text-md text-pink-300" htmlFor="title">
-                  Agency/Team Name
+                  {t("form.name.label")}
                 </Label>
                 <Input
                   id="title"
-                  placeholder="e.g. MVPhero"
+                  placeholder={t("form.name.placeholder")}
                   className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                   {...form.register("title")}
                 />
@@ -206,11 +207,11 @@ export default function AgencyForm() {
                   className="text-md text-pink-300"
                   htmlFor="shortDescription"
                 >
-                  Short Description
+                  {t("form.shortDescription.label")}
                 </Label>
                 <Textarea
                   id="shortDescription"
-                  placeholder="e.g. I build MVPs in weeks. AI wrappers, micro saas, directories."
+                  placeholder={t("form.shortDescription.placeholder")}
                   className="bg-black/20 border-gray-800 focus:border-gray-700 text-white min-h-[100px]"
                   {...form.register("shortDescription")}
                 />
@@ -225,11 +226,11 @@ export default function AgencyForm() {
                   className="text-md text-pink-300"
                   htmlFor="fullDescription"
                 >
-                  Full Description
+                  {t("form.fullDescription.label")}
                 </Label>
                 <Textarea
                   id="fullDescription"
-                  placeholder="e.g. I built 10 directories over the past week and have huge experience in..."
+                  placeholder={t("form.fullDescription.placeholder")}
                   className="bg-black/20 border-gray-800 focus:border-gray-700 text-white min-h-[200px]"
                   {...form.register("fullDescription")}
                 />
@@ -242,14 +243,14 @@ export default function AgencyForm() {
               <div className="grid gap-4 sm:grid-cols-4">
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="founded">
-                    Year Founded
+                    {t("form.founded.label")}
                   </Label>
                   <select
                     id="founded"
                     className="w-full h-10 rounded-md border border-input bg-black px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                     {...form.register("founded")}
                   >
-                    <option value="">Select Year</option>
+                    <option value="">{t("form.founded.placeholder")}</option>
                     {Array.from(
                       { length: new Date().getFullYear() - 1980 + 1 },
                       (_, i) => (
@@ -270,14 +271,14 @@ export default function AgencyForm() {
                     className="text-md text-pink-300"
                     htmlFor="projects_completed"
                   >
-                    Projects Done
+                    {t("form.projectsDone.label")}
                   </Label>
                   <select
                     id="projects_completed"
                     className="w-full h-10 rounded-md border border-input bg-black px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                     {...form.register("projects_completed")}
                   >
-                    <option value="">Select Projects</option>
+                    <option value="">{t("form.projectsDone.placeholder")}</option>
                     {[...Array(9)].map((_, i) => (
                       <option key={i + 1} value={i + 1}>
                         {i + 1}
@@ -293,12 +294,12 @@ export default function AgencyForm() {
                 </div>
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="email">
-                    Email
+                    {t("form.email.label")}
                   </Label>
                   <Input
                     id="email"
                     type="email"
-                    placeholder="e.g. you@email.com"
+                    placeholder={t("form.email.placeholder")}
                     className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                     {...form.register("email")}
                   />
@@ -311,7 +312,7 @@ export default function AgencyForm() {
 
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="telephone">
-                    Telephone
+                    {t("form.phone.label")}
                   </Label>
                   <div className="phone-input-container">
                     <PhoneInput
@@ -376,7 +377,7 @@ export default function AgencyForm() {
               <div className="grid gap-4 sm:grid-cols-4">
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="location">
-                    Location
+                    {t("form.location.label")}
                   </Label>
                   <Popover>
                     <PopoverTrigger asChild>
@@ -392,14 +393,14 @@ export default function AgencyForm() {
                               (country) =>
                                 country.value === form.watch("location")
                             )?.label
-                          : "Select Location"}
+                          : t("form.location.placeholder")}
                         <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
                       </Button>
                     </PopoverTrigger>
                     <PopoverContent className="w-full p-0 bg-black text-white">
                       <Command>
-                        <CommandInput placeholder="Search Location" />
-                        <CommandEmpty>No location found.</CommandEmpty>
+                        <CommandInput placeholder={t("form.location.searchPlaceholder")} />
+                        <CommandEmpty>{t("form.location.notFound")}</CommandEmpty>
                         <CommandGroup className="max-h-64 overflow-y-auto">
                           {countries.map((country) => (
                             <CommandItem
@@ -432,12 +433,12 @@ export default function AgencyForm() {
                 </div>
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="website">
-                    Website URL
+                    {t("form.website.label")}
                   </Label>
                   <Input
                     id="website"
                     type="url"
-                    placeholder="https://www.example.com"
+                    placeholder={t("form.website.placeholder")}
                     className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                     {...form.register("website")}
                   />
@@ -449,12 +450,12 @@ export default function AgencyForm() {
                 </div>
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="linkedin">
-                    LinkedIn URL
+                    {t("form.linkedin.label")}
                   </Label>
                   <Input
                     id="linkedin"
                     type="url"
-                    placeholder="https://www.linkedin.com/company/your-agency"
+                    placeholder={t("form.linkedin.placeholder")}
                     className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                     {...form.register("linkedin")}
                   />
@@ -466,7 +467,7 @@ export default function AgencyForm() {
                 </div>
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="twitter">
-                    X/Twitter handle
+                    {t("form.twitter.label")}
                   </Label>
 
                   <div className="relative">
@@ -475,12 +476,12 @@ export default function AgencyForm() {
                         @
                       </div>
                       <Input
-                        placeholder="X/Twitter username"
+                        placeholder={t("form.twitter.placeholder")}
                         className="pl-7 bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                         {...form.register("twitter", {
                           pattern: {
                             value: /^[A-Za-z0-9_]{1,30}$/,
-                            message: "Invalid Twitter/X username format",
+                            message: t("form.twitter.error"),
                           },
                           onChange: (e) => {
                             // Remove @ if user includes it
@@ -506,7 +507,7 @@ export default function AgencyForm() {
               </div>
               <div className="space-y-2">
                 <Label className="text-md text-pink-300">
-                  Agency/Team Specialty Category
+                  {t("form.categories.label")}
                 </Label>
                 <div className="flex flex-wrap gap-2">
                   {categories.map((category) => (
@@ -544,7 +545,7 @@ export default function AgencyForm() {
               </div>
               <div className="space-y-2">
                 <Label className="text-md text-pink-300">
-                  Agency/Team Skills
+                  {t("form.skills.label")}
                 </Label>
                 <div className="flex flex-col space-y-2">
                   <Popover>
@@ -554,14 +555,14 @@ export default function AgencyForm() {
                         role="combobox"
                         className="w-full md:max-w-[200px] justify-between bg-black/20 border-gray-800 hover:bg-black/30 hover:text-white"
                       >
-                        Select Skills
+                        {t("form.skills.label")}
                         <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
                       </Button>
                     </PopoverTrigger>
                     <PopoverContent className="w-full p-0 bg-black text-white">
                       <Command>
-                        <CommandInput placeholder="Search skills..." />
-                        <CommandEmpty>No skill found.</CommandEmpty>
+                        <CommandInput placeholder={t("form.skills.searchPlaceholder")} />
+                        <CommandEmpty>{t("form.skills.notFound")}</CommandEmpty>
                         <CommandGroup className="max-h-64 overflow-auto bg-black text-white">
                           {skills.map((skill) => (
                             <CommandItem
@@ -623,20 +624,20 @@ export default function AgencyForm() {
               <div className="grid gap-4 sm:grid-cols-4">
                 <div className="space-y-2">
                   <Label className="text-md text-pink-300" htmlFor="team_size">
-                    Team Size
+                    {t("form.teamSize.label")}
                   </Label>
                   <select
                     id="team_size"
                     className="w-full h-10 rounded-md border border-input bg-black px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                     {...form.register("team_size")}
                   >
-                    <option value="">Select Team Size</option>
-                    <option value="1-5">1-5</option>
-                    <option value="6-10">6-10</option>
-                    <option value="11-20">11-20</option>
-                    <option value="21-50">21-50</option>
-                    <option value="51-100">51-100</option>
-                    <option value="100+">100+</option>
+                    <option value="">{t("form.teamSize.placeholder")}</option>
+                    <option value="1-5">{t("form.teamSize.options.1-5")}</option>
+                    <option value="6-10">{t("form.teamSize.options.6-10")}</option>
+                    <option value="11-20">{t("form.teamSize.options.11-20")}</option>
+                    <option value="21-50">{t("form.teamSize.options.21-50")}</option>
+                    <option value="51-100">{t("form.teamSize.options.51-100")}</option>
+                    <option value="100+">{t("form.teamSize.options.100+")}</option>
                   </select>
                   {form.formState.errors.team_size && (
                     <p className="text-sm text-red-500">
@@ -649,14 +650,14 @@ export default function AgencyForm() {
                     className="text-md text-pink-300"
                     htmlFor="starting_budget"
                   >
-                    Budget From
+                    {t("form.budget.label")}
                   </Label>
                   <select
                     id="starting_budget"
                     className="w-full h-10 rounded-md border border-input bg-black px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                     {...form.register("starting_budget")}
                   >
-                    <option value="">Starting Budget</option>
+                    <option value="">{t("form.budget.placeholder")}</option>
                     {[...Array(10)].map((_, i) => (
                       <option key={500 * (i + 1)} value={500 * (i + 1)}>
                         ${500 * (i + 1)}
@@ -675,17 +676,17 @@ export default function AgencyForm() {
                   className="text-md text-pink-300"
                   htmlFor="pitch_video_url"
                 >
-                  Pitch Video URL (optional)
+                  {t("form.pitchVideo.label")}
                 </Label>
                 <Input
                   id="pitch_video_url"
                   type="url"
-                  placeholder="https://www.youtube.com/watch?v=..."
+                  placeholder={t("form.pitchVideo.placeholder")}
                   className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                   {...form.register("pitch_video_url")}
                 />
                 <span className="text-sm">
-                  No video link? Create one now using{" "}
+                  {t("form.pitchVideo.helper")}{" "}
                   <Link
                     className="underline"
                     href="https://www.loom.com/"
@@ -704,7 +705,7 @@ export default function AgencyForm() {
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <Label className="text-md text-pink-300">
-                    Support Team Members
+                    {t("form.team.label")}
                   </Label>
                 </div>
                 {teamFields.map((field, index) => (
@@ -717,12 +718,12 @@ export default function AgencyForm() {
                           </div>
                           <Input
                             width={"full"}
-                            placeholder="X/Twitter username"
+                            placeholder={t("form.team.twitter.placeholder")}
                             className="pl-7 bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                             {...form.register(`team.${index}.twitter`, {
                               pattern: {
                                 value: /^[A-Za-z0-9_]{1,30}$/,
-                                message: "Invalid Twitter/X username format",
+                                message: t("form.team.twitter.error"),
                               },
                               onChange: (e) => {
                                 // Remove @ if user includes it
@@ -748,7 +749,7 @@ export default function AgencyForm() {
                         )}
                       </div>
                       <Input
-                        placeholder="Name"
+                        placeholder={t("form.team.name.placeholder")}
                         className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                         {...form.register(`team.${index}.fullname`)}
                       />
@@ -770,14 +771,14 @@ export default function AgencyForm() {
                                     role.slug ===
                                     form.watch(`team.${index}.job_role`)
                                 )?.name
-                              : "Select role"}
+                              : t("form.team.role.label")}
                             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
                           </Button>
                         </PopoverTrigger>
                         <PopoverContent className="w-full p-0 bg-black text-white">
                           <Command>
-                            <CommandInput placeholder="Search roles..." />
-                            <CommandEmpty>No role found.</CommandEmpty>
+                            <CommandInput placeholder={t("form.team.role.searchPlaceholder")} />
+                            <CommandEmpty>{t("form.team.role.notFound")}</CommandEmpty>
                             <CommandGroup className="max-h-64 overflow-auto bg-black text-white">
                               {roles.map((role) => (
                                 <CommandItem
@@ -832,14 +833,14 @@ export default function AgencyForm() {
                     onClick={() => appendTeam({ fullname: "", job_role: "" })}
                   >
                     <Plus className="h-4 w-4 mr-2" />
-                    Add Member
+                    {t("form.team.addMember")}
                   </Button>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <Label className="text-md text-pink-300">
-                    * Portfolio (One is required)
+                    * {t("form.portfolio.label")}
                   </Label>
                 </div>
                 {portfolioFields.map((field, index) => (
@@ -849,7 +850,7 @@ export default function AgencyForm() {
                   >
                     <div className="space-y-2">
                       <Input
-                        placeholder="Project Title"
+                        placeholder={t("form.portfolio.title.placeholder")}
                         className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                         {...form.register(`portfolio.${index}.title`)}
                       />
@@ -859,7 +860,7 @@ export default function AgencyForm() {
                         </p>
                       )}
                       <Input
-                        placeholder="Project URL"
+                        placeholder={t("form.portfolio.url.placeholder")}
                         type="url"
                         className="bg-black/20 border-gray-800 focus:border-gray-700 text-white"
                         {...form.register(`portfolio.${index}.url`)}
@@ -878,7 +879,7 @@ export default function AgencyForm() {
                         onClick={() => removePortfolio(index)}
                         className="ml-auto block"
                       >
-                        Remove
+                        {t("form.portfolio.remove")}
                       </Button>
                     )}
                   </div>
@@ -896,7 +897,7 @@ export default function AgencyForm() {
                   }
                 >
                   <Plus className="h-4 w-4 mr-2" />
-                  Add Portfolio Item
+                  {t("form.portfolio.add")}
                 </Button>
               </div>
             </CardContent>
@@ -906,11 +907,11 @@ export default function AgencyForm() {
                 type="submit"
                 disabled={isLoading}
               >
-                {isLoading ? "Submitting..." : "Submit Agency"}
+                {isLoading ? t("form.submitting") : t("form.submit")}
               </Button>
               <p className="text-sm text-muted-foreground text-center">
                 <span className="px-4 py-2 rounded-full bg-black">
-                  ⏰ Get listed within 24 hours
+                  ⏰ {t("form.listedWithin")}
                 </span>
               </p>
             </CardFooter>

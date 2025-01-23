@@ -1,8 +1,338 @@
 {
-  "navigation.home": "Startseite",
-  "common.company.blog": "Blog",
-  "common.company.contact": "Kontakt",
-  "common.auth.signIn": "Anmelden",
-  "common.listAgency": "Agentur hinzufügen",
-  "agencyForm": "Agenturformular"
+  "contact": {
+    "title": "Kontakt",
+    "description": "Wir sind für Sie da. Füllen Sie das untenstehende Formular aus und wir melden uns schnellstmöglich bei Ihnen.",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "message": "Nachricht",
+      "submit": "Senden",
+      "success": "Ihre Nachricht wurde erfolgreich gesendet!",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "hero": {
+    "find": "Finden Sie Ihre",
+    "agency": "perfekte Agentur",
+    "search_placeholder": "Suche nach Agenturname oder Expertise...",
+    "any_location": "Beliebiger Standort",
+    "find_provider": "Anbieter finden"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "signUp": "Registrieren",
+    "products": "Produkte",
+    "stats": "Statistiken",
+    "resources": "Ressourcen",
+    "list_agency": "Agentur hinzufügen",
+    "contact_us": "Kontaktieren Sie uns"
+  },
+  "common": {
+    "tryAgain": "Erneut versuchen",
+    "listAgency": "Agentur hinzufügen",
+    "auth": {
+      "title": "Authentifizierung",
+      "signIn": "Anmelden",
+      "signOut": "Abmelden",
+      "register": "Registrieren",
+      "signUp": "Registrieren"
+    },
+    "services": {
+      "title": "Dienstleistungen",
+      "ai_development": "KI-Entwicklung",
+      "mvp_building": "MVP-Entwicklung",
+      "saas_development": "SaaS-Entwicklung",
+      "ai_integration": "KI-Integration",
+      "custom_solutions": "Individuelle Lösungen",
+      "ai_consulting": "KI-Beratung",
+      "project_management": "Projektmanagement"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "how_it_works": "Wie es funktioniert",
+      "list_agency": "Agentur hinzufügen",
+      "success_stories": "Erfolgsgeschichten",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "ai_guide": "KI-Agentur-Leitfaden",
+      "project_planning": "Projektplanung",
+      "cost_calculator": "Kostenrechner",
+      "agency_reviews": "Agenturbewertungen",
+      "documentation": "Dokumentation",
+      "api_access": "API-Zugriff"
+    },
+    "support": {
+      "title": "Support",
+      "help_center": "Hilfecenter",
+      "faqs": "FAQs",
+      "agency_support": "Agentur-Support",
+      "client_support": "Kunden-Support"
+    },
+    "images": {
+      "title": "Bilder",
+      "badge_alt": "Qualitätsabzeichen",
+      "chart_alt": "Wachstumsdiagramm"
+    },
+    "copyright": " {year} Top AI Agency .Inc | Alle Rechte vorbehalten.",
+    "terms": "AGB",
+    "privacy": "Datenschutz",
+    "loadMore": "Mehr laden"
+  },
+  "newsletter": {
+    "title": "Bleiben Sie über KI-Innovationen informiert",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "email": "E-Mail-Adresse *",
+    "sign_up": "ANMELDEN",
+    "disclaimer": "Abonnieren Sie unseren Newsletter für wöchentliche Einblicke in KI-Agenturen, Branchentrends und Expertentipps. Sie können sich jederzeit abmelden.",
+    "success": "Newsletter-Anmeldung erfolgreich!",
+    "error": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es später erneut."
+  },
+  "listing": {
+    "errorTitle": "Ein Fehler ist aufgetreten",
+    "errorDescription": "Die Agenturen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "emptyStateTitle": "Keine Agenturen gefunden",
+    "emptyStateDescription": "Seien Sie der Erste, der seine Agentur zu unserem wachsenden Netzwerk von KI-Dienstleistern hinzufügt.",
+    "loadMore": "Mehr laden",
+    "verified": "Verifiziert",
+    "topRated": "Bestbewertet",
+    "projectsCompleted": "Abgeschlossene Projekte",
+    "viewProfile": "Profil ansehen",
+    "shareProfile": "Profil teilen",
+    "endOfListMessage": "Sie haben das Ende der Liste erreicht"
+  },
+  "listings": {
+    "agencies": "KI-Agenturen",
+    "neural-networks": "Neuronale Netze",
+    "location-placeholder": "Standort",
+    "services": "Dienstleistungen",
+    "budget": "Budget",
+    "hourly-rate": "Stundensatz",
+    "industry": "Branche",
+    "reviews": "Bewertungen",
+    "clear-all": "Alles löschen",
+    "show-more": "Mehr anzeigen",
+    "show-less": "Weniger anzeigen",
+    "name": "Name",
+    "price": "Projektbudget",
+    "employees": "Teamgröße",
+    "errorTitle": "Fehler beim Laden der Agenturen",
+    "errorDescription": "Die Agenturen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "tryAgain": "Erneut versuchen",
+    "emptyStateTitle": "Keine Agenturen gefunden",
+    "emptyStateSubtitle": "Werden Sie Teil unseres KI-Dienstleister-Netzwerks",
+    "emptyStateDescription": "Wir konnten keine Agenturen finden, die Ihren Kriterien entsprechen. Passen Sie Ihre Filter an oder seien Sie der Erste, der seine Agentur listet.",
+    "listAgency": "Agentur listen",
+    "loadMoreAgencies": "Weitere Agenturen laden",
+    "endOfListMessage": "Sie haben das Ende der Liste erreicht"
+  },
+  "agencyForm": {
+    "cardTitle": "Registrieren Sie Ihre Agentur",
+    "cardSubtitle": "Werden Sie Teil unseres ausgewählten Verzeichnisses führender KI-Agenturen und präsentieren Sie Ihre Expertise potenziellen Kunden.",
+    "form": {
+      "logo": {
+        "label": "Logo hochladen",
+        "maxSize": "Maximale Dateigröße: 2MB"
+      },
+      "name": {
+        "label": "Agentur/Team Name",
+        "placeholder": "z.B. MVPhero"
+      },
+      "shortDescription": {
+        "label": "Kurzbeschreibung",
+        "placeholder": "Kurzer Überblick über Ihre Agentur (maximal 150 Zeichen)"
+      },
+      "fullDescription": {
+        "label": "Vollständige Beschreibung",
+        "placeholder": "Detaillierte Beschreibung Ihrer Agentur, Dienstleistungen und Expertise"
+      },
+      "founded": {
+        "label": "Gründungsjahr",
+        "placeholder": "Jahr auswählen"
+      },
+      "projectsDone": {
+        "label": "Abgeschlossene Projekte",
+        "placeholder": "Projekte auswählen"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "z.B. ihre@email.com"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "Telefonnummer eingeben"
+      },
+      "location": {
+        "label": "Standort",
+        "placeholder": "Standort auswählen",
+        "searchPlaceholder": "Standort suchen",
+        "notFound": "Kein Standort gefunden."
+      },
+      "website": {
+        "label": "Website URL",
+        "placeholder": "https://www.beispiel.de"
+      },
+      "linkedin": {
+        "label": "LinkedIn URL",
+        "placeholder": "https://www.linkedin.com/company/ihre-agentur"
+      },
+      "twitter": {
+        "label": "X/Twitter Handle",
+        "placeholder": "X/Twitter Benutzername"
+      },
+      "categories": {
+        "label": "Agentur/Team Spezialisierung"
+      },
+      "skills": {
+        "label": "Agentur/Team Fähigkeiten",
+        "searchPlaceholder": "Fähigkeiten suchen...",
+        "notFound": "Keine Fähigkeit gefunden.",
+        "selectSkills": "Fähigkeiten auswählen"
+      },
+      "teamSize": {
+        "label": "Teamgröße",
+        "placeholder": "Teamgröße auswählen",
+        "options": {
+          "1-5": "1-5",
+          "6-10": "6-10",
+          "11-20": "11-20",
+          "21-50": "21-50",
+          "51-100": "51-100",
+          "100+": "100+"
+        }
+      },
+      "budget": {
+        "label": "Budget ab",
+        "placeholder": "Startbudget"
+      },
+      "pitchVideo": {
+        "label": "Pitch-Video URL (optional)",
+        "placeholder": "https://www.youtube.com/watch?v=...",
+        "helper": "Kein Video-Link? Erstellen Sie jetzt einen mit"
+      },
+      "team": {
+        "label": "Support-Teammitglieder",
+        "twitter": {
+          "placeholder": "X/Twitter Benutzername",
+          "error": "Ungültiges Twitter/X Benutzernamenformat"
+        },
+        "name": {
+          "placeholder": "Name"
+        },
+        "role": {
+          "label": "Rolle auswählen",
+          "searchPlaceholder": "Rollen suchen...",
+          "notFound": "Keine Rolle gefunden."
+        },
+        "addMember": "Mitglied hinzufügen"
+      },
+      "submit": "Einreichen",
+      "submitting": "Wird eingereicht...",
+      "listedWithin": "Innerhalb von 24 Stunden gelistet"
+    },
+    "validation": {
+      "required": "Dieses Feld ist erforderlich",
+      "email": "Ungültige E-Mail-Adresse",
+      "url": "Ungültiges URL-Format",
+      "twitter": "Ungültiges Twitter/X Benutzernamenformat"
+    },
+    "messages": {
+      "success": "Ihre Agentur wurde zur Überprüfung eingereicht.",
+      "error": "Bitte überprüfen Sie, ob alle erforderlichen Felder korrekt ausgefüllt sind."
+    }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "careers": "Karriere",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "resources": "Ressourcen",
+    "help": "Hilfe",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "copyright": " {year} Top AI Agency. Alle Rechte vorbehalten."
+  },
+  "auth": {
+    "login": {
+      "title": "Anmelden",
+      "subtitle": "Willkommen zurück",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "forgot_password": "Passwort vergessen?",
+      "remember_me": "Angemeldet bleiben",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Registrieren",
+      "error": "Ungültige E-Mail oder Passwort",
+      "success": "Erfolgreich angemeldet"
+    },
+    "register": {
+      "title": "Registrieren",
+      "subtitle": "Erstellen Sie Ihr Konto",
+      "name": "Vollständiger Name",
+      "username": "Benutzername",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "confirm_password": "Passwort bestätigen",
+      "agree_terms": "Ich stimme den {terms} und der {privacy} zu",
+      "terms": "AGB",
+      "privacy": "Datenschutzerklärung",
+      "submit": "Registrieren",
+      "haveAccount": "Bereits ein Konto?",
+      "signIn": "Anmelden",
+      "error": {
+        "general": "Registrierung fehlgeschlagen",
+        "email_exists": "Diese E-Mail-Adresse wird bereits verwendet",
+        "password_mismatch": "Passwörter stimmen nicht überein",
+        "weak_password": "Passwort ist zu schwach",
+        "invalid_email": "Ungültige E-Mail-Adresse"
+      },
+      "success": "Registrierung erfolgreich",
+      "verification_sent": "Bestätigungs-E-Mail wurde gesendet"
+    },
+    "signup": {
+      "title": "Registrieren",
+      "subtitle": "Erstellen Sie Ihr kostenloses Konto",
+      "cta": "Jetzt registrieren",
+      "benefits": {
+        "title": "Ihre Vorteile",
+        "1": "Zugang zu allen KI-Agenturen",
+        "2": "Direkter Kontakt mit Anbietern",
+        "3": "Kostenlose Beratung",
+        "4": "Maßgeschneiderte Empfehlungen"
+      }
+    }
+  },
+  "create": {
+    "title": "Agentur erstellen",
+    "subtitle": "Fügen Sie Ihre KI-Agentur hinzu",
+    "agency_name": "Agenturname",
+    "agency_description": "Beschreibung",
+    "location": "Standort",
+    "website": "Website",
+    "services": "Dienstleistungen",
+    "team_size": "Teamgröße",
+    "hourly_rate": "Stundensatz",
+    "contact_email": "Kontakt-E-Mail",
+    "contact_phone": "Kontakttelefon",
+    "submit": "Agentur erstellen",
+    "success": "Agentur erfolgreich erstellt",
+    "error": "Fehler beim Erstellen der Agentur"
+  },
+  "header": {
+    "sign_up": "Registrieren",
+    "sign_in": "Anmelden",
+    "menu": "Menü",
+    "close": "Schließen",
+    "search": "Suchen"
+  }
 }

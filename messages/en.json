@@ -133,11 +133,12 @@
     "resources": "Resources",
     "blog": "Blog",
     "list_agency": "List Agency",
-    "contact_us": "Contact Us"
+    "contact_us": "Contact Us",
+    "signUp": "Sign Up"
   },
   "hero": {
-    "find": "Find your perfect",
-    "agency": "agency",
+    "find": "Find Your Perfect",
+    "agency": "Agency",
     "search_placeholder": "Search by agency name or expertise...",
     "any_location": "Any Location",
     "find_provider": "Find Provider"
@@ -193,14 +194,6 @@
         "label": "Agency/Team Name",
         "placeholder": "e.g. MVPhero"
       },
-      "email": {
-        "label": "Email Address",
-        "placeholder": "hello@example.com"
-      },
-      "website": {
-        "label": "Website",
-        "placeholder": "https://example.com"
-      },
       "shortDescription": {
         "label": "Short Description",
         "placeholder": "Brief overview of your agency (150 characters max)"
@@ -209,66 +202,99 @@
         "label": "Full Description",
         "placeholder": "Detailed description of your agency, services, and expertise"
       },
-      "location": {
-        "label": "Location",
-        "placeholder": "Select country"
+      "founded": {
+        "label": "Year Founded",
+        "placeholder": "Select Year"
+      },
+      "projectsDone": {
+        "label": "Projects Done",
+        "placeholder": "Select Projects"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "e.g. you@email.com"
       },
       "phone": {
-        "label": "Phone Number"
+        "label": "Telephone",
+        "placeholder": "Enter phone number"
+      },
+      "location": {
+        "label": "Location",
+        "placeholder": "Select Location",
+        "searchPlaceholder": "Search Location",
+        "notFound": "No location found."
+      },
+      "website": {
+        "label": "Website URL",
+        "placeholder": "https://www.example.com"
+      },
+      "linkedin": {
+        "label": "LinkedIn URL",
+        "placeholder": "https://www.linkedin.com/company/your-agency"
+      },
+      "twitter": {
+        "label": "X/Twitter handle",
+        "placeholder": "X/Twitter username"
       },
       "categories": {
-        "label": "Categories",
-        "placeholder": "Select categories"
+        "label": "Agency/Team Specialty Category"
       },
       "skills": {
-        "label": "Skills & Expertise",
-        "placeholder": "Select skills"
+        "label": "Agency/Team Skills",
+        "searchPlaceholder": "Search skills...",
+        "notFound": "No skill found.",
+        "selectSkills": "Select Skills"
+      },
+      "teamSize": {
+        "label": "Team Size",
+        "placeholder": "Select Team Size",
+        "options": {
+          "1-5": "1-5",
+          "6-10": "6-10",
+          "11-20": "11-20",
+          "21-50": "21-50",
+          "51-100": "51-100",
+          "100+": "100+"
+        }
+      },
+      "budget": {
+        "label": "Budget From",
+        "placeholder": "Starting Budget"
+      },
+      "pitchVideo": {
+        "label": "Pitch Video URL (optional)",
+        "placeholder": "https://www.youtube.com/watch?v=...",
+        "helper": "No video link? Create one now using"
       },
       "team": {
-        "label": "Team Members",
-        "addMember": "Add Team Member",
+        "label": "Support Team Members",
+        "twitter": {
+          "placeholder": "X/Twitter username",
+          "error": "Invalid Twitter/X username format"
+        },
         "name": {
-          "label": "Full Name",
-          "placeholder": "John Doe"
+          "placeholder": "Name"
         },
         "role": {
-          "label": "Job Role",
-          "placeholder": "Select role"
+          "label": "Select role",
+          "searchPlaceholder": "Search roles...",
+          "notFound": "No role found."
         },
-        "twitter": {
-          "label": "Twitter Username",
-          "placeholder": "@username"
-        }
+        "addMember": "Add Member"
       },
-      "portfolio": {
-        "label": "Portfolio Projects",
-        "addProject": "Add Project",
-        "title": {
-          "label": "Project Title",
-          "placeholder": "Project name"
-        },
-        "url": {
-          "label": "Project URL",
-          "placeholder": "https://project.com"
-        }
-      },
-      "social": {
-        "linkedin": {
-          "label": "LinkedIn",
-          "placeholder": "Company LinkedIn URL"
-        },
-        "twitter": {
-          "label": "Twitter",
-          "placeholder": "@username"
-        }
-      },
-      "videoUrl": {
-        "label": "Pitch Video URL",
-        "placeholder": "YouTube or Vimeo URL",
-        "help": "Add a video showcasing your agency (optional)"
-      },
-      "submit": "Submit Agency",
-      "submitting": "Submitting..."
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "listedWithin": "Get listed within 24 hours"
+    },
+    "validation": {
+      "required": "This field is required",
+      "email": "Invalid email address",
+      "url": "Invalid URL format",
+      "twitter": "Invalid Twitter/X username format"
+    },
+    "messages": {
+      "success": "Your agency has been submitted for review.",
+      "error": "Please check all required fields are filled correctly."
     }
   }
 }

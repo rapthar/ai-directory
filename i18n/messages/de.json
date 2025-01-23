@@ -1,9 +1,17 @@
 {
   "navigation": {
     "home": "Startseite",
-    "about": "Warum TopAI.Agency?",
+    "about": "Über uns",
     "create": "Liste Ihre Agentur",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "signUp": "Registrieren",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "products": "Produkte",
+    "stats": "Statistiken",
+    "resources": "Ressourcen",
+    "list_agency": "Agentur Eintragen",
+    "contact_us": "Kontaktieren Sie uns"
   },
   "common": {
     "switchLocale": "Sprache ändern",
@@ -14,116 +22,203 @@
     "browseAgencies": "Agenturen durchsuchen",
     "listAgency": "Ihre Agentur auflisten",
     "contactAgency": "Agentur kontaktieren",
+    "visitWebsite": "Website besuchen",
     "visitLinkedIn": "Verbinden auf LinkedIn",
     "visitTwitter": "Folgen auf X/Twitter",
-    "visitWebsite": "Website besuchen",
     "backToListing": "Zurück zur Liste",
-    "company": {
-      "blog": "Blog",
-      "contact": "Kontakt"
-    },
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutz",
+    "copyright": " {year} Alle Rechte vorbehalten.",
+    "loadMore": "Mehr laden",
     "auth": {
-      "signIn": "Anmelden"
-    }
-  },
-  "sharer": {
-    "title": "Kennen Sie jemanden, der davon profitieren könnte? Teilen Sie es!",
-    "email": "Email",
-    "twitter": "Twitter",
-    "linkedin": "Linkedin",
-    "facebook": "Facebook",
-    "instagram": "Instagram",
-    "youtube": "Youtube",
-    "tiktok": "Tiktok",
-    "telegram": "Telegram",
-    "whatsapp": "Whatsapp"
-  },
-  "why": {
-    "hero": {
-      "titleInWhite": "Revolutionierung",
-      "titleInColor": "der Entdeckung von KI-Agenturen",
-      "descriptionInWhite1": "Treten Sie der exklusiven Gruppe von Pionieragenturen und -teams bei, die die Zukunft",
-      "descriptionInWhite2": "der Branche gestalten. Erhalten Sie unvergleichliche Sichtbarkeit, Leads und verbinden Sie sich mit Top-Kunden, bevor es jemand anderes tut. Ihre Agentur oder Ihr Team wird hier gelistet,",
-      "descriptionInColor": "und auf Social Media mit voller SEO-Unterstützung veröffentlicht!",
-      "subdescription1": "Wir transformieren, wie Unternehmen und nicht-technische Gründer die Agenturen oder Teams finden und mit ihnen zusammenarbeiten können, die die Kraft von",
-      "subdescription2": "nutzen. Kein endloses Suchen mehr, finden Sie schnell Agenturen oder Teams, mit denen Sie innerhalb Ihres Zeitrahmens und Budgets arbeiten können."
-    },
-    "cta": {
-      "title": "Bereit, Ihre Idee zu transformieren?",
-      "description": "Schließen Sie sich Hunderte erfolgreichen Unternehmen an, die ihren perfekten Technologiepartner über TopAI.Agency gefunden haben."
+      "title": "Authentifizierung",
+      "signIn": "Anmelden",
+      "signOut": "Abmelden",
+      "signUp": "Registrieren",
+      "register": "Konto erstellen",
+      "forgotPassword": "Passwort vergessen?",
+      "resetPassword": "Passwort zurücksetzen",
+      "createAccount": "Konto erstellen"
     }
   },
   "listings": {
     "title": "Agenturverzeichnis",
-    "createNew": "Neuen Eintrag erstellen",
-    "filter": "Einträge filtern",
-    "noResults": "Keine Einträge gefunden"
+    "createNew": "Neue Auflistung erstellen",
+    "filter": "Auflistungen filtern",
+    "noResults": "Keine Auflistungen gefunden",
+    "agencies": "KI-Agenturen",
+    "neural-networks": "Neuronale Netze",
+    "location-placeholder": "Standort",
+    "services": "Dienstleistungen",
+    "budget": "Budget",
+    "hourly-rate": "Stundensatz",
+    "industry": "Branche",
+    "reviews": "Bewertungen",
+    "clear-all": "Alles löschen",
+    "show-more": "Mehr anzeigen",
+    "show-less": "Weniger anzeigen",
+    "errorTitle": "Fehler beim Laden der Agenturen",
+    "errorDescription": "Die Agenturen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "tryAgain": "Erneut versuchen",
+    "emptyStateTitle": "Keine Agenturen gefunden",
+    "emptyStateSubtitle": "Werden Sie Teil unseres KI-Dienstleister-Netzwerks",
+    "emptyStateDescription": "Wir konnten keine Agenturen finden, die Ihren Kriterien entsprechen. Passen Sie Ihre Filter an oder seien Sie der Erste, der seine Agentur einträgt.",
+    "listAgency": "Ihre Agentur eintragen",
+    "loadMoreAgencies": "Weitere Agenturen laden",
+    "endOfListMessage": "Sie haben das Ende der Liste erreicht"
   },
   "listing": {
-    "searchPlaceholder": "Verfügbare Agenturen suchen",
-    "errorTitle": "Hoppla! Etwas ist schief gelaufen",
-    "errorDescription": "Wir haben derzeit Probleme beim Laden der Agenturen. Dies könnte vorübergehend sein, also versuchen Sie es bitte erneut.",
-    "emptyStateTitle": "Seien Sie der Erste!",
-    "emptyStateSubtitle": "Listen Sie jetzt Ihre Agentur oder Ihr Team auf.",
-    "emptyStateDescription": "Treten Sie der exklusiven Gruppe von wegweisenden Agenturen und Teams bei, die die Zukunft der KI-Branche gestalten. Erhalten Sie unvergleichliche Sichtbarkeit, Leads und verbinden Sie sich vor allen anderen mit Top-Kunden. Ihre Agentur oder Ihr Team wird hier mit Unterstützung für Dofollow-Links und vollständiger SEO-Unterstützung gelistet!",
-    "endOfListMessage": "Sie haben das Ende der Liste erreicht! 🎉"
+    "searchPlaceholder": "Verfügbare Agenturen durchsuchen",
+    "errorTitle": "Etwas ist schiefgelaufen",
+    "errorDescription": "Die Agenturen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "emptyStateTitle": "Keine Agenturen gefunden",
+    "emptyStateDescription": "Seien Sie der Erste, der seine Agentur in unserem wachsenden Netzwerk von KI-Dienstleistern einträgt.",
+    "loadMore": "Mehr laden",
+    "verified": "Verifiziert",
+    "topRated": "Bestbewertet",
+    "projectsCompleted": "Abgeschlossene Projekte",
+    "viewProfile": "Profil ansehen",
+    "shareProfile": "Profil teilen",
+    "endOfListMessage": "Sie haben das Ende der Liste erreicht",
+    "reviews": "{count} Bewertungen",
+    "name": "Name",
+    "price": "Projektbudget",
+    "hourlyRate": "Stundensatz",
+    "employees": "Teamgröße",
+    "search_placeholder": "Verfügbare Agenturen durchsuchen..."
   },
-  "hero": {
-    "find": "Finden",
-    "agency": "Agentur",
-    "findAgencies": "Finden Sie Agenturen und Teams",
-    "announcement": "Listen Sie Ihre Agentur KOSTENLOS auf! 🎉🎉🎉",
-    "title": "Erstellen und starten Sie Ihr MVP oder vollständige Projekte innerhalb von Budget und Zeit!",
-    "description": "Verwandeln Sie Ihre Ideen schnell in die Realität mit verifizierten Ai-Tech-Agenturen und Beratern."
-  },
-  "footer": {
-    "stayUpdated": "Bleiben Sie informiert",
-    "stayUpdatedDescription": "Erfahren Sie, wann wir etwas Cooles starten.\nWir versprechen, Sie nicht zu spammen.",
-    "enterEmail": "Geben Sie Ihre E-Mail ein",
-    "subscribe": "Abonnieren",
-    "subscribing": "Abonnieren...",
-    "connect": "Verbinden",
-    "email": "E-Mail",
-    "twitter": "Twitter",
-    "allRightsReserved": "Alle Rechte vorbehalten.",
-    "builtWith": "Erstellt mit  und",
-    "by": "von",
-    "copyright": "2024 Agency Directory. Alle Rechte vorbehalten.",
-    "terms": "Nutzungsbedingungen",
-    "privacy": "Datenschutzrichtlinie",
-    "contact": "Kontaktieren Sie uns"
-  },
-  "faq": {
-    "hero": {
-      "view": {
-        "title": "Häufig gestellte Fragen",
-        "description": "Finden Sie schnelle Antworten auf häufige Fragen zu TopAI.Agency. Können Sie nicht finden, wonach Sie suchen?",
-        "contact": "Kontaktieren Sie unser Support-Team",
-        "searchPlaceholder": "FAQ durchsuchen..."
-      }
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melden Sie sich bei Ihrem Konto an",
+      "success": "Erfolgreich angemeldet!",
+      "error": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "forgotPassword": "Passwort vergessen?",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Registrieren"
     },
-    "general": {
-      "title": "Allgemeine Informationen"
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Werden Sie Teil unserer Community",
+      "success": "Registrierung erfolgreich!",
+      "error": "Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "username": "Benutzername",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "submit": "Konto erstellen",
+      "haveAccount": "Bereits ein Konto?",
+      "signIn": "Anmelden"
     }
   },
-  "agencyForm": {
-    "cardTitle": "Reichen Sie Ihre Agentur oder Team ein",
-    "cardSubtitle": "Tausende von Gründern werden es sehen",
-    "uploadLogo": "Logo hochladen",
-    "agencyName": "Agentur/Team Name",
-    "shortDescription": "Kurzbeschreibung",
-    "fullDescription": "Vollständige Beschreibung",
-    "yearFounded": "Gründungsjahr",
-    "projectsDone": "Abgeschlossene Projekte",
+  "hero": {
+    "find": "Finden Sie Ihre Perfekte",
+    "agency": "Agentur",
+    "search_placeholder": "Verfügbare Agenturen durchsuchen...",
+    "any_location": "Alle Standorte",
+    "find_provider": "Anbieter Finden"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Kontaktieren Sie unser Team",
+    "description": "Haben Sie eine Frage oder möchten Sie zusammenarbeiten? Wir würden gerne von Ihnen hören.",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "message": "Ihre Nachricht",
+      "submit": "Nachricht senden",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    }
+  },
+  "images": {
+    "badge_alt": "Qualitätssiegel",
+    "chart_alt": "Wachstumsdiagramm"
+  },
+  "why": {
+    "hero": {
+      "titleInWhite": "Revolutionierung",
+      "titleInColor": "der KI-Agentur-Entdeckung",
+      "descriptionInWhite1": "Treten Sie der exklusiven Gruppe von Pionieragenturen und Teams bei, die die Zukunft der",
+      "descriptionInWhite2": "Branche gestalten. Erhalten Sie unvergleichliche Sichtbarkeit, Leads und verbinden Sie sich mit Top-Kunden vor allen anderen. Ihre Agentur oder Ihr Team wird hier gelistet,",
+      "descriptionInColor": "und auf Social Media mit voller SEO-Unterstützung veröffentlicht!",
+      "subdescription1": "Wir transformieren, wie Unternehmen und nicht-technische Gründer KI-Agenturen oder Teams finden und mit ihnen zusammenarbeiten können, die die Kraft von",
+      "subdescription2": "nutzen. Kein endloses Suchen mehr, finden Sie schnell Agenturen oder Teams, mit denen Sie innerhalb Ihres Zeitrahmens und Budgets arbeiten können."
+    },
+    "cta": {
+      "title": "Bereit, Ihre Idee zu transformieren?",
+      "description": "Schließen Sie sich Hunderten erfolgreicher Unternehmen an, die ihren perfekten Technologiepartner durch TopAI.Agency gefunden haben."
+    }
+  },
+  "company": {
+    "title": "Unternehmen",
+    "about": "Über uns",
+    "how_it_works": "Wie es funktioniert",
+    "list_agency": "Agentur eintragen",
+    "success_stories": "Erfolgsgeschichten",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "mission": "Unsere Mission",
+    "vision": "Unsere Vision",
+    "values": "Unsere Werte",
+    "team": "Unser Team",
+    "careers": "Karriere"
+  },
+  "resources": {
+    "title": "Ressourcen",
+    "ai_guide": "KI-Leitfaden",
+    "project_planning": "Projektplanung",
+    "cost_calculator": "Kostenrechner",
+    "agency_reviews": "Agenturbewertungen",
+    "documentation": "Dokumentation",
+    "api_access": "API-Zugang"
+  },
+  "support": {
+    "title": "Support",
+    "help_center": "Hilfecenter",
+    "faqs": "FAQs",
+    "agency_support": "Agentur-Support",
+    "client_support": "Kunden-Support"
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "ai_development": "KI-Entwicklung",
+    "mvp_building": "MVP-Entwicklung",
+    "saas_development": "SaaS-Entwicklung",
+    "ai_integration": "KI-Integration",
+    "custom_solutions": "Maßgeschneiderte Lösungen",
+    "ai_consulting": "KI-Beratung",
+    "project_management": "Projektmanagement"
+  },
+  "newsletter": {
+    "title": "Bleiben Sie über KI-Innovationen informiert",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "email": "E-Mail-Adresse *",
+    "sign_up": "ANMELDEN",
+    "disclaimer": "Abonnieren Sie wöchentliche Einblicke zu KI-Agenturen, Branchentrends und Expertentipps. Sie können sich jederzeit abmelden.",
+    "success": "Erfolgreich zum Newsletter angemeldet!",
+    "error": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es später erneut."
+  },
+  "sharer": {
+    "title": "Kennen Sie jemanden, der davon profitieren könnte? Teilen Sie es!",
     "email": "E-Mail",
-    "telephone": "Telefon",
-    "location": "Standort",
-    "websiteURL": "Website URL",
-    "linkedinURL": "LinkedIn URL",
-    "twitterHandle": "X/Twitter Handle",
-    "specialtyCategory": "Agentur/Team Spezialisierungskategorie",
-    "skills": "Agentur/Team Fähigkeiten",
-    "teamSize": "Teamgröße",
-    "budgetFrom": "Budget ab"
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "stayUpdated": "Bleiben Sie auf dem Laufenden",
+    "stayUpdatedDescription": "Erfahren Sie, wenn wir etwas Neues launchen.\nWir versprechen, Sie nicht mit Spam zu belästigen.",
+    "copyright": " {year} KI-Verzeichnis. Alle Rechte vorbehalten."
   }
 }
